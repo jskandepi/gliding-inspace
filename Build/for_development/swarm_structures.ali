@@ -1,0 +1,848 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -fstack-check=specific
+A -gnato
+A -mtune=core2
+A -mmacosx-version-min=10.14.0
+A -fPIC
+A -feliminate-unused-debug-symbols
+P ZX
+
+RN
+RV SIMPLE_BARRIERS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_HEAP_ALLOCATIONS
+RV NO_PROTECTED_TYPES
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+RV MAX_PROTECTED_ENTRIES=1
+
+U swarm_structures%b	swarm_structures.adb	a3e1fbc0 DE NE OO PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z interfaces%s		interfac.ads		interfac.ali
+Z system%s		system.ads		system.ali
+Z system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+
+U swarm_structures%s	swarm_structures.ads	792213f0 DE EB EE OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+Z ada.containers.generic_array_sort%s
+Z ada.containers.generic_constrained_array_sort%s
+Z ada.containers.helpers%s  a-conhel.adb	a-conhel.ali
+W ada.containers.vectors%s
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.finalization%s	a-finali.ads		a-finali.ali
+Z ada.iterator_interfaces%s
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.task_identification%s  a-taside.adb	a-taside.ali
+W ada.unchecked_deallocation%s
+W barrier_type%s	barrier_type.adb	barrier_type.ali
+W generic_protected%s	generic_protected.adb	generic_protected.ali  EA
+W generic_realtime_buffer%s  generic_realtime_buffer.adb  generic_realtime_buffer.ali  EA
+Z interfaces%s		interfac.ads		interfac.ali
+W rotations%s		rotations.adb		rotations.ali  EA
+W swarm_configuration%s	swarm_configuration.adb	swarm_configuration.ali
+W swarm_structures_base%s  swarm_structures_base.ads  swarm_structures_base.ali
+Z system%s		system.ads		system.ali
+Z system.assertions%s	s-assert.adb		s-assert.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+W vectors_3d%s		vectors_3d.adb		vectors_3d.ali
+W vehicle_message_type%s  vehicle_message_type.ads  vehicle_message_type.ali
+W vehicle_task_type%s	vehicle_task_type.adb	vehicle_task_type.ali
+
+D ada.ads		20190518041255 76789da1 ada%s
+D a-calend.ads		20190518041255 474d9720 ada.calendar%s
+D a-charac.ads		20190518041255 2d3ec45b ada.characters%s
+D a-chlat1.ads		20190518041255 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20190518041254 61e5e089 ada.containers%s
+D a-cgarso.ads		20190518041254 9129bfa8 ada.containers.generic_array_sort%s
+D a-cgarso.adb		20190518041254 59f5315a ada.containers.generic_array_sort%b
+D a-cgcaso.ads		20190518041254 9f1e835c ada.containers.generic_constrained_array_sort%s
+D a-cgcaso.adb		20190518041254 326e4f26 ada.containers.generic_constrained_array_sort%b
+D a-cohata.ads		20190518041256 80a8c839 ada.containers.hash_tables%s
+D a-cohama.ads		20190518041255 8205bf40 ada.containers.hashed_maps%s
+D a-cohase.ads		20190518041254 5cc78687 ada.containers.hashed_sets%s
+D a-conhel.ads		20190518041254 20298884 ada.containers.helpers%s
+D a-conhel.adb		20190518041256 9cc5095b ada.containers.helpers%b
+D a-convec.ads		20190518041256 7e2b0fdf ada.containers.vectors%s
+D a-convec.adb		20190518041254 32f4e1a7 ada.containers.vectors%b
+D a-except.ads		20190518041255 291912d5 ada.exceptions%s
+D a-finali.ads		20190518041255 bf4f806b ada.finalization%s
+D a-ioexce.ads		20190518041254 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20190518041255 7c7305e9 ada.iterator_interfaces%s
+D a-numeri.ads		20190518041254 bb51c45a ada.numerics%s
+D a-ngelfu.ads		20190518041256 55716239 ada.numerics.generic_elementary_functions%s
+D a-reatim.ads		20190518041256 0240fc73 ada.real_time%s
+D a-stream.ads		20190518041255 119b8fb3 ada.streams%s
+D a-ststio.ads		20190518041255 a75f3183 ada.streams.stream_io%s
+D a-string.ads		20190518041255 90ac6797 ada.strings%s
+D a-strmap.ads		20190518041255 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20190518041255 1656705b ada.strings.unbounded%s
+D a-stunha.ads		20190518041255 115e053b ada.strings.unbounded.hash%s
+D a-tags.ads		20190518041256 491b781d ada.tags%s
+D a-taside.ads		20190518041257 00e3a3f6 ada.task_identification%s
+D a-textio.ads		20190518041256 aef4d56d ada.text_io%s
+D a-tiflio.ads		20190518041254 bf196650 ada.text_io.float_io%s
+D a-unccon.ads		20190518041255 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20190518041255 eff36322 ada.unchecked_deallocation%s
+D barrier_type.ads	20130924033141 7bea4b20 barrier_type%s
+D generic_protected.ads	20130915151338 3536765d generic_protected%s
+D generic_protected.adb	20130915052742 24bbe433 generic_protected%b
+D generic_realtime_buffer.ads  20130912081846 a4c755fe generic_realtime_buffer%s
+D generic_realtime_buffer.adb  20110827011602 3c0b843f generic_realtime_buffer%b
+D gl.ads		20130917070654 28e5b432 gl%s
+D gl-buffer.ads		20130915152452 d412d3a2 gl.buffer%s
+D gl-buffer-general.ads	20130915152452 8ae6eb44 gl.buffer.general%s
+D gl-buffer-texture_coords.ads  20130915033518 e6b92a39 gl.buffer.texture_coords%s
+D gl-frustums.ads	20130914030456 3d23f8e0 gl.frustums%s
+D gl-geometry.ads	20130915152632 398a5530 gl.geometry%s
+D gl-materials.ads	20130914014640 4d170091 gl.materials%s
+D gl-skinned_geometry.ads  20130914024446 0d393283 gl.skinned_geometry%s
+D gl-skins.ads		20130914143248 f0134d84 gl.skins%s
+D gl-textures.ads	20130915152416 6f569eb0 gl.textures%s
+D globe_3d.ads		20130918042558 4b81e8db globe_3d%s
+D glut_2d.ads		20130915152342 561ab8e1 glut_2d%s
+D graphics_configuration.ads  20130915031142 fc788553 graphics_configuration%s
+D graphics_framerates.ads  20130922091221 2cebd15a graphics_framerates%s
+D graphics_structures.ads  20130922091012 168856d0 graphics_structures%s
+D interfac.ads		20190518041254 5ab55268 interfaces%s
+D i-c.ads		20190518041254 5421119b interfaces.c%s
+D i-cpoint.ads		20190518041256 ee8a93ec interfaces.c.pointers%s
+D i-cstrea.ads		20190518041254 e53d8b8e interfaces.c_streams%s
+D matrices.ads		20130922091012 85f7982e matrices%s
+D quaternions.ads	20130922091011 9d9d58c2 quaternions%s
+D real_type.ads		20130922130031 cdd2e5cc real_type%s
+D rotations.ads		20130922091012 3eeded66 rotations%s
+D swarm_configuration.ads  20190902013605 a292d765 swarm_configuration%s
+D swarm_configurations.ads  20190902013422 517ea45d swarm_configurations%s
+D swarm_size.ads	20190921160833 8f52c696 swarm_size%s
+D swarm_structures.ads	20130924092452 faad3089 swarm_structures%s
+D swarm_structures.adb	20131018081908 594ccb49 swarm_structures%b
+D swarm_structures_base.ads  20190902013422 aac90073 swarm_structures_base%s
+D system.ads		20190518041255 085b6ffb system%s
+D s-atacco.ads		20190518041256 4c36d12f system.address_to_access_conversions%s
+D s-assert.ads		20190518041255 cd8d2c94 system.assertions%s
+D s-atocou.ads		20190518041256 b45c2d8d system.atomic_counters%s
+D s-atocou.adb		20190518041255 b65612c0 system.atomic_counters%b
+D s-crtl.ads		20190518041254 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041255 54135002 system.exception_table%s
+D s-fatflt.ads		20190518041255 11beb392 system.fat_flt%s
+D s-fatgen.ads		20190518041256 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20190518041255 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20190518041256 078245e4 system.file_control_block%s
+D s-finmas.ads		20190518041255 7811a767 system.finalization_masters%s
+D s-finroo.ads		20190518041256 4ff27390 system.finalization_root%s
+D s-memory.ads		20190518041255 597d6634 system.memory%s
+D s-multip.ads		20190518041254 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20190518124528 e40aaf2d system.os_constants%s
+D s-osinte.ads		20190518041257 01b3ad47 system.os_interface%s
+D s-parame.ads		20190518041256 48ec542b system.parameters%s
+D s-pooglo.ads		20190518041254 ede33ef8 system.pool_global%s
+D s-secsta.ads		20190518041256 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041255 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041256 a37c21ec system.stack_checking%s
+D s-stausa.ads		20190518041255 017a0a05 system.stack_usage%s
+D s-stalib.ads		20190518041256 09bd3940 system.standard_library%s
+D s-stalib.adb		20190518041254 f2fe2716 system.standard_library%b
+D s-stoele.ads		20190518041256 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20190518041255 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20190518041255 b16154c2 system.storage_pools%s
+D s-stposu.ads		20190518041254 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20190518041254 aedef97e system.stream_attributes%s
+D s-string.ads		20190518041255 8fe54fb7 system.strings%s
+D s-ststop.ads		20190518041254 5fbf1b38 system.strings.stream_ops%s
+D s-tasinf.ads		20190518041256 801abd01 system.task_info%s
+D s-taspri.ads		20190518041256 f40ac08d system.task_primitives%s
+D s-taprop.ads		20190518041256 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20190518041257 b9d612e2 system.tasking%s
+D s-taprob.ads		20190518041256 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20190518041257 60ad3dae system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20190518041257 5f548bb3 system.tasking.protected_objects.operations%s
+D s-tassta.ads		20190518041256 cca55c94 system.tasking.stages%s
+D s-traent.ads		20190518041254 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041255 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20190518041255 1b7d22d2 system.wch_con%s
+D vectors_2d_n.ads	20190902013422 8440149b vectors_2d_n%s
+D vectors_3d.ads	20190902013422 c52a4ec0 vectors_3d%s
+D vectors_xd.ads	20190902013422 29c3a87f vectors_xd%s
+D vectors_xd_i.ads	20190902013422 dd7f011a vectors_xd_i%s
+D vehicle_message_type.ads  20190921153302 d6b43f32 vehicle_message_type%s
+D vehicle_task_type.ads	20190921074338 dfc73300 vehicle_task_type%s
+D zip.ads		20130915151338 6e4a4be8 zip%s
+D zip_streams.ads	20130915151338 088b1cbe zip_streams%s
+G a e
+G c s s s [s swarm_structures 19 1 none]
+G c Z s b [Olt swarm_structures 35 13 none]
+G c Z s s [distance_entriesIP swarm_structures 26 9 none]
+G c Z s s [has_element swarm_structures__distance_vectors 107 13 38_4]
+G c Z s s [Oeq swarm_structures__distance_vectors 117 24 38_4]
+G c Z s s [to_vector swarm_structures__distance_vectors 126 13 38_4]
+G c Z s s [to_vector swarm_structures__distance_vectors 129 13 38_4]
+G c Z s s [Oconcat swarm_structures__distance_vectors 135 13 38_4]
+G c Z s s [Oconcat swarm_structures__distance_vectors 139 13 38_4]
+G c Z s s [Oconcat swarm_structures__distance_vectors 143 13 38_4]
+G c Z s s [Oconcat swarm_structures__distance_vectors 147 13 38_4]
+G c Z s s [capacity swarm_structures__distance_vectors 151 13 38_4]
+G c Z s s [reserve_capacity swarm_structures__distance_vectors 154 14 38_4]
+G c Z s s [length swarm_structures__distance_vectors 165 13 38_4]
+G c Z s s [set_length swarm_structures__distance_vectors 168 14 38_4]
+G c Z s s [is_empty swarm_structures__distance_vectors 177 13 38_4]
+G c Z s s [clear swarm_structures__distance_vectors 180 14 38_4]
+G c Z s s [to_cursor swarm_structures__distance_vectors 184 13 38_4]
+G c Z s s [to_index swarm_structures__distance_vectors 191 13 38_4]
+G c Z s s [element swarm_structures__distance_vectors 196 13 38_4]
+G c Z s s [element swarm_structures__distance_vectors 203 13 38_4]
+G c Z s s [replace_element swarm_structures__distance_vectors 207 14 38_4]
+G c Z s s [replace_element swarm_structures__distance_vectors 218 14 38_4]
+G c Z s s [query_element swarm_structures__distance_vectors 229 14 38_4]
+G c Z s s [query_element swarm_structures__distance_vectors 240 14 38_4]
+G c Z s s [update_element swarm_structures__distance_vectors 249 14 38_4]
+G c Z s s [update_element swarm_structures__distance_vectors 266 14 38_4]
+G c Z s s [constant_reference swarm_structures__distance_vectors 293 13 38_4]
+G c Z s s [reference swarm_structures__distance_vectors 298 13 38_4]
+G c Z s s [constant_reference swarm_structures__distance_vectors 303 13 38_4]
+G c Z s s [reference swarm_structures__distance_vectors 308 13 38_4]
+G c Z s s [assign swarm_structures__distance_vectors 313 14 38_4]
+G c Z s s [copy swarm_structures__distance_vectors 315 13 38_4]
+G c Z s s [move swarm_structures__distance_vectors 317 14 38_4]
+G c Z s s [insert swarm_structures__distance_vectors 323 14 38_4]
+G c Z s s [insert swarm_structures__distance_vectors 341 14 38_4]
+G c Z s s [insert swarm_structures__distance_vectors 352 14 38_4]
+G c Z s s [insert swarm_structures__distance_vectors 363 14 38_4]
+G c Z s s [insert swarm_structures__distance_vectors 370 14 38_4]
+G c Z s s [insert swarm_structures__distance_vectors 377 14 38_4]
+G c Z s s [insert swarm_structures__distance_vectors 386 14 38_4]
+G c Z s s [insert swarm_structures__distance_vectors 403 14 38_4]
+G c Z s s [prepend swarm_structures__distance_vectors 414 14 38_4]
+G c Z s s [prepend swarm_structures__distance_vectors 419 14 38_4]
+G c Z s s [append swarm_structures__distance_vectors 426 14 38_4]
+G c Z s s [append swarm_structures__distance_vectors 431 14 38_4]
+G c Z s s [insert_space swarm_structures__distance_vectors 438 14 38_4]
+G c Z s s [insert_space swarm_structures__distance_vectors 455 14 38_4]
+G c Z s s [delete swarm_structures__distance_vectors 466 14 38_4]
+G c Z s s [delete swarm_structures__distance_vectors 476 14 38_4]
+G c Z s s [delete_first swarm_structures__distance_vectors 485 14 38_4]
+G c Z s s [delete_last swarm_structures__distance_vectors 490 14 38_4]
+G c Z s s [reverse_elements swarm_structures__distance_vectors 498 14 38_4]
+G c Z s s [swap swarm_structures__distance_vectors 501 14 38_4]
+G c Z s s [swap swarm_structures__distance_vectors 506 14 38_4]
+G c Z s s [first_index swarm_structures__distance_vectors 512 13 38_4]
+G c Z s s [first swarm_structures__distance_vectors 515 13 38_4]
+G c Z s s [first_element swarm_structures__distance_vectors 519 13 38_4]
+G c Z s s [last_index swarm_structures__distance_vectors 522 13 38_4]
+G c Z s s [last swarm_structures__distance_vectors 526 13 38_4]
+G c Z s s [last_element swarm_structures__distance_vectors 530 13 38_4]
+G c Z s s [next swarm_structures__distance_vectors 533 13 38_4]
+G c Z s s [next swarm_structures__distance_vectors 539 14 38_4]
+G c Z s s [previous swarm_structures__distance_vectors 542 13 38_4]
+G c Z s s [previous swarm_structures__distance_vectors 548 14 38_4]
+G c Z s s [find_index swarm_structures__distance_vectors 551 13 38_4]
+G c Z s s [find swarm_structures__distance_vectors 561 13 38_4]
+G c Z s s [reverse_find_index swarm_structures__distance_vectors 575 13 38_4]
+G c Z s s [reverse_find swarm_structures__distance_vectors 587 13 38_4]
+G c Z s s [contains swarm_structures__distance_vectors 601 13 38_4]
+G c Z s s [iterate swarm_structures__distance_vectors 606 14 38_4]
+G c Z s s [reverse_iterate swarm_structures__distance_vectors 614 14 38_4]
+G c Z s s [iterate swarm_structures__distance_vectors 621 13 38_4]
+G c Z s s [iterate swarm_structures__distance_vectors 624 13 38_4]
+G c Z s s [adjust swarm_structures__distance_vectors__implementation 90 28 678_4_38_4]
+G c Z s s [finalize swarm_structures__distance_vectors__implementation 93 28 678_4_38_4]
+G c Z s s [zero_counts swarm_structures__distance_vectors__implementation 96 17 678_4_38_4]
+G c Z s s [busy swarm_structures__distance_vectors__implementation 100 17 678_4_38_4]
+G c Z s s [unbusy swarm_structures__distance_vectors__implementation 104 17 678_4_38_4]
+G c Z s s [lock swarm_structures__distance_vectors__implementation 108 17 678_4_38_4]
+G c Z s s [unlock swarm_structures__distance_vectors__implementation 112 17 678_4_38_4]
+G c Z s s [tc_check swarm_structures__distance_vectors__implementation 116 17 678_4_38_4]
+G c Z s s [te_check swarm_structures__distance_vectors__implementation 120 17 678_4_38_4]
+G c Z s s [initialize swarm_structures__distance_vectors__implementation 139 28 678_4_38_4]
+G c Z s s [finalize swarm_structures__distance_vectors__implementation 140 28 678_4_38_4]
+G c Z s s [initialize swarm_structures__distance_vectors__implementation 145 28 678_4_38_4]
+G c Z s s [finalize swarm_structures__distance_vectors__implementation 146 28 678_4_38_4]
+G c Z s s [reference_control_typeDA swarm_structures__distance_vectors__implementation 84 12 678_4_38_4]
+G c Z s s [reference_control_typeDF swarm_structures__distance_vectors__implementation 84 12 678_4_38_4]
+G c Z s s [reference_control_typeIP swarm_structures__distance_vectors__implementation 84 12 678_4_38_4]
+G c Z s s [with_busyDF swarm_structures__distance_vectors__implementation 136 12 678_4_38_4]
+G c Z s s [with_busyIP swarm_structures__distance_vectors__implementation 136 12 678_4_38_4]
+G c Z s s [with_lockDF swarm_structures__distance_vectors__implementation 142 12 678_4_38_4]
+G c Z s s [with_lockIP swarm_structures__distance_vectors__implementation 142 12 678_4_38_4]
+G c Z s s [adjust swarm_structures__distance_vectors 699 25 38_4]
+G c Z s s [finalize swarm_structures__distance_vectors 700 25 38_4]
+G c Z s s [write swarm_structures__distance_vectors 702 14 38_4]
+G c Z s s [read swarm_structures__distance_vectors 708 14 38_4]
+G c Z s s [read swarm_structures__distance_vectors 722 14 38_4]
+G c Z s s [write swarm_structures__distance_vectors 728 14 38_4]
+G c Z s s [write swarm_structures__distance_vectors 747 14 38_4]
+G c Z s s [read swarm_structures__distance_vectors 753 14 38_4]
+G c Z s s [write swarm_structures__distance_vectors 769 14 38_4]
+G c Z s s [read swarm_structures__distance_vectors 775 14 38_4]
+G c Z s s [pseudo_reference swarm_structures__distance_vectors 786 13 38_4]
+G c Z s s [get_element_access swarm_structures__distance_vectors 795 13 38_4]
+G c Z s s [cursorIP swarm_structures__distance_vectors 717 9 38_4]
+G c Z s s [vectorDA swarm_structures__distance_vectors 693 9 38_4]
+G c Z s s [vectorDF swarm_structures__distance_vectors 693 9 38_4]
+G c Z s s [vectorIP swarm_structures__distance_vectors 693 9 38_4]
+G c Z s s [constant_reference_typeDI swarm_structures__distance_vectors 737 9 38_4]
+G c Z s s [constant_reference_typeDA swarm_structures__distance_vectors 737 9 38_4]
+G c Z s s [constant_reference_typeDF swarm_structures__distance_vectors 737 9 38_4]
+G c Z s s [constant_reference_typeIP swarm_structures__distance_vectors 737 9 38_4]
+G c Z s s [reference_typeDI swarm_structures__distance_vectors 759 9 38_4]
+G c Z s s [reference_typeDA swarm_structures__distance_vectors 759 9 38_4]
+G c Z s s [reference_typeDF swarm_structures__distance_vectors 759 9 38_4]
+G c Z s s [reference_typeIP swarm_structures__distance_vectors 759 9 38_4]
+G c Z s s [finalize swarm_structures__distance_vectors 811 25 38_4]
+G c Z s s [first swarm_structures__distance_vectors 813 24 38_4]
+G c Z s s [last swarm_structures__distance_vectors 814 24 38_4]
+G c Z s s [next swarm_structures__distance_vectors 816 24 38_4]
+G c Z s s [previous swarm_structures__distance_vectors 820 24 38_4]
+G c Z s s [elements_arrayIP swarm_structures__distance_vectors 681 9 38_4]
+G c Z s s [elements_typeIP swarm_structures__distance_vectors 684 9 38_4]
+G c Z s s [iteratorDF swarm_structures__distance_vectors 803 9 38_4]
+G c Z s s [iteratorIP swarm_structures__distance_vectors 803 9 38_4]
+G c Z s s [free swarm_structures__distance_vectors 41 14 38_4]
+G c Z s s [append_slow_path swarm_structures__distance_vectors 44 14 38_4]
+G c Z s s [is_sorted swarm_structures__sort_distances 639 16 40_4]
+G c Z s s [sort swarm_structures__sort_distances 644 17 40_4]
+G c Z s s [merge swarm_structures__sort_distances 650 17 40_4]
+G c Z s s [put swarm_structures__buffers_outgoing 16 14 45_4]
+G c Z s s [get swarm_structures__buffers_outgoing 17 14 45_4]
+G c Z s s [element_available swarm_structures__buffers_outgoing 19 13 45_4]
+G c Z s s [Tbuffer_arrayBIP swarm_structures__buffers_outgoing 27 4 45_4]
+G c Z s s [Tbuffer_arrayBDI swarm_structures__buffers_outgoing 27 4 45_4]
+G c Z s s [Tbuffer_arrayBDA swarm_structures__buffers_outgoing 27 4 45_4]
+G c Z s s [Tbuffer_arrayBDF swarm_structures__buffers_outgoing 27 4 45_4]
+G c Z s s [realtime_bufferDI swarm_structures__buffers_outgoing 29 9 45_4]
+G c Z s s [realtime_bufferDA swarm_structures__buffers_outgoing 29 9 45_4]
+G c Z s s [realtime_bufferDF swarm_structures__buffers_outgoing 29 9 45_4]
+G c Z s s [realtime_bufferIP swarm_structures__buffers_outgoing 29 9 45_4]
+G c Z s s [put swarm_structures__buffers_incoming 16 14 46_4]
+G c Z s s [get swarm_structures__buffers_incoming 17 14 46_4]
+G c Z s s [element_available swarm_structures__buffers_incoming 19 13 46_4]
+G c Z s s [Tbuffer_arrayBIP swarm_structures__buffers_incoming 27 4 46_4]
+G c Z s s [Tbuffer_arrayBDI swarm_structures__buffers_incoming 27 4 46_4]
+G c Z s s [Tbuffer_arrayBDA swarm_structures__buffers_incoming 27 4 46_4]
+G c Z s s [Tbuffer_arrayBDF swarm_structures__buffers_incoming 27 4 46_4]
+G c Z s s [realtime_bufferDI swarm_structures__buffers_incoming 29 9 46_4]
+G c Z s s [realtime_bufferDA swarm_structures__buffers_incoming 29 9 46_4]
+G c Z s s [realtime_bufferDF swarm_structures__buffers_incoming 29 9 46_4]
+G c Z s s [realtime_bufferIP swarm_structures__buffers_incoming 29 9 46_4]
+G c Z s b [send swarm_structures__vehicle_comms 52 17 none]
+G c Z s b [receive swarm_structures__vehicle_comms 53 17 none]
+G c Z s b [push_message swarm_structures__vehicle_comms 54 17 none]
+G c Z s b [fetch_message swarm_structures__vehicle_comms 55 17 none]
+G c Z s b [has_incoming_messages swarm_structures__vehicle_comms 56 17 none]
+G c Z s b [has_outgoing_messages swarm_structures__vehicle_comms 57 17 none]
+G c Z s b [vehicle_comms__sendN swarm_structures 52 7 none]
+G c Z s b [vehicle_comms__sendP swarm_structures 52 7 none]
+G c Z s b [vehicle_comms__push_messageN swarm_structures 54 7 none]
+G c Z s b [vehicle_comms__push_messageP swarm_structures 54 7 none]
+G c Z s b [vehicle_comms__fetch_messageN swarm_structures 55 7 none]
+G c Z s b [vehicle_comms__fetch_messageP swarm_structures 55 7 none]
+G c Z s b [vehicle_comms__has_incoming_messagesN swarm_structures 56 7 none]
+G c Z s b [vehicle_comms__has_incoming_messagesP swarm_structures 56 7 none]
+G c Z s b [vehicle_comms__has_outgoing_messagesN swarm_structures 57 7 none]
+G c Z s b [vehicle_comms__has_outgoing_messagesP swarm_structures 57 7 none]
+G c Z s b [set_steering swarm_structures__vehicle_controls 64 17 none]
+G c Z s b [set_throttle swarm_structures__vehicle_controls 65 17 none]
+G c Z s b [read_steering swarm_structures__vehicle_controls 66 16 none]
+G c Z s b [read_throttle swarm_structures__vehicle_controls 67 16 none]
+G c Z s b [vehicle_controls__set_steeringN swarm_structures 64 7 none]
+G c Z s b [vehicle_controls__set_steeringP swarm_structures 64 7 none]
+G c Z s b [vehicle_controls__set_throttleN swarm_structures 65 7 none]
+G c Z s b [vehicle_controls__set_throttleP swarm_structures 65 7 none]
+G c Z s b [vehicle_controls__read_steeringN swarm_structures 66 7 none]
+G c Z s b [vehicle_controls__read_steeringP swarm_structures 66 7 none]
+G c Z s b [vehicle_controls__read_throttleN swarm_structures 67 7 none]
+G c Z s b [vehicle_controls__read_throttleP swarm_structures 67 7 none]
+G c Z s s [Tglobes_touched_aBIP swarm_structures 73 4 none]
+G c Z s s [read swarm_structures__protected_time__monitor 16 16 77_4]
+G c Z s s [write swarm_structures__protected_time__monitor 18 17 77_4]
+G c Z s s [wait_for_update swarm_structures__protected_time__monitor 20 13 77_4]
+G c Z s s [monitor__readN swarm_structures__protected_time 16 7 77_4]
+G c Z s s [monitor__readP swarm_structures__protected_time 16 7 77_4]
+G c Z s s [monitor__writeN swarm_structures__protected_time 18 7 77_4]
+G c Z s s [monitor__writeP swarm_structures__protected_time 18 7 77_4]
+G c Z s s [allocate swarm_structures__protected_time 30 13 77_4]
+G c Z s s [monitorVDI swarm_structures__protected_time 14 4 77_4]
+G c Z s s [monitorVDF swarm_structures__protected_time 14 4 77_4]
+G c Z s s [monitorVIP swarm_structures__protected_time 14 4 77_4]
+G c Z s s [P814sIP swarm_structures__protected_time 20 7 77_4]
+G c Z s s [free swarm_structures__protected_time 32 14 77_4]
+G c Z s s [read swarm_structures__protected_rotation__monitor 16 16 91_4]
+G c Z s s [write swarm_structures__protected_rotation__monitor 18 17 91_4]
+G c Z s s [wait_for_update swarm_structures__protected_rotation__monitor 20 13 91_4]
+G c Z s s [monitor__readN swarm_structures__protected_rotation 16 7 91_4]
+G c Z s s [monitor__readP swarm_structures__protected_rotation 16 7 91_4]
+G c Z s s [monitor__writeN swarm_structures__protected_rotation 18 7 91_4]
+G c Z s s [monitor__writeP swarm_structures__protected_rotation 18 7 91_4]
+G c Z s s [allocate swarm_structures__protected_rotation 30 13 91_4]
+G c Z s s [monitorVDI swarm_structures__protected_rotation 14 4 91_4]
+G c Z s s [monitorVDF swarm_structures__protected_rotation 14 4 91_4]
+G c Z s s [monitorVIP swarm_structures__protected_rotation 14 4 91_4]
+G c Z s s [P843sIP swarm_structures__protected_rotation 20 7 91_4]
+G c Z s s [free swarm_structures__protected_rotation 32 14 91_4]
+G c Z s s [charge_infoIP swarm_structures 79 9 none]
+G c Z s s [swarm_element_stateIP swarm_structures 93 9 none]
+G c Z s s [has_element swarm_structures__swarm_vectors 107 13 110_4]
+G c Z s s [Oeq swarm_structures__swarm_vectors 117 24 110_4]
+G c Z s s [to_vector swarm_structures__swarm_vectors 126 13 110_4]
+G c Z s s [to_vector swarm_structures__swarm_vectors 129 13 110_4]
+G c Z s s [Oconcat swarm_structures__swarm_vectors 135 13 110_4]
+G c Z s s [Oconcat swarm_structures__swarm_vectors 139 13 110_4]
+G c Z s s [Oconcat swarm_structures__swarm_vectors 143 13 110_4]
+G c Z s s [Oconcat swarm_structures__swarm_vectors 147 13 110_4]
+G c Z s s [capacity swarm_structures__swarm_vectors 151 13 110_4]
+G c Z s s [reserve_capacity swarm_structures__swarm_vectors 154 14 110_4]
+G c Z s s [length swarm_structures__swarm_vectors 165 13 110_4]
+G c Z s s [set_length swarm_structures__swarm_vectors 168 14 110_4]
+G c Z s s [is_empty swarm_structures__swarm_vectors 177 13 110_4]
+G c Z s s [clear swarm_structures__swarm_vectors 180 14 110_4]
+G c Z s s [to_cursor swarm_structures__swarm_vectors 184 13 110_4]
+G c Z s s [to_index swarm_structures__swarm_vectors 191 13 110_4]
+G c Z s s [element swarm_structures__swarm_vectors 196 13 110_4]
+G c Z s s [element swarm_structures__swarm_vectors 203 13 110_4]
+G c Z s s [replace_element swarm_structures__swarm_vectors 207 14 110_4]
+G c Z s s [replace_element swarm_structures__swarm_vectors 218 14 110_4]
+G c Z s s [query_element swarm_structures__swarm_vectors 229 14 110_4]
+G c Z s s [query_element swarm_structures__swarm_vectors 240 14 110_4]
+G c Z s s [update_element swarm_structures__swarm_vectors 249 14 110_4]
+G c Z s s [update_element swarm_structures__swarm_vectors 266 14 110_4]
+G c Z s s [constant_reference swarm_structures__swarm_vectors 293 13 110_4]
+G c Z s s [reference swarm_structures__swarm_vectors 298 13 110_4]
+G c Z s s [constant_reference swarm_structures__swarm_vectors 303 13 110_4]
+G c Z s s [reference swarm_structures__swarm_vectors 308 13 110_4]
+G c Z s s [assign swarm_structures__swarm_vectors 313 14 110_4]
+G c Z s s [copy swarm_structures__swarm_vectors 315 13 110_4]
+G c Z s s [move swarm_structures__swarm_vectors 317 14 110_4]
+G c Z s s [insert swarm_structures__swarm_vectors 323 14 110_4]
+G c Z s s [insert swarm_structures__swarm_vectors 341 14 110_4]
+G c Z s s [insert swarm_structures__swarm_vectors 352 14 110_4]
+G c Z s s [insert swarm_structures__swarm_vectors 363 14 110_4]
+G c Z s s [insert swarm_structures__swarm_vectors 370 14 110_4]
+G c Z s s [insert swarm_structures__swarm_vectors 377 14 110_4]
+G c Z s s [insert swarm_structures__swarm_vectors 386 14 110_4]
+G c Z s s [insert swarm_structures__swarm_vectors 403 14 110_4]
+G c Z s s [prepend swarm_structures__swarm_vectors 414 14 110_4]
+G c Z s s [prepend swarm_structures__swarm_vectors 419 14 110_4]
+G c Z s s [append swarm_structures__swarm_vectors 426 14 110_4]
+G c Z s s [append swarm_structures__swarm_vectors 431 14 110_4]
+G c Z s s [insert_space swarm_structures__swarm_vectors 438 14 110_4]
+G c Z s s [insert_space swarm_structures__swarm_vectors 455 14 110_4]
+G c Z s s [delete swarm_structures__swarm_vectors 466 14 110_4]
+G c Z s s [delete swarm_structures__swarm_vectors 476 14 110_4]
+G c Z s s [delete_first swarm_structures__swarm_vectors 485 14 110_4]
+G c Z s s [delete_last swarm_structures__swarm_vectors 490 14 110_4]
+G c Z s s [reverse_elements swarm_structures__swarm_vectors 498 14 110_4]
+G c Z s s [swap swarm_structures__swarm_vectors 501 14 110_4]
+G c Z s s [swap swarm_structures__swarm_vectors 506 14 110_4]
+G c Z s s [first_index swarm_structures__swarm_vectors 512 13 110_4]
+G c Z s s [first swarm_structures__swarm_vectors 515 13 110_4]
+G c Z s s [first_element swarm_structures__swarm_vectors 519 13 110_4]
+G c Z s s [last_index swarm_structures__swarm_vectors 522 13 110_4]
+G c Z s s [last swarm_structures__swarm_vectors 526 13 110_4]
+G c Z s s [last_element swarm_structures__swarm_vectors 530 13 110_4]
+G c Z s s [next swarm_structures__swarm_vectors 533 13 110_4]
+G c Z s s [next swarm_structures__swarm_vectors 539 14 110_4]
+G c Z s s [previous swarm_structures__swarm_vectors 542 13 110_4]
+G c Z s s [previous swarm_structures__swarm_vectors 548 14 110_4]
+G c Z s s [find_index swarm_structures__swarm_vectors 551 13 110_4]
+G c Z s s [find swarm_structures__swarm_vectors 561 13 110_4]
+G c Z s s [reverse_find_index swarm_structures__swarm_vectors 575 13 110_4]
+G c Z s s [reverse_find swarm_structures__swarm_vectors 587 13 110_4]
+G c Z s s [contains swarm_structures__swarm_vectors 601 13 110_4]
+G c Z s s [iterate swarm_structures__swarm_vectors 606 14 110_4]
+G c Z s s [reverse_iterate swarm_structures__swarm_vectors 614 14 110_4]
+G c Z s s [iterate swarm_structures__swarm_vectors 621 13 110_4]
+G c Z s s [iterate swarm_structures__swarm_vectors 624 13 110_4]
+G c Z s s [adjust swarm_structures__swarm_vectors__implementation 90 28 678_4_110_4]
+G c Z s s [finalize swarm_structures__swarm_vectors__implementation 93 28 678_4_110_4]
+G c Z s s [zero_counts swarm_structures__swarm_vectors__implementation 96 17 678_4_110_4]
+G c Z s s [busy swarm_structures__swarm_vectors__implementation 100 17 678_4_110_4]
+G c Z s s [unbusy swarm_structures__swarm_vectors__implementation 104 17 678_4_110_4]
+G c Z s s [lock swarm_structures__swarm_vectors__implementation 108 17 678_4_110_4]
+G c Z s s [unlock swarm_structures__swarm_vectors__implementation 112 17 678_4_110_4]
+G c Z s s [tc_check swarm_structures__swarm_vectors__implementation 116 17 678_4_110_4]
+G c Z s s [te_check swarm_structures__swarm_vectors__implementation 120 17 678_4_110_4]
+G c Z s s [initialize swarm_structures__swarm_vectors__implementation 139 28 678_4_110_4]
+G c Z s s [finalize swarm_structures__swarm_vectors__implementation 140 28 678_4_110_4]
+G c Z s s [initialize swarm_structures__swarm_vectors__implementation 145 28 678_4_110_4]
+G c Z s s [finalize swarm_structures__swarm_vectors__implementation 146 28 678_4_110_4]
+G c Z s s [reference_control_typeDA swarm_structures__swarm_vectors__implementation 84 12 678_4_110_4]
+G c Z s s [reference_control_typeDF swarm_structures__swarm_vectors__implementation 84 12 678_4_110_4]
+G c Z s s [reference_control_typeIP swarm_structures__swarm_vectors__implementation 84 12 678_4_110_4]
+G c Z s s [with_busyDF swarm_structures__swarm_vectors__implementation 136 12 678_4_110_4]
+G c Z s s [with_busyIP swarm_structures__swarm_vectors__implementation 136 12 678_4_110_4]
+G c Z s s [with_lockDF swarm_structures__swarm_vectors__implementation 142 12 678_4_110_4]
+G c Z s s [with_lockIP swarm_structures__swarm_vectors__implementation 142 12 678_4_110_4]
+G c Z s s [adjust swarm_structures__swarm_vectors 699 25 110_4]
+G c Z s s [finalize swarm_structures__swarm_vectors 700 25 110_4]
+G c Z s s [write swarm_structures__swarm_vectors 702 14 110_4]
+G c Z s s [read swarm_structures__swarm_vectors 708 14 110_4]
+G c Z s s [read swarm_structures__swarm_vectors 722 14 110_4]
+G c Z s s [write swarm_structures__swarm_vectors 728 14 110_4]
+G c Z s s [write swarm_structures__swarm_vectors 747 14 110_4]
+G c Z s s [read swarm_structures__swarm_vectors 753 14 110_4]
+G c Z s s [write swarm_structures__swarm_vectors 769 14 110_4]
+G c Z s s [read swarm_structures__swarm_vectors 775 14 110_4]
+G c Z s s [pseudo_reference swarm_structures__swarm_vectors 786 13 110_4]
+G c Z s s [get_element_access swarm_structures__swarm_vectors 795 13 110_4]
+G c Z s s [cursorIP swarm_structures__swarm_vectors 717 9 110_4]
+G c Z s s [vectorDA swarm_structures__swarm_vectors 693 9 110_4]
+G c Z s s [vectorDF swarm_structures__swarm_vectors 693 9 110_4]
+G c Z s s [vectorIP swarm_structures__swarm_vectors 693 9 110_4]
+G c Z s s [constant_reference_typeDI swarm_structures__swarm_vectors 737 9 110_4]
+G c Z s s [constant_reference_typeDA swarm_structures__swarm_vectors 737 9 110_4]
+G c Z s s [constant_reference_typeDF swarm_structures__swarm_vectors 737 9 110_4]
+G c Z s s [constant_reference_typeIP swarm_structures__swarm_vectors 737 9 110_4]
+G c Z s s [reference_typeDI swarm_structures__swarm_vectors 759 9 110_4]
+G c Z s s [reference_typeDA swarm_structures__swarm_vectors 759 9 110_4]
+G c Z s s [reference_typeDF swarm_structures__swarm_vectors 759 9 110_4]
+G c Z s s [reference_typeIP swarm_structures__swarm_vectors 759 9 110_4]
+G c Z s s [finalize swarm_structures__swarm_vectors 811 25 110_4]
+G c Z s s [first swarm_structures__swarm_vectors 813 24 110_4]
+G c Z s s [last swarm_structures__swarm_vectors 814 24 110_4]
+G c Z s s [next swarm_structures__swarm_vectors 816 24 110_4]
+G c Z s s [previous swarm_structures__swarm_vectors 820 24 110_4]
+G c Z s s [elements_arrayIP swarm_structures__swarm_vectors 681 9 110_4]
+G c Z s s [elements_typeIP swarm_structures__swarm_vectors 684 9 110_4]
+G c Z s s [iteratorDF swarm_structures__swarm_vectors 803 9 110_4]
+G c Z s s [iteratorIP swarm_structures__swarm_vectors 803 9 110_4]
+G c Z s s [free swarm_structures__swarm_vectors 41 14 110_4]
+G c Z s s [append_slow_path swarm_structures__swarm_vectors 44 14 110_4]
+G c Z s s [free_neighbours swarm_structures 112 14 none]
+G c Z s s [vehicle_controlsVIP swarm_structures 63 4 none]
+G c Z s s [free_controls swarm_structures 113 14 none]
+G c Z s s [vehicle_commsVDI swarm_structures 51 4 none]
+G c Z s s [vehicle_commsVDF swarm_structures 51 4 none]
+G c Z s s [vehicle_commsVIP swarm_structures 51 4 none]
+G c Z s s [P795sIP swarm_structures 53 7 none]
+G c Z s s [free_comms swarm_structures 114 14 none]
+G c Z s s [free_process swarm_structures 115 14 none]
+G c Z s b [wait_for_next_tick swarm_structures__simulator_tick 118 13 none]
+G c Z s b [tick swarm_structures__simulator_tick 119 17 none]
+G c Z s b [simulator_tick__tickN swarm_structures 119 7 none]
+G c Z s b [simulator_tick__tickP swarm_structures 119 7 none]
+G c Z s s [simulator_tickTVDI swarm_structures 117 4 none]
+G c Z s s [simulator_tickTVDF swarm_structures 117 4 none]
+G c Z s s [simulator_tickTVIP swarm_structures 117 4 none]
+G r c none [s swarm_structures 19 1 none] [zero_rotation rotations 41 13 none]
+G r i none [s swarm_structures 19 1 none] [generic_protected standard 12 9 none]
+G r i none [s swarm_structures 19 1 none] [generic_realtime_buffer standard 10 9 none]
+G r k inter_vehicle_messages [put swarm_structures__buffers_outgoing 16 14 45_4] [inter_vehicle_messagesDF vehicle_message_type 13 9 none]
+G r j inter_vehicle_messages [put swarm_structures__buffers_outgoing 16 14 45_4] [inter_vehicle_messagesDA vehicle_message_type 13 9 none]
+G r k inter_vehicle_messages [get swarm_structures__buffers_outgoing 17 14 45_4] [inter_vehicle_messagesDF vehicle_message_type 13 9 none]
+G r j inter_vehicle_messages [get swarm_structures__buffers_outgoing 17 14 45_4] [inter_vehicle_messagesDA vehicle_message_type 13 9 none]
+G r s inter_vehicle_messages [Tbuffer_arrayBIP swarm_structures__buffers_outgoing 27 4 45_4] [inter_vehicle_messagesIP vehicle_message_type 13 9 none]
+G r l inter_vehicle_messages [Tbuffer_arrayBDI swarm_structures__buffers_outgoing 27 4 45_4] [inter_vehicle_messagesDI vehicle_message_type 13 9 none]
+G r k inter_vehicle_messages [Tbuffer_arrayBDI swarm_structures__buffers_outgoing 27 4 45_4] [inter_vehicle_messagesDF vehicle_message_type 13 9 none]
+G r j inter_vehicle_messages [Tbuffer_arrayBDA swarm_structures__buffers_outgoing 27 4 45_4] [inter_vehicle_messagesDA vehicle_message_type 13 9 none]
+G r k inter_vehicle_messages [Tbuffer_arrayBDF swarm_structures__buffers_outgoing 27 4 45_4] [inter_vehicle_messagesDF vehicle_message_type 13 9 none]
+G r j inter_vehicle_messages [realtime_bufferDA swarm_structures__buffers_outgoing 29 9 45_4] [inter_vehicle_messagesDA vehicle_message_type 13 9 none]
+G r k inter_vehicle_messages [realtime_bufferDF swarm_structures__buffers_outgoing 29 9 45_4] [inter_vehicle_messagesDF vehicle_message_type 13 9 none]
+G r s inter_vehicle_messages [realtime_bufferIP swarm_structures__buffers_outgoing 29 9 45_4] [inter_vehicle_messagesIP vehicle_message_type 13 9 none]
+G r l inter_vehicle_messages [realtime_bufferIP swarm_structures__buffers_outgoing 29 9 45_4] [inter_vehicle_messagesDI vehicle_message_type 13 9 none]
+G r k inter_vehicle_messages [realtime_bufferIP swarm_structures__buffers_outgoing 29 9 45_4] [inter_vehicle_messagesDF vehicle_message_type 13 9 none]
+G r k inter_vehicle_messages [put swarm_structures__buffers_incoming 16 14 46_4] [inter_vehicle_messagesDF vehicle_message_type 13 9 none]
+G r j inter_vehicle_messages [put swarm_structures__buffers_incoming 16 14 46_4] [inter_vehicle_messagesDA vehicle_message_type 13 9 none]
+G r k inter_vehicle_messages [get swarm_structures__buffers_incoming 17 14 46_4] [inter_vehicle_messagesDF vehicle_message_type 13 9 none]
+G r j inter_vehicle_messages [get swarm_structures__buffers_incoming 17 14 46_4] [inter_vehicle_messagesDA vehicle_message_type 13 9 none]
+G r s inter_vehicle_messages [Tbuffer_arrayBIP swarm_structures__buffers_incoming 27 4 46_4] [inter_vehicle_messagesIP vehicle_message_type 13 9 none]
+G r l inter_vehicle_messages [Tbuffer_arrayBDI swarm_structures__buffers_incoming 27 4 46_4] [inter_vehicle_messagesDI vehicle_message_type 13 9 none]
+G r k inter_vehicle_messages [Tbuffer_arrayBDI swarm_structures__buffers_incoming 27 4 46_4] [inter_vehicle_messagesDF vehicle_message_type 13 9 none]
+G r j inter_vehicle_messages [Tbuffer_arrayBDA swarm_structures__buffers_incoming 27 4 46_4] [inter_vehicle_messagesDA vehicle_message_type 13 9 none]
+G r k inter_vehicle_messages [Tbuffer_arrayBDF swarm_structures__buffers_incoming 27 4 46_4] [inter_vehicle_messagesDF vehicle_message_type 13 9 none]
+G r j inter_vehicle_messages [realtime_bufferDA swarm_structures__buffers_incoming 29 9 46_4] [inter_vehicle_messagesDA vehicle_message_type 13 9 none]
+G r k inter_vehicle_messages [realtime_bufferDF swarm_structures__buffers_incoming 29 9 46_4] [inter_vehicle_messagesDF vehicle_message_type 13 9 none]
+G r s inter_vehicle_messages [realtime_bufferIP swarm_structures__buffers_incoming 29 9 46_4] [inter_vehicle_messagesIP vehicle_message_type 13 9 none]
+G r l inter_vehicle_messages [realtime_bufferIP swarm_structures__buffers_incoming 29 9 46_4] [inter_vehicle_messagesDI vehicle_message_type 13 9 none]
+G r k inter_vehicle_messages [realtime_bufferIP swarm_structures__buffers_incoming 29 9 46_4] [inter_vehicle_messagesDF vehicle_message_type 13 9 none]
+G r k inter_vehicle_messages [send swarm_structures__vehicle_comms 52 17 none] [inter_vehicle_messagesDF vehicle_message_type 13 9 none]
+G r j inter_vehicle_messages [send swarm_structures__vehicle_comms 52 17 none] [inter_vehicle_messagesDA vehicle_message_type 13 9 none]
+G r k inter_vehicle_messages [receive swarm_structures__vehicle_comms 53 17 none] [inter_vehicle_messagesDF vehicle_message_type 13 9 none]
+G r j inter_vehicle_messages [receive swarm_structures__vehicle_comms 53 17 none] [inter_vehicle_messagesDA vehicle_message_type 13 9 none]
+G r k inter_vehicle_messages [push_message swarm_structures__vehicle_comms 54 17 none] [inter_vehicle_messagesDF vehicle_message_type 13 9 none]
+G r j inter_vehicle_messages [push_message swarm_structures__vehicle_comms 54 17 none] [inter_vehicle_messagesDA vehicle_message_type 13 9 none]
+G r k inter_vehicle_messages [fetch_message swarm_structures__vehicle_comms 55 17 none] [inter_vehicle_messagesDF vehicle_message_type 13 9 none]
+G r j inter_vehicle_messages [fetch_message swarm_structures__vehicle_comms 55 17 none] [inter_vehicle_messagesDA vehicle_message_type 13 9 none]
+G r k inter_vehicle_messages [vehicle_commsVDF swarm_structures 51 4 none] [inter_vehicle_messagesDF vehicle_message_type 13 9 none]
+G r s inter_vehicle_messages [vehicle_commsVIP swarm_structures 51 4 none] [inter_vehicle_messagesIP vehicle_message_type 13 9 none]
+G r l inter_vehicle_messages [vehicle_commsVIP swarm_structures 51 4 none] [inter_vehicle_messagesDI vehicle_message_type 13 9 none]
+G r k inter_vehicle_messages [vehicle_commsVIP swarm_structures 51 4 none] [inter_vehicle_messagesDF vehicle_message_type 13 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 67|5r6 5r38 6r6 6r38 7r6 7r38 8r6 8r38
+X 5 a-contai.ads
+16K13*Containers 24e19 67|5r10 5r42
+X 6 a-cgarso.ads
+24u26*Generic_Array_Sort 5|16k13
+X 7 a-cgarso.adb
+41U14 Sort[8|24] 9|34b26[16|856[67|40]]
+X 8 a-cgcaso.ads
+24u26*Generic_Constrained_Array_Sort 5|16k13
+X 11 a-cohama.ads
+96R9*Map<18|43R9>
+X 13 a-conhel.ads
+84R12 Reference_Control_Type<18|43R9>
+X 15 a-convec.ads
+73k24*Vectors 824e27 67|5w21 38r36 110r33
+88R9*Vector<18|43R9> 67|86r59[38] 112r88[38]
+637k12*Generic_Sorting 67|40r51[38]
+X 16 a-convec.adb
+856U20 Sort[6|24] 7|32b26[67|40]
+X 20 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[15|111]>
+X 23 a-reatim.ads
+39K13*Real_Time 185e18 67|6w10 6r42
+49O9*Time<duration> 67|77r53 107r26
+50o4*Time_First{49O9} 67|77r59
+X 31 a-taside.ads
+45K13*Task_Identification 104e28 67|7w10 7r42
+53P9*Task_Id<105|109P9> 67|105r26
+X 35 a-uncdea.ads
+17+9 Object 67|112r61 113r61 114r61 115r61
+18P9 Name(17+9) 67|112r96 113r96 114r96 115r96
+20u15*Unchecked_Deallocation 67|8w10 112r37 113r37 114r37 115r37
+X 36 barrier_type.ads
+7K9*Barrier_Type 25e17 67|9w6 9r38
+20P9*Barrier_Ptr(9W19) 67|104r26
+X 37 generic_protected.ads
+12k9*Generic_Protected 35e22 67|10w6 10r86 77r34 91r38
+14W19*Monitor
+28P9*Monitor_Ptr(14W19[67|77]) 67|81r39[77] 95r45[69|38] 96r45[91] 97r46[69|39]
+. 98r46[69|39]
+X 39 generic_realtime_buffer.ads
+10k9*Generic_Realtime_Buffer 36e28 67|11w6 11r86 45r36 46r36
+14R9*Realtime_Buffer 67|59r44[45] 60r44[46]
+16U14*Put 68|14s10[67|45] 22s10[67|46]
+17U14*Get 68|30s10[67|45] 44s10[67|46]
+19V13*Element_Available{boolean} 68|35s57[67|46] 37s57[67|45] 41s65[67|46]
+X 43 gl-buffer-general.ads
+14R9 base_Object<42|20R9>
+X 55 graphics_structures.ads
+32A12*Point_3D{114|14A12}<114|10E9>
+X 62 real_type.ads
+5F12*Real{long_float}
+X 63 rotations.ads
+12K9*Rotations 68e14 67|13w6 13r38 13r86
+20R12*Quaternion_Rotation{61|9R9} 67|91r57
+41V13*Zero_Rotation{20R12} 67|91s78
+X 64 swarm_configuration.ads
+16K9*Swarm_Configuration 84e24 67|14w6 14r38
+59a4*Energy_Globes_Defaults{69|36A9} 67|73r36
+X 67 swarm_structures.ads
+19K9*Swarm_Structures 124l5 124e21 68|5b14 105l5 105t21
+23i4*No_Of_Buffered_Incoming_Messages{positive} 43r37
+24i4*No_Of_Buffered_Outgoing_Messages{positive} 42r37
+26R9*Distance_Entries 32e17 35r25 38r66 68|83r25
+28i10*Index{69|19I12}
+29f10*Distance{69|12F12} 68|83r64 83r77
+30a10*Position_Diff{69|15A12}
+31a10*Velocity_Diff{69|16A12}
+35V14*"<"{boolean} 15|628i22 67|35>18 35>21 68|83b14
+35r18 L{26R9} 68|83r62
+35r21 R{26R9} 68|83r75
+38K12*Distance_Vectors[15|73] 40r34 86r42 112r71
+40K12*Sort_Distances[15|637]
+42M9*Buffer_Size_Outgoing 45r85
+43M9*Buffer_Size_Incoming 46r85
+45K12*Buffers_Outgoing[39|10] 48r8 59r27
+46K12*Buffers_Incoming[39|10] 49r8 60r27
+51W19*Vehicle_Comms 59E7 61l8 61e21 87r42 114r71 68|9b19 47l8 47t21
+52U17 Send 52>32 68|11b17 15l11 15t15
+52r32 Message{117|13R9} 68|11b23 14r30
+53Y17 Receive 53<32 68|41b13 45l11 45t18
+53r32 Message{117|13R9} 68|44m34
+54U17 Push_Message 54>32 68|19b17 23l11 23t23
+54r32 Message{117|13R9} 68|19b31 22r34
+55U17 Fetch_Message 55<32 68|27b17 31l11 31t24
+55r32 Message{117|13R9} 68|27b32 30m30
+56V17 Has_Incoming_Messages{boolean} 68|35b16
+57V17 Has_Outgoing_Messages{boolean} 68|37b16
+59r7 Sent_Messages{39|14R9[45]} 68|14r15 30r15 37r76
+60r7 Received_Messages{39|14R9[46]} 68|22r15 35r76 41r84 44r15
+63W19*Vehicle_Controls 69E7 71l8 71e24 88r42 113r71 68|53b19 77l8 77t24
+64U17 Set_Steering 64>31 68|55b17 59l11 59t23
+64a31 V{114|14A12} 68|55b31 58r32
+65U17 Set_Throttle 65>31 68|63b17 67l11 67t23
+65f31 T{69|20F12} 68|63b31 66r22
+66V16 Read_Steering{114|14A12} 68|71b16
+67V16 Read_Throttle{69|20F12} 68|73b16
+69a7 Steering_Direction{114|14A12} 68|58r10 71r51
+70f7 Throttle{69|20F12} 68|66r10 73r52
+73A9*Globes_Touched_A(boolean)<integer> 75r33 83r24
+75a4*No_Globes_Touched{73A9} 83r44
+77K12*Protected_Time[37|12] 81r24
+79R9*Charge_Info 84e14 99r26
+80f7*Level{69|25F9}
+81p7*Charge_Time{37|28P9[77]}
+82i7*Charge_No{natural}
+83a7*Globes_Touched{73A9}
+86P9*Neighbours_P(15|88R9[38]) 100r26 112r104
+87P9*Vehicle_Comms_P(51W19) 102r26 114r104
+88P9*Vehicle_Controls_P(63W19) 101r26 113r104
+89P9*Vehicle_Task_P(118|6T14) 103r26 115r104
+91K12*Protected_Rotation[37|12] 96r26
+93R9*Swarm_Element_State 108e17 110r63
+95p10*Position{37|28P9[69|38]}
+96p10*Rotation{37|28P9[91]}
+97p10*Velocity{37|28P9[69|39]}
+98p10*Acceleration{37|28P9[69|39]}
+99r10*Charge{79R9}
+100p10*Neighbours{86P9}
+101p10*Controls{88P9}
+102p10*Comms{87P9}
+103p10*Process{89P9}
+104p10*Process_abort{36|20P9}
+105p10*Process_Id{31|53P9}
+106i10*Vehicle_Id{positive}
+107o10*Last_Update{23|49O9}
+110K12*Swarm_Vectors[15|73]
+112U14*Free_Neighbours[35|20]
+113U14*Free_Controls[35|20]
+114U14*Free_Comms[35|20]
+115U14*Free_Process[35|20]
+117w14*Simulator_Tick 68|87b19 101l8 101t22
+118Y13 Wait_For_Next_Tick 68|89b13 92r21 93l11 93t29
+119U17 Tick 68|95b17 99l11 99t15
+121b7 Trigger{boolean} 68|89r37 92r10 98r10
+X 68 swarm_structures.adb
+41r22 Message{117|13R9}
+X 69 swarm_structures_base.ads
+10K9*Swarm_Structures_Base 67|15w6 15r38 69|49e26
+12F12*Distances{62|5F12} 67|29r26
+15A12*Positions{55|32A12}<114|10E9> 67|30r26
+16A12*Velocities{114|14A12}<114|10E9> 67|31r26
+19I12*Swarm_Element_Index{positive} 67|28r26 38r45 110r42
+20F12*Throttle_T{62|5F12} 67|65r35 67r37 70r28 68|63r35 73r37
+22f4*Idle_Throttle{20F12} 67|70r42
+25F9*Vehicle_Charges<long_float> 67|80r24
+36A9*Energy_Globes(31R9)<integer>
+38K12*Protected_Point_3D[37|12] 67|95r26
+39K12*Protected_Vector_3D[37|12] 67|97r26 98r26
+X 70 system.ads
+67M9*Address
+X 83 s-memory.ads
+53V13*Alloc{70|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{70|67M9} 105i<c,__gnat_realloc>22
+X 92 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 94 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 105 s-taskin.ads
+109P9*Task_Id(107R9)
+X 114 vectors_3d.ads
+8K9*Vectors_3D 67|12w6 12r38 114|37e15
+14A12*Vector_3D{115|14A9[12]}<10E9> 67|64r35 66r37 69r28 68|55r35 71r37
+16a4*Zero_Vector_3D{14A12} 67|69r42
+X 115 vectors_xd.ads
+14A9*Vector_xD(long_float)<114|10E9>
+X 117 vehicle_message_type.ads
+9K9*Vehicle_Message_Type 67|16w6 16r38 117|22e25
+13R9*Inter_Vehicle_Messages 67|45r61 46r61 52r46 53r46 54r46 55r46 68|11r33
+. 19r41 27r46 41r36 117|21e14
+X 118 vehicle_task_type.ads
+4K9*Vehicle_Task_Type 67|17w6 17r38 118|19e22
+6T14*Vehicle_Task 67|89r42 115r71 118|8e20
+

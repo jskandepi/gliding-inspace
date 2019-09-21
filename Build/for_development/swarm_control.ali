@@ -1,0 +1,971 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -fstack-check=specific
+A -gnato
+A -mtune=core2
+A -mmacosx-version-min=10.14.0
+A -fPIC
+A -feliminate-unused-debug-symbols
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DELAY
+RV NO_ENTRY_CALLS_IN_ELABORATION_CODE
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_LOCAL_PROTECTED_OBJECTS
+RV NO_NESTED_FINALIZATION
+RV NO_PROTECTED_TYPE_ALLOCATORS
+RV NO_PROTECTED_TYPES
+RV NO_RELATIVE_DELAY
+RV NO_SELECT_STATEMENTS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_ALLOCATORS
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+RV MAX_TASKS=1+
+RV MAX_ASYNCHRONOUS_SELECT_NESTING=1+
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U swarm_control%b	swarm_control.adb	9f28e989 DE NE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W graphics_configuration%s  graphics_configuration.ads  graphics_configuration.ali
+Z interfaces%s		interfac.ads		interfac.ali
+W rotations%s		rotations.adb		rotations.ali
+W swarm_data%s		swarm_data.ads		swarm_data.ali
+Z system%s		system.ads		system.ali
+Z system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.async_delays%s  s-taasde.adb	s-taasde.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+W vectors_3d_lf%s	vectors_3d_lf.adb	vectors_3d_lf.ali
+W vectors_conversions%s	vectors_conversions.adb	vectors_conversions.ali
+W vehicle_message_type%s  vehicle_message_type.ads  vehicle_message_type.ali
+W vehicle_task_type%s	vehicle_task_type.adb	vehicle_task_type.ali
+
+U swarm_control%s	swarm_control.ads	a7905e39 DE EB EE OO PF PK
+W ada%s			ada.ads			ada.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.task_identification%s  a-taside.adb	a-taside.ali
+W barrier_type%s	barrier_type.adb	barrier_type.ali
+W real_type%s		real_type.ads		real_type.ali
+W swarm_configuration%s	swarm_configuration.adb	swarm_configuration.ali
+W swarm_structures%s	swarm_structures.adb	swarm_structures.ali
+W swarm_structures_base%s  swarm_structures_base.ads  swarm_structures_base.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W vectors_3d%s		vectors_3d.adb		vectors_3d.ali
+
+D ada.ads		20190518041255 76789da1 ada%s
+D a-calend.ads		20190518041255 474d9720 ada.calendar%s
+D a-caldel.ads		20190518041254 9f20b83d ada.calendar.delays%s
+D a-charac.ads		20190518041255 2d3ec45b ada.characters%s
+D a-chlat1.ads		20190518041255 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20190518041254 61e5e089 ada.containers%s
+D a-cohata.ads		20190518041256 80a8c839 ada.containers.hash_tables%s
+D a-cohama.ads		20190518041255 8205bf40 ada.containers.hashed_maps%s
+D a-cohase.ads		20190518041254 5cc78687 ada.containers.hashed_sets%s
+D a-conhel.ads		20190518041254 20298884 ada.containers.helpers%s
+D a-convec.ads		20190518041256 7e2b0fdf ada.containers.vectors%s
+D a-except.ads		20190518041255 291912d5 ada.exceptions%s
+D a-finali.ads		20190518041255 bf4f806b ada.finalization%s
+D a-ioexce.ads		20190518041254 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20190518041255 7c7305e9 ada.iterator_interfaces%s
+D a-numeri.ads		20190518041254 bb51c45a ada.numerics%s
+D a-nuflra.ads		20190518041254 4056ab7a ada.numerics.float_random%s
+D a-ngelfu.ads		20190518041256 55716239 ada.numerics.generic_elementary_functions%s
+D a-reatim.ads		20190518041256 0240fc73 ada.real_time%s
+D a-stream.ads		20190518041255 119b8fb3 ada.streams%s
+D a-ststio.ads		20190518041255 a75f3183 ada.streams.stream_io%s
+D a-string.ads		20190518041255 90ac6797 ada.strings%s
+D a-strmap.ads		20190518041255 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20190518041255 1656705b ada.strings.unbounded%s
+D a-stunha.ads		20190518041255 115e053b ada.strings.unbounded.hash%s
+D a-tags.ads		20190518041256 491b781d ada.tags%s
+D a-taside.ads		20190518041257 00e3a3f6 ada.task_identification%s
+D a-textio.ads		20190518041256 aef4d56d ada.text_io%s
+D a-tiflio.ads		20190518041254 bf196650 ada.text_io.float_io%s
+D a-unccon.ads		20190518041255 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20190518041255 eff36322 ada.unchecked_deallocation%s
+D barrier_type.ads	20130924033141 7bea4b20 barrier_type%s
+D generic_protected.ads	20130915151338 3536765d generic_protected%s
+D generic_realtime_buffer.ads  20130912081846 a4c755fe generic_realtime_buffer%s
+D gl.ads		20130917070654 28e5b432 gl%s
+D gl-buffer.ads		20130915152452 d412d3a2 gl.buffer%s
+D gl-buffer-general.ads	20130915152452 8ae6eb44 gl.buffer.general%s
+D gl-buffer-texture_coords.ads  20130915033518 e6b92a39 gl.buffer.texture_coords%s
+D gl-frustums.ads	20130914030456 3d23f8e0 gl.frustums%s
+D gl-geometry.ads	20130915152632 398a5530 gl.geometry%s
+D gl-materials.ads	20130914014640 4d170091 gl.materials%s
+D gl-skinned_geometry.ads  20130914024446 0d393283 gl.skinned_geometry%s
+D gl-skins.ads		20130914143248 f0134d84 gl.skins%s
+D gl-textures.ads	20130915152416 6f569eb0 gl.textures%s
+D globe_3d.ads		20130918042558 4b81e8db globe_3d%s
+D glut_2d.ads		20130915152342 561ab8e1 glut_2d%s
+D graphics_configuration.ads  20130915031142 fc788553 graphics_configuration%s
+D graphics_framerates.ads  20130922091221 2cebd15a graphics_framerates%s
+D graphics_structures.ads  20130922091012 168856d0 graphics_structures%s
+D interfac.ads		20190518041254 5ab55268 interfaces%s
+D i-c.ads		20190518041254 5421119b interfaces.c%s
+D i-cpoint.ads		20190518041256 ee8a93ec interfaces.c.pointers%s
+D i-cstrea.ads		20190518041254 e53d8b8e interfaces.c_streams%s
+D matrices.ads		20130922091012 85f7982e matrices%s
+D quaternions.ads	20130922091011 9d9d58c2 quaternions%s
+D real_type.ads		20130922130031 cdd2e5cc real_type%s
+D rotations.ads		20130922091012 3eeded66 rotations%s
+D swarm_configuration.ads  20190902013605 a292d765 swarm_configuration%s
+D swarm_configurations.ads  20190902013422 517ea45d swarm_configurations%s
+D swarm_control.ads	20130924092732 2697fa7c swarm_control%s
+D swarm_control.adb	20190830064558 74666474 swarm_control%b
+D swarm_data.ads	20190902013422 2e78ed2c swarm_data%s
+D swarm_size.ads	20190921160833 8f52c696 swarm_size%s
+D swarm_structures.ads	20130924092452 faad3089 swarm_structures%s
+D swarm_structures_base.ads  20190902013422 aac90073 swarm_structures_base%s
+D system.ads		20190518041255 085b6ffb system%s
+D s-atacco.ads		20190518041256 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20190518041256 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20190518041254 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041255 54135002 system.exception_table%s
+D s-fatflt.ads		20190518041255 11beb392 system.fat_flt%s
+D s-fatgen.ads		20190518041256 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20190518041255 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20190518041256 078245e4 system.file_control_block%s
+D s-finmas.ads		20190518041255 7811a767 system.finalization_masters%s
+D s-finroo.ads		20190518041256 4ff27390 system.finalization_root%s
+D s-memory.ads		20190518041255 597d6634 system.memory%s
+D s-multip.ads		20190518041254 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20190518124528 e40aaf2d system.os_constants%s
+D s-osinte.ads		20190518041257 01b3ad47 system.os_interface%s
+D s-parame.ads		20190518041256 48ec542b system.parameters%s
+D s-pooglo.ads		20190518041254 ede33ef8 system.pool_global%s
+D s-rannum.ads		20190518041255 99ade2f2 system.random_numbers%s
+D s-secsta.ads		20190518041256 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041255 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041256 a37c21ec system.stack_checking%s
+D s-stausa.ads		20190518041255 017a0a05 system.stack_usage%s
+D s-stalib.ads		20190518041256 09bd3940 system.standard_library%s
+D s-stalib.adb		20190518041254 f2fe2716 system.standard_library%b
+D s-stoele.ads		20190518041256 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20190518041255 b16154c2 system.storage_pools%s
+D s-stposu.ads		20190518041254 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20190518041254 aedef97e system.stream_attributes%s
+D s-string.ads		20190518041255 8fe54fb7 system.strings%s
+D s-ststop.ads		20190518041254 5fbf1b38 system.strings.stream_ops%s
+D s-tasinf.ads		20190518041256 801abd01 system.task_info%s
+D s-taspri.ads		20190518041256 f40ac08d system.task_primitives%s
+D s-taprop.ads		20190518041256 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20190518041257 b9d612e2 system.tasking%s
+D s-taasde.ads		20190518041257 422600df system.tasking.async_delays%s
+D s-taprob.ads		20190518041256 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20190518041257 60ad3dae system.tasking.protected_objects.entries%s
+D s-tasren.ads		20190518041256 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20190518041256 cca55c94 system.tasking.stages%s
+D s-traent.ads		20190518041254 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041255 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20190518041255 1b7d22d2 system.wch_con%s
+D vectors_2d.ads	20190902013422 71d7bb85 vectors_2d%s
+D vectors_2d_i.ads	20190902013422 c8ca20cb vectors_2d_i%s
+D vectors_2d_n.ads	20190902013422 8440149b vectors_2d_n%s
+D vectors_2d_p.ads	20190902013422 b529ad65 vectors_2d_p%s
+D vectors_3d.ads	20190902013422 c52a4ec0 vectors_3d%s
+D vectors_3d_lf.ads	20190902013422 c04676b4 vectors_3d_lf%s
+D vectors_conversions.ads  20110720034314 de572ea9 vectors_conversions%s
+D vectors_xd.ads	20190902013422 29c3a87f vectors_xd%s
+D vectors_xd_i.ads	20190902013422 dd7f011a vectors_xd_i%s
+D vehicle_message_type.ads  20190921153302 d6b43f32 vehicle_message_type%s
+D vehicle_task_type.ads	20190921074338 dfc73300 vehicle_task_type%s
+D zip.ads		20130915151338 6e4a4be8 zip%s
+D zip_streams.ads	20130915151338 088b1cbe zip_streams%s
+G a e
+G c Z s b [id_task swarm_control__swarm_monitor 19 16 none]
+G c Z s b [id_task swarm_control__swarm_monitor 20 16 none]
+G c Z s b [position swarm_control__swarm_monitor 22 16 none]
+G c Z s b [velocity swarm_control__swarm_monitor 23 16 none]
+G c Z s b [acceleration swarm_control__swarm_monitor 24 16 none]
+G c Z s b [controls swarm_control__swarm_monitor 25 16 none]
+G c Z s b [comms swarm_control__swarm_monitor 26 16 none]
+G c Z s b [charge swarm_control__swarm_monitor 27 16 none]
+G c Z s b [process_abort swarm_control__swarm_monitor 28 16 none]
+G c Z s b [append_random_swarm swarm_control__swarm_monitor 30 17 none]
+G c Z s b [remove_vehicle swarm_control__swarm_monitor 34 17 none]
+G c Z s b [centre_of_gravity swarm_control__swarm_monitor 36 16 none]
+G c Z s b [mean_velocity swarm_control__swarm_monitor 37 16 none]
+G c Z s b [mean_velocity swarm_control__swarm_monitor 38 16 none]
+G c Z s b [maximal_radius swarm_control__swarm_monitor 39 16 none]
+G c Z s b [mean_radius swarm_control__swarm_monitor 40 16 none]
+G c Z s b [mean_closest_distance swarm_control__swarm_monitor 41 16 none]
+G c Z s b [swarm_monitor__id_taskN swarm_control 19 7 none]
+G c Z s b [swarm_monitor__id_taskP swarm_control 19 7 none]
+G c Z s b [swarm_monitor__id_taskN swarm_control 20 7 none]
+G c Z s b [swarm_monitor__id_taskP swarm_control 20 7 none]
+G c Z s b [swarm_monitor__positionN swarm_control 22 7 none]
+G c Z s b [swarm_monitor__positionP swarm_control 22 7 none]
+G c Z s b [swarm_monitor__velocityN swarm_control 23 7 none]
+G c Z s b [swarm_monitor__velocityP swarm_control 23 7 none]
+G c Z s b [swarm_monitor__accelerationN swarm_control 24 7 none]
+G c Z s b [swarm_monitor__accelerationP swarm_control 24 7 none]
+G c Z s b [swarm_monitor__controlsN swarm_control 25 7 none]
+G c Z s b [swarm_monitor__controlsP swarm_control 25 7 none]
+G c Z s b [swarm_monitor__commsN swarm_control 26 7 none]
+G c Z s b [swarm_monitor__commsP swarm_control 26 7 none]
+G c Z s b [swarm_monitor__chargeN swarm_control 27 7 none]
+G c Z s b [swarm_monitor__chargeP swarm_control 27 7 none]
+G c Z s b [swarm_monitor__process_abortN swarm_control 28 7 none]
+G c Z s b [swarm_monitor__process_abortP swarm_control 28 7 none]
+G c Z s b [swarm_monitor__append_random_swarmN swarm_control 30 7 none]
+G c Z s b [swarm_monitor__append_random_swarmP swarm_control 30 7 none]
+G c Z s b [swarm_monitor__remove_vehicleN swarm_control 34 7 none]
+G c Z s b [swarm_monitor__remove_vehicleP swarm_control 34 7 none]
+G c Z s b [swarm_monitor__centre_of_gravityN swarm_control 36 7 none]
+G c Z s b [swarm_monitor__centre_of_gravityP swarm_control 36 7 none]
+G c Z s b [swarm_monitor__mean_velocityN swarm_control 37 7 none]
+G c Z s b [swarm_monitor__mean_velocityP swarm_control 37 7 none]
+G c Z s b [swarm_monitor__mean_velocityN swarm_control 38 7 none]
+G c Z s b [swarm_monitor__mean_velocityP swarm_control 38 7 none]
+G c Z s b [swarm_monitor__maximal_radiusN swarm_control 39 7 none]
+G c Z s b [swarm_monitor__maximal_radiusP swarm_control 39 7 none]
+G c Z s b [swarm_monitor__mean_radiusN swarm_control 40 7 none]
+G c Z s b [swarm_monitor__mean_radiusP swarm_control 40 7 none]
+G c Z s b [swarm_monitor__mean_closest_distanceN swarm_control 41 7 none]
+G c Z s b [swarm_monitor__mean_closest_distanceP swarm_control 41 7 none]
+G c Z s s [swarm_monitorTVIP swarm_control 17 4 none]
+G c Z s b [remove_vehicles swarm_control 52 14 none]
+G c Z s b [set_acceleration swarm_control 54 14 none]
+G c Z s b [set_all_accelerations swarm_control 55 14 none]
+G c Z s b [forward_messages swarm_control 57 14 none]
+G c Z s b [forward_all_messages swarm_control 58 14 none]
+G c Z s b [move_element swarm_control 60 14 none]
+G c Z s b [move_all_elements swarm_control 61 14 none]
+G c Z s b [update_rotation swarm_control 63 14 none]
+G c Z s b [update_all_rotations swarm_control 64 14 none]
+G c Z s b [remove_empties swarm_control 66 14 none]
+G c Z b b [remove_vehicle_in_stages swarm_control 269 14 none]
+G c Z b b [sorted_close_distances swarm_control 311 14 none]
+G r r none [append_random_swarm swarm_control__swarm_monitor 30 17 none] [identify vehicle_task_type__vehicle_task 7 13 none]
+G r c none [append_random_swarm swarm_control__swarm_monitor 30 17 none] [allocate swarm_structures_base__protected_point_3d 30 13 38_4]
+G r c none [append_random_swarm swarm_control__swarm_monitor 30 17 none] [zero_rotation rotations 41 13 none]
+G r c none [append_random_swarm swarm_control__swarm_monitor 30 17 none] [allocate swarm_structures__protected_rotation 30 13 91_4]
+G r c none [append_random_swarm swarm_control__swarm_monitor 30 17 none] [allocate swarm_structures_base__protected_vector_3d 30 13 39_4]
+G r c none [append_random_swarm swarm_control__swarm_monitor 30 17 none] [allocate swarm_structures__protected_time 30 13 77_4]
+G r s vehicle_controls [append_random_swarm swarm_control__swarm_monitor 30 17 none] [vehicle_controlsVIP swarm_structures 63 4 none]
+G r s vehicle_comms [append_random_swarm swarm_control__swarm_monitor 30 17 none] [vehicle_commsVIP swarm_structures 51 4 none]
+G r l vehicle_comms [append_random_swarm swarm_control__swarm_monitor 30 17 none] [vehicle_commsVDI swarm_structures 51 4 none]
+G r s vehicle_task [append_random_swarm swarm_control__swarm_monitor 30 17 none] [vehicle_taskVIP vehicle_task_type 6 4 none]
+G r s barrier [append_random_swarm swarm_control__swarm_monitor 30 17 none] [barrierVIP barrier_type 9 4 none]
+G r l barrier [append_random_swarm swarm_control__swarm_monitor 30 17 none] [barrierVDI barrier_type 9 4 none]
+G r c none [remove_vehicle swarm_control__swarm_monitor 34 17 none] [free_process swarm_structures 115 14 none]
+G r c none [remove_vehicle swarm_control__swarm_monitor 34 17 none] [free barrier_type 22 14 none]
+G r k barrier [remove_vehicle swarm_control__swarm_monitor 34 17 none] [barrierVDF barrier_type 9 4 none]
+G r c none [remove_vehicle swarm_control__swarm_monitor 34 17 none] [free_neighbours swarm_structures 112 14 none]
+G r c none [remove_vehicle swarm_control__swarm_monitor 34 17 none] [free_comms swarm_structures 114 14 none]
+G r k vehicle_comms [remove_vehicle swarm_control__swarm_monitor 34 17 none] [vehicle_commsVDF swarm_structures 51 4 none]
+G r c none [remove_vehicle swarm_control__swarm_monitor 34 17 none] [free_controls swarm_structures 113 14 none]
+G r c none [remove_vehicle swarm_control__swarm_monitor 34 17 none] [free swarm_structures__protected_time 32 14 77_4]
+G r k monitor [remove_vehicle swarm_control__swarm_monitor 34 17 none] [monitorVDF swarm_structures__protected_time 14 4 77_4]
+G r c none [remove_vehicle swarm_control__swarm_monitor 34 17 none] [free swarm_structures_base__protected_point_3d 32 14 38_4]
+G r k monitor [remove_vehicle swarm_control__swarm_monitor 34 17 none] [monitorVDF swarm_structures_base__protected_point_3d 14 4 38_4]
+G r c none [remove_vehicle swarm_control__swarm_monitor 34 17 none] [free swarm_structures__protected_rotation 32 14 91_4]
+G r k monitor [remove_vehicle swarm_control__swarm_monitor 34 17 none] [monitorVDF swarm_structures__protected_rotation 14 4 91_4]
+G r c none [remove_vehicle swarm_control__swarm_monitor 34 17 none] [free swarm_structures_base__protected_vector_3d 32 14 39_4]
+G r k monitor [remove_vehicle swarm_control__swarm_monitor 34 17 none] [monitorVDF swarm_structures_base__protected_vector_3d 14 4 39_4]
+G r p none [centre_of_gravity swarm_control__swarm_monitor 36 16 none] [read swarm_structures_base__protected_point_3d__monitor 16 16 38_4]
+G r c none [centre_of_gravity swarm_control__swarm_monitor 36 16 none] [to_vector_3d_lf vectors_conversions 11 13 none]
+G r c none [centre_of_gravity swarm_control__swarm_monitor 36 16 none] [Oadd vectors_3d_lf__vectors_3di 30 13 11_4]
+G r c none [centre_of_gravity swarm_control__swarm_monitor 36 16 none] [Omultiply vectors_3d_lf__vectors_3di 22 13 11_4]
+G r c none [centre_of_gravity swarm_control__swarm_monitor 36 16 none] [to_vector_3d vectors_conversions 10 13 none]
+G r p none [mean_velocity swarm_control__swarm_monitor 37 16 none] [read swarm_structures_base__protected_vector_3d__monitor 16 16 39_4]
+G r c none [mean_velocity swarm_control__swarm_monitor 37 16 none] [to_vector_3d_lf vectors_conversions 11 13 none]
+G r c none [mean_velocity swarm_control__swarm_monitor 37 16 none] [Oadd vectors_3d_lf__vectors_3di 30 13 11_4]
+G r c none [mean_velocity swarm_control__swarm_monitor 37 16 none] [Omultiply vectors_3d_lf__vectors_3di 22 13 11_4]
+G r c none [mean_velocity swarm_control__swarm_monitor 37 16 none] [to_vector_3d vectors_conversions 10 13 none]
+G r p none [mean_velocity swarm_control__swarm_monitor 38 16 none] [read swarm_structures_base__protected_vector_3d__monitor 16 16 39_4]
+G r c none [mean_velocity swarm_control__swarm_monitor 38 16 none] [to_vector_3d_lf vectors_conversions 11 13 none]
+G r c none [mean_velocity swarm_control__swarm_monitor 38 16 none] [Oabs vectors_3d_lf__vectors_3di 34 13 11_4]
+G r p none [maximal_radius swarm_control__swarm_monitor 39 16 none] [read swarm_structures_base__protected_point_3d__monitor 16 16 38_4]
+G r c none [maximal_radius swarm_control__swarm_monitor 39 16 none] [to_vector_3d_lf vectors_conversions 11 13 none]
+G r c none [maximal_radius swarm_control__swarm_monitor 39 16 none] [Oadd vectors_3d_lf__vectors_3di 30 13 11_4]
+G r c none [maximal_radius swarm_control__swarm_monitor 39 16 none] [Omultiply vectors_3d_lf__vectors_3di 22 13 11_4]
+G r c none [maximal_radius swarm_control__swarm_monitor 39 16 none] [to_vector_3d vectors_conversions 10 13 none]
+G r c none [maximal_radius swarm_control__swarm_monitor 39 16 none] [Osubtract vectors_3d__vectors_3di 31 13 12_4]
+G r c none [maximal_radius swarm_control__swarm_monitor 39 16 none] [Oabs vectors_3d__vectors_3di 34 13 12_4]
+G r p none [mean_radius swarm_control__swarm_monitor 40 16 none] [read swarm_structures_base__protected_point_3d__monitor 16 16 38_4]
+G r c none [mean_radius swarm_control__swarm_monitor 40 16 none] [to_vector_3d_lf vectors_conversions 11 13 none]
+G r c none [mean_radius swarm_control__swarm_monitor 40 16 none] [Oadd vectors_3d_lf__vectors_3di 30 13 11_4]
+G r c none [mean_radius swarm_control__swarm_monitor 40 16 none] [Omultiply vectors_3d_lf__vectors_3di 22 13 11_4]
+G r c none [mean_radius swarm_control__swarm_monitor 40 16 none] [to_vector_3d vectors_conversions 10 13 none]
+G r c none [mean_radius swarm_control__swarm_monitor 40 16 none] [Osubtract vectors_3d__vectors_3di 31 13 12_4]
+G r c none [mean_radius swarm_control__swarm_monitor 40 16 none] [Oabs vectors_3d__vectors_3di 34 13 12_4]
+G r p none [remove_vehicles swarm_control 52 14 none] [open barrier_type__barrier 12 17 none]
+G r c none [remove_vehicles swarm_control 52 14 none] [free_process swarm_structures 115 14 none]
+G r c none [remove_vehicles swarm_control 52 14 none] [free barrier_type 22 14 none]
+G r k barrier [remove_vehicles swarm_control 52 14 none] [barrierVDF barrier_type 9 4 none]
+G r c none [remove_vehicles swarm_control 52 14 none] [free_neighbours swarm_structures 112 14 none]
+G r c none [remove_vehicles swarm_control 52 14 none] [free_comms swarm_structures 114 14 none]
+G r k vehicle_comms [remove_vehicles swarm_control 52 14 none] [vehicle_commsVDF swarm_structures 51 4 none]
+G r c none [remove_vehicles swarm_control 52 14 none] [free_controls swarm_structures 113 14 none]
+G r c none [remove_vehicles swarm_control 52 14 none] [free swarm_structures__protected_time 32 14 77_4]
+G r k monitor [remove_vehicles swarm_control 52 14 none] [monitorVDF swarm_structures__protected_time 14 4 77_4]
+G r c none [remove_vehicles swarm_control 52 14 none] [free swarm_structures_base__protected_point_3d 32 14 38_4]
+G r k monitor [remove_vehicles swarm_control 52 14 none] [monitorVDF swarm_structures_base__protected_point_3d 14 4 38_4]
+G r c none [remove_vehicles swarm_control 52 14 none] [free swarm_structures__protected_rotation 32 14 91_4]
+G r k monitor [remove_vehicles swarm_control 52 14 none] [monitorVDF swarm_structures__protected_rotation 14 4 91_4]
+G r c none [remove_vehicles swarm_control 52 14 none] [free swarm_structures_base__protected_vector_3d 32 14 39_4]
+G r k monitor [remove_vehicles swarm_control 52 14 none] [monitorVDF swarm_structures_base__protected_vector_3d 14 4 39_4]
+G r p none [set_acceleration swarm_control 54 14 none] [read swarm_structures_base__protected_point_3d__monitor 16 16 38_4]
+G r p none [set_acceleration swarm_control 54 14 none] [read swarm_structures_base__protected_vector_3d__monitor 16 16 39_4]
+G r c none [set_acceleration swarm_control 54 14 none] [Osubtract vectors_3d__vectors_3di 31 13 12_4]
+G r c none [set_acceleration swarm_control 54 14 none] [Oabs vectors_3d__vectors_3di 34 13 12_4]
+G r p none [set_acceleration swarm_control 54 14 none] [read_throttle swarm_structures__vehicle_controls 67 16 none]
+G r c none [set_acceleration swarm_control 54 14 none] [inter_swarm_repulsion swarm_configuration 75 13 none]
+G r c none [set_acceleration swarm_control 54 14 none] [norm vectors_3d__vectors_3di 20 13 12_4]
+G r c none [set_acceleration swarm_control 54 14 none] [Omultiply vectors_3d__vectors_3di 22 13 12_4]
+G r c none [set_acceleration swarm_control 54 14 none] [Oadd vectors_3d__vectors_3di 30 13 12_4]
+G r c none [set_acceleration swarm_control 54 14 none] [inter_swarm_acceleration swarm_configuration 76 13 none]
+G r c none [set_acceleration swarm_control 54 14 none] [velocity_matching swarm_configuration 82 13 none]
+G r c none [set_acceleration swarm_control 54 14 none] [approach_acceleration swarm_configuration 78 13 none]
+G r c none [set_acceleration swarm_control 54 14 none] [Omultiply vectors_3d__vectors_3di 23 13 12_4]
+G r p none [set_acceleration swarm_control 54 14 none] [set_throttle swarm_structures__vehicle_controls 65 17 none]
+G r p none [set_acceleration swarm_control 54 14 none] [read_steering swarm_structures__vehicle_controls 66 16 none]
+G r c none [set_acceleration swarm_control 54 14 none] [angle_between vectors_3d__vectors_3di 28 13 12_4]
+G r p none [set_acceleration swarm_control 54 14 none] [write swarm_structures_base__protected_vector_3d__monitor 18 17 39_4]
+G r p none [set_all_accelerations swarm_control 55 14 none] [read swarm_structures_base__protected_point_3d__monitor 16 16 38_4]
+G r p none [set_all_accelerations swarm_control 55 14 none] [read swarm_structures_base__protected_vector_3d__monitor 16 16 39_4]
+G r c none [set_all_accelerations swarm_control 55 14 none] [Osubtract vectors_3d__vectors_3di 31 13 12_4]
+G r c none [set_all_accelerations swarm_control 55 14 none] [Oabs vectors_3d__vectors_3di 34 13 12_4]
+G r p none [set_all_accelerations swarm_control 55 14 none] [read_throttle swarm_structures__vehicle_controls 67 16 none]
+G r c none [set_all_accelerations swarm_control 55 14 none] [inter_swarm_repulsion swarm_configuration 75 13 none]
+G r c none [set_all_accelerations swarm_control 55 14 none] [norm vectors_3d__vectors_3di 20 13 12_4]
+G r c none [set_all_accelerations swarm_control 55 14 none] [Omultiply vectors_3d__vectors_3di 22 13 12_4]
+G r c none [set_all_accelerations swarm_control 55 14 none] [Oadd vectors_3d__vectors_3di 30 13 12_4]
+G r c none [set_all_accelerations swarm_control 55 14 none] [inter_swarm_acceleration swarm_configuration 76 13 none]
+G r c none [set_all_accelerations swarm_control 55 14 none] [velocity_matching swarm_configuration 82 13 none]
+G r c none [set_all_accelerations swarm_control 55 14 none] [approach_acceleration swarm_configuration 78 13 none]
+G r c none [set_all_accelerations swarm_control 55 14 none] [Omultiply vectors_3d__vectors_3di 23 13 12_4]
+G r p none [set_all_accelerations swarm_control 55 14 none] [set_throttle swarm_structures__vehicle_controls 65 17 none]
+G r p none [set_all_accelerations swarm_control 55 14 none] [read_steering swarm_structures__vehicle_controls 66 16 none]
+G r c none [set_all_accelerations swarm_control 55 14 none] [angle_between vectors_3d__vectors_3di 28 13 12_4]
+G r p none [set_all_accelerations swarm_control 55 14 none] [write swarm_structures_base__protected_vector_3d__monitor 18 17 39_4]
+G r s inter_vehicle_messages [forward_messages swarm_control 57 14 none] [inter_vehicle_messagesIP vehicle_message_type 13 9 none]
+G r l inter_vehicle_messages [forward_messages swarm_control 57 14 none] [inter_vehicle_messagesDI vehicle_message_type 13 9 none]
+G r k inter_vehicle_messages [forward_messages swarm_control 57 14 none] [inter_vehicle_messagesDF vehicle_message_type 13 9 none]
+G r p none [forward_messages swarm_control 57 14 none] [has_outgoing_messages swarm_structures__vehicle_comms 57 17 none]
+G r p none [forward_messages swarm_control 57 14 none] [fetch_message swarm_structures__vehicle_comms 55 17 none]
+G r p none [forward_messages swarm_control 57 14 none] [push_message swarm_structures__vehicle_comms 54 17 none]
+G r s inter_vehicle_messages [forward_all_messages swarm_control 58 14 none] [inter_vehicle_messagesIP vehicle_message_type 13 9 none]
+G r l inter_vehicle_messages [forward_all_messages swarm_control 58 14 none] [inter_vehicle_messagesDI vehicle_message_type 13 9 none]
+G r k inter_vehicle_messages [forward_all_messages swarm_control 58 14 none] [inter_vehicle_messagesDF vehicle_message_type 13 9 none]
+G r p none [forward_all_messages swarm_control 58 14 none] [has_outgoing_messages swarm_structures__vehicle_comms 57 17 none]
+G r p none [forward_all_messages swarm_control 58 14 none] [fetch_message swarm_structures__vehicle_comms 55 17 none]
+G r p none [forward_all_messages swarm_control 58 14 none] [push_message swarm_structures__vehicle_comms 54 17 none]
+G r p none [move_element swarm_control 60 14 none] [read swarm_structures_base__protected_vector_3d__monitor 16 16 39_4]
+G r c none [move_element swarm_control 60 14 none] [Omultiply vectors_3d__vectors_3di 22 13 12_4]
+G r c none [move_element swarm_control 60 14 none] [Oadd vectors_3d__vectors_3di 30 13 12_4]
+G r p none [move_element swarm_control 60 14 none] [write swarm_structures_base__protected_vector_3d__monitor 18 17 39_4]
+G r p none [move_element swarm_control 60 14 none] [write swarm_structures_base__protected_point_3d__monitor 18 17 38_4]
+G r c none [move_element swarm_control 60 14 none] [Oabs vectors_3d__vectors_3di 34 13 12_4]
+G r p none [move_element swarm_control 60 14 none] [write swarm_structures__protected_time__monitor 18 17 77_4]
+G r p none [move_element swarm_control 60 14 none] [read swarm_structures_base__protected_point_3d__monitor 16 16 38_4]
+G r c none [move_element swarm_control 60 14 none] [Osubtract vectors_3d__vectors_3di 31 13 12_4]
+G r c none [move_element swarm_control 60 14 none] [Odivide vectors_3d__vectors_3di 24 13 12_4]
+G r c none [move_element swarm_control 60 14 none] [Omultiply vectors_3d__vectors_3di 26 13 12_4]
+G r p none [move_element swarm_control 60 14 none] [read swarm_structures__protected_time__monitor 16 16 77_4]
+G r p none [move_all_elements swarm_control 61 14 none] [read swarm_structures_base__protected_vector_3d__monitor 16 16 39_4]
+G r c none [move_all_elements swarm_control 61 14 none] [Omultiply vectors_3d__vectors_3di 22 13 12_4]
+G r c none [move_all_elements swarm_control 61 14 none] [Oadd vectors_3d__vectors_3di 30 13 12_4]
+G r p none [move_all_elements swarm_control 61 14 none] [write swarm_structures_base__protected_vector_3d__monitor 18 17 39_4]
+G r p none [move_all_elements swarm_control 61 14 none] [write swarm_structures_base__protected_point_3d__monitor 18 17 38_4]
+G r c none [move_all_elements swarm_control 61 14 none] [Oabs vectors_3d__vectors_3di 34 13 12_4]
+G r p none [move_all_elements swarm_control 61 14 none] [write swarm_structures__protected_time__monitor 18 17 77_4]
+G r p none [move_all_elements swarm_control 61 14 none] [read swarm_structures_base__protected_point_3d__monitor 16 16 38_4]
+G r c none [move_all_elements swarm_control 61 14 none] [Osubtract vectors_3d__vectors_3di 31 13 12_4]
+G r c none [move_all_elements swarm_control 61 14 none] [Odivide vectors_3d__vectors_3di 24 13 12_4]
+G r c none [move_all_elements swarm_control 61 14 none] [Omultiply vectors_3d__vectors_3di 26 13 12_4]
+G r p none [move_all_elements swarm_control 61 14 none] [read swarm_structures__protected_time__monitor 16 16 77_4]
+G r p none [update_rotation swarm_control 63 14 none] [read swarm_structures_base__protected_vector_3d__monitor 16 16 39_4]
+G r c none [update_rotation swarm_control 63 14 none] [angle_between vectors_3d__vectors_3di 28 13 12_4]
+G r c none [update_rotation swarm_control 63 14 none] [to_rotation rotations 37 13 none]
+G r c none [update_rotation swarm_control 63 14 none] [rotate rotations 49 13 none]
+G r c none [update_rotation swarm_control 63 14 none] [Oabs vectors_3d__vectors_3di 34 13 12_4]
+G r p none [update_rotation swarm_control 63 14 none] [write swarm_structures__protected_rotation__monitor 18 17 91_4]
+G r p none [update_all_rotations swarm_control 64 14 none] [read swarm_structures_base__protected_vector_3d__monitor 16 16 39_4]
+G r c none [update_all_rotations swarm_control 64 14 none] [angle_between vectors_3d__vectors_3di 28 13 12_4]
+G r c none [update_all_rotations swarm_control 64 14 none] [to_rotation rotations 37 13 none]
+G r c none [update_all_rotations swarm_control 64 14 none] [rotate rotations 49 13 none]
+G r c none [update_all_rotations swarm_control 64 14 none] [Oabs vectors_3d__vectors_3di 34 13 12_4]
+G r p none [update_all_rotations swarm_control 64 14 none] [write swarm_structures__protected_rotation__monitor 18 17 91_4]
+G r p none [remove_empties swarm_control 66 14 none] [open barrier_type__barrier 12 17 none]
+G r c none [remove_empties swarm_control 66 14 none] [free_process swarm_structures 115 14 none]
+G r c none [remove_empties swarm_control 66 14 none] [free barrier_type 22 14 none]
+G r k barrier [remove_empties swarm_control 66 14 none] [barrierVDF barrier_type 9 4 none]
+G r c none [remove_empties swarm_control 66 14 none] [free_neighbours swarm_structures 112 14 none]
+G r c none [remove_empties swarm_control 66 14 none] [free_comms swarm_structures 114 14 none]
+G r k vehicle_comms [remove_empties swarm_control 66 14 none] [vehicle_commsVDF swarm_structures 51 4 none]
+G r c none [remove_empties swarm_control 66 14 none] [free_controls swarm_structures 113 14 none]
+G r c none [remove_empties swarm_control 66 14 none] [free swarm_structures__protected_time 32 14 77_4]
+G r k monitor [remove_empties swarm_control 66 14 none] [monitorVDF swarm_structures__protected_time 14 4 77_4]
+G r c none [remove_empties swarm_control 66 14 none] [free swarm_structures_base__protected_point_3d 32 14 38_4]
+G r k monitor [remove_empties swarm_control 66 14 none] [monitorVDF swarm_structures_base__protected_point_3d 14 4 38_4]
+G r c none [remove_empties swarm_control 66 14 none] [free swarm_structures__protected_rotation 32 14 91_4]
+G r k monitor [remove_empties swarm_control 66 14 none] [monitorVDF swarm_structures__protected_rotation 14 4 91_4]
+G r c none [remove_empties swarm_control 66 14 none] [free swarm_structures_base__protected_vector_3d 32 14 39_4]
+G r k monitor [remove_empties swarm_control 66 14 none] [monitorVDF swarm_structures_base__protected_vector_3d 14 4 39_4]
+G r p none [remove_vehicle_in_stages swarm_control 269 14 none] [open barrier_type__barrier 12 17 none]
+G r c none [remove_vehicle_in_stages swarm_control 269 14 none] [free_process swarm_structures 115 14 none]
+G r c none [remove_vehicle_in_stages swarm_control 269 14 none] [free barrier_type 22 14 none]
+G r k barrier [remove_vehicle_in_stages swarm_control 269 14 none] [barrierVDF barrier_type 9 4 none]
+G r c none [remove_vehicle_in_stages swarm_control 269 14 none] [free_neighbours swarm_structures 112 14 none]
+G r c none [remove_vehicle_in_stages swarm_control 269 14 none] [free_comms swarm_structures 114 14 none]
+G r k vehicle_comms [remove_vehicle_in_stages swarm_control 269 14 none] [vehicle_commsVDF swarm_structures 51 4 none]
+G r c none [remove_vehicle_in_stages swarm_control 269 14 none] [free_controls swarm_structures 113 14 none]
+G r c none [remove_vehicle_in_stages swarm_control 269 14 none] [free swarm_structures__protected_time 32 14 77_4]
+G r k monitor [remove_vehicle_in_stages swarm_control 269 14 none] [monitorVDF swarm_structures__protected_time 14 4 77_4]
+G r c none [remove_vehicle_in_stages swarm_control 269 14 none] [free swarm_structures_base__protected_point_3d 32 14 38_4]
+G r k monitor [remove_vehicle_in_stages swarm_control 269 14 none] [monitorVDF swarm_structures_base__protected_point_3d 14 4 38_4]
+G r c none [remove_vehicle_in_stages swarm_control 269 14 none] [free swarm_structures__protected_rotation 32 14 91_4]
+G r k monitor [remove_vehicle_in_stages swarm_control 269 14 none] [monitorVDF swarm_structures__protected_rotation 14 4 91_4]
+G r c none [remove_vehicle_in_stages swarm_control 269 14 none] [free swarm_structures_base__protected_vector_3d 32 14 39_4]
+G r k monitor [remove_vehicle_in_stages swarm_control 269 14 none] [monitorVDF swarm_structures_base__protected_vector_3d 14 4 39_4]
+G r p none [sorted_close_distances swarm_control 311 14 none] [read swarm_structures_base__protected_point_3d__monitor 16 16 38_4]
+G r p none [sorted_close_distances swarm_control 311 14 none] [read swarm_structures_base__protected_vector_3d__monitor 16 16 39_4]
+G r c none [sorted_close_distances swarm_control 311 14 none] [Osubtract vectors_3d__vectors_3di 31 13 12_4]
+G r c none [sorted_close_distances swarm_control 311 14 none] [Oabs vectors_3d__vectors_3di 34 13 12_4]
+X 1 ada.ads
+16K9*Ada 20e8 60|5r6 5r36 61|5r6 5r45 6r6 6r45 7r6 7r45 8r6 8r45 9r6 9r45
+X 6 a-contai.ads
+16K13*Containers 24e19 61|5w10 5r49
+20I9*Count_Type<integer> 61|79r64
+X 8 a-cohama.ads
+96R9*Map<13|43R9>
+X 10 a-conhel.ads
+84R12 Reference_Control_Type<13|43R9>
+X 11 a-convec.ads
+78I12*Extended_Index{integer}
+88R9*Vector<13|43R9> 61|97r60[64|38] 246r61[64|38] 311r78[64|38]
+154U14*Reserve_Capacity 61|79s10[64|110] 320s24[64|38]
+165V13*Length{6|20I9} 61|79s41[64|110] 128s13[64|110] 159s50[64|110] 174s50[64|110]
+. 189s44[64|110] 231s42[64|110] 248s36[64|38] 258s44[64|110] 300s19[64|110]
+. 320s54[64|110] 585s10[64|110] 589s70[64|110]
+180U14*Clear 61|319s24[64|38]
+196V13*Element{64|93R9} 61|29s16[64|110] 40s16[64|110] 48s11[64|110] 51s11[64|110]
+. 54s10[64|110] 57s11[64|110] 60s10[64|110] 63s10[64|110] 66s10[64|110] 130s54[64|110]
+. 157s63[64|110] 172s61[64|110] 187s72[64|110] 205s64[64|110] 226s64[64|110]
+. 245s71[64|110] 251s41[64|38] 274s7[64|110] 282s25[64|110] 284s41[64|110]
+. 290s38[64|110] 315s55[64|110] 324s65[64|110] 347s55[64|110] 354s76[64|38]
+. 428s67[64|110] 436s79[64|38] 439s19[64|110] 466s45[64|110] 547s54[64|110]
+. 590s19[64|110]
+207U14*Replace_Element 61|407s7[64|110] 518s7[64|110] 563s7[64|110]
+431U14*Append 61|115s19[64|110] 330s36[64|38]
+466U14*Delete 61|142s16[64|110]
+512V13*First_Index{integer} 61|28s31[64|110] 39s31[64|110] 128s61[64|110]
+. 156s31[64|110] 171s31[64|110] 186s31[64|110] 203s31[64|110] 224s31[64|110]
+. 243s31[64|110] 251s79[64|38] 321s25[64|110] 352s46[64|38] 417s28[64|110]
+. 434s68[64|38] 455s28[64|110] 528s28[64|110] 573s28[64|110] 587s52[64|110]
+522V13*Last_Index{78I12[64|110]} 61|28s60[64|110] 39s60[64|110] 128s110[64|110]
+. 156s60[64|110] 171s60[64|110] 186s60[64|110] 203s60[64|110] 224s60[64|110]
+. 243s60[64|110] 301s31[64|110] 301s86[64|110] 321s54[64|110] 352s108[64|38]
+. 417s57[64|110] 434s130[64|38] 455s57[64|110] 528s57[64|110] 573s57[64|110]
+. 589s36[64|110]
+644U17*Sort 61|338s22[64|40]
+X 15 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[11|111]>
+X 16 a-numeri.ads
+16K13*Numerics 32e17 61|6w10 6r49 7r10 7r49
+21N4*Pi 61|545r11 553r103 557r20 558r29 559r36 562r98
+X 17 a-nuflra.ads
+41K22*Float_Random 74e30 61|7w19 7r58
+47R9*Generator<83|63R9> 61|75r25
+49F12*Uniformly_Distributed{float}
+51V13*Random{49F12}<83|71p13> 61|90s46 91s46 92s46
+53U14*Reset<83|100p14> 61|78s10
+X 18 a-ngelfu.ads
+94V13*Sin{long_float} 61|399s104[56|7]
+103V13*Cos{long_float} 61|397s61[56|7]
+145V13*Arctan{long_float} 61|542s15[56|7]
+X 19 a-reatim.ads
+39K13*Real_Time 185e18 61|8w10 8r49
+49O9*Time<duration>
+54O9*Time_Span<duration>
+61V13*Clock{49O9} 61|96s102 104s39 467s74 493s53 504s62 517s35
+71V14*"-"{54O9} 61|467s80 493s59
+105V14*">"{boolean} 61|493r102
+110V13*To_Duration{duration} 61|271s57 467s61
+119V13*Milliseconds{54O9} 61|271s70
+X 27 a-taside.ads
+45K13*Task_Identification 104e28 60|5w10 5r40
+53P9*Task_Id<99|109P9> 60|20r30 22r36 23r36 24r36 25r36 26r36 27r36 61|36r30
+. 47r31 50r31 53r35 56r31 59r28 62r29
+56p4*Null_Task_Id{53P9} 61|102r39
+58V14*"="{boolean} 61|29s64 40s64
+65V13*Current_Task{53P9} 61|29s66 48s56 51s56 54s55 57s56 60s55 63s55
+75U14*Abort_Task 61|282s13
+81V13*Is_Terminated{boolean} 61|284s26 290s23
+X 28 a-textio.ads
+57K13*Text_IO 727e16 61|9w10 9r49
+64P9*File_Type
+183V13*Current_Error{64P9} 61|277s20 280s23
+498U14*Put_Line 61|277s10 280s13
+X 32 barrier_type.ads
+7K9*Barrier_Type 25e17 60|6w6 6r36
+9W19*Barrier 18e15 61|101r43
+12U17 Open 61|274s59
+20P9*Barrier_Ptr(9W19) 60|28r52 61|65r37
+22U14*Free[31|20] 61|133s16
+X 33 generic_protected.ads
+14W19*Monitor
+16V16 Read{115|14A9[112|12]} 61|157s113[65|38] 172s111[65|39] 187s122[65|39]
+. 205s114[65|38] 226s114[65|38] 316s81[65|38] 325s91[65|38] 333s100[65|39]
+. 333s133[65|39] 365s95[65|39] 384s139[65|38] 387s97[65|39] 388s122[65|39]
+. 399s52[65|39] 405s91[65|39] 405s131[65|39] 470s66[65|39] 470s115[65|39]
+. 473s71[65|38] 474s96[65|39] 484s107[65|39] 489s84[65|38] 493s97[64|77]
+. 549s71[65|39] 554s83[65|39]
+18U17 Write 61|405s37[65|39] 470s33[65|39] 476s36[65|38] 504s55[64|77] 562s33[64|91]
+28P9*Monitor_Ptr(14W19[64|77]) 60|22r71[65|38] 23r72[65|39] 24r72[65|39]
+. 61|47r66[65|38] 50r67[65|39] 53r71[65|39]
+30V13*Allocate{28P9[65|38]} 61|89s58[65|38] 93s58[64|91] 94s59[65|39] 95s59[65|39]
+. 96s92[64|77]
+32U14*Free[31|20] 61|137s31[64|77] 138s35[65|38] 139s35[64|91] 140s36[65|39]
+. 141s36[65|39]
+X 37 gl-buffer-general.ads
+14R9 base_Object<36|20R9>
+X 47 graphics_configuration.ads
+14K9*Graphics_Configuration 57e27 61|10w6 10r45
+16f4*Intented_Framerate{48|12F12} 61|399r61
+X 48 graphics_framerates.ads
+12F12*Hz{56|5F12}
+X 49 graphics_structures.ads
+32A12*Point_3D{112|14A12}<112|10E9>
+X 56 real_type.ads
+3K9*Real_Type 10e14 60|7w6 7r36
+5F12*Real{long_float} 60|32r61 38r45 39r45 40r45 41r45 61|73r61 90r40 91r40
+. 92r40 181r37 183r25 187r44 189r17 189r38 196r38 200r19 205r45 207r26 217r35
+. 221r23 226r45 231r17 231r36 238r45 240r25 250r50 258r17 258r38 386r58 387r58
+. 388r58 467r31 467r45 467r55 479r13 479r23 480r13 480r23 481r15 490r40 539r58
+. 544r60 550r32 551r32 555r32 556r32 557r9 558r19
+7K12*Real_Elementary_Functions[18|39] 61|20r8
+X 57 rotations.ads
+12K9*Rotations 68e14 61|11w6 11r45
+19A12*Vector{112|14A12}<112|10E9>
+20R12*Quaternion_Rotation{55|9R9} 61|553r32
+37V13*To_Rotation{20R12} 61|553s55 562s40
+41V13*Zero_Rotation{20R12} 61|93s68
+49V13*Rotate{19A12} 61|554s45
+X 58 swarm_configuration.ads
+16K9*Swarm_Configuration 84e24 60|8w6 8r36
+24i4*Initial_No_of_Elements{positive} 60|30r74 61|71r74
+25a4*Initial_Swarm_Position{112|14A12} 60|31r74 61|72r74
+26f4*Initual_Edge_Length{56|5F12} 60|32r74 61|73r74
+31f4*Unconditional_Repulse_Dist{56|5F12} 61|369r46
+42f4*Target_Fetch_Range{56|5F12} 61|390r36
+44f4*Detection_Range{56|5F12} 61|351r75
+45f4*Comms_Range{56|5F12} 61|438r46
+47f4*Velocity_Matching_Range{56|5F12} 61|364r46
+50f4*Friction{56|5F12} 61|405r139
+54f4*Max_Assumed_Acceleration{56|5F12} 61|559r48
+55f4*Max_Update_Interval{56|5F12} 61|467r110
+57r4*Charging_Setup{59|14R9} 61|483r20 484r21 493r104 506r54
+58f4*Energy_Globe_Detection{56|5F12} 61|492r121
+71o4*Tolerated_Vehicle_Activation_Delay{duration} 61|83r22
+72o4*Tolerated_Identify_Call_Delay{duration} 61|111r28
+75V13*Inter_Swarm_Repulsion{65|13F12} 61|372s47
+76V13*Inter_Swarm_Acceleration{65|13F12} 61|361s47
+78V13*Approach_Acceleration{65|13F12} 61|397s23
+82V13*Velocity_Matching{65|17A12} 61|365s50
+X 59 swarm_configurations.ads
+15f7*Constant_Discharge_Rate_Per_Sec{56|5F12} 61|483r35
+16f7*Propulsion_Discharge_Rate_Per_Sec{56|5F12} 61|484r36
+17o7*Max_Globe_Interval{19|54O9} 61|493r119
+18i7*Globes_Required{positive} 61|506r69
+X 60 swarm_control.ads
+13K9*Swarm_Control 68l5 68e18 61|18b14 600l5 600t18
+17w14*Swarm_Monitor 61|23b19 48r33 51r33 54r32 57r33 60r32 63r32 66r32 263l8
+. 263t21 294r7
+19V16 Id_Task{65|19I12} 61|25b16 34l11 34t18 66s46
+20V16 Id_Task{65|19I12} 20>25 61|36b16 45l11 45t18 48s47 51s47 54s46 57s47
+. 60s46 63s46
+20p25 Id{27|53P9} 61|36b25 40r66
+22V16 Position{33|28P9[65|38]} 22>31 61|47b16
+22p31 Id{27|53P9}
+23V16 Velocity{33|28P9[65|39]} 23>31 61|50b16
+23p31 Id{27|53P9}
+24V16 Acceleration{33|28P9[65|39]} 24>31 61|53b16
+24p31 Id{27|53P9}
+25V16 Controls{64|88P9} 25>31 61|56b16
+25p31 Id{27|53P9}
+26V16 Comms{64|87P9} 26>31 61|59b16
+26p31 Id{27|53P9}
+27V16 Charge{64|79R9} 27>31 61|62b16
+27p31 Id{27|53P9}
+28V16 Process_abort{32|20P9} 61|65b16
+30U17 Append_Random_Swarm 30>38 31>38 32>38 61|71b17 119l11 119t30
+30i38 No_Of_Swarm_Elements{positive} 61|71b38 79r76 80r24
+31a38 Centre{65|15A12} 61|72b38 90r26 91r26 92r26
+32f38 Volume_Edge_Length{56|5F12} 61|73b38 90r71 90r93 91r71 91r93 92r71
+. 92r93
+34U17 Remove_Vehicle 34>33 61|125b17 145l11 145t25 294s21
+34i33 Element_Ix{65|19I12} 61|125b33 128r47 128r96 130r76 142r37
+36V16 Centre_Of_Gravity{112|14A12} 61|151b16 160l11 160t28 198s41 219s38
+37V16 Mean_Velocity{112|14A12} 61|166b16 175l11 175t24
+38V16 Mean_Velocity{56|5F12} 61|181b16 190l11 190t24
+39V16 Maximal_Radius{56|5F12} 61|196b16 211l11 211t25
+40V16 Mean_Radius{56|5F12} 61|217b16 232l11 232t22
+41V16 Mean_Closest_Distance{56|5F12} 61|238b16 259l11 259t32
+44i7 Last_Vehicle_Id{natural} 61|103r53 106r19
+48X4*Vehicle_could_not_be_created 61|85r22
+49X4*Task_did_not_repond_to_Identfiy_Call 61|112r28
+50X4*No_Such_Task 61|33r16 44r16
+52U14*Remove_Vehicles 52>31 61|297b14 305l8 305t23
+52i31 No_Of_Swarm_Elements{positive} 61|297b31 300r44 301r58
+54U14*Set_Acceleration 54>32 61|345b14 408l8 408t24 418s10
+54i32 Element_Index{65|19I12} 61|345b32 347r77 351r60 407r37
+55U14*Set_All_Accelerations 61|414b14 420l8 420t29
+57U14*Forward_Messages 57>32 61|426b14 446l8 446t24 456s10
+57i32 Element_Index{65|19I12} 61|426b32 428r89
+58U14*Forward_All_Messages 61|452b14 458l8 458t28
+60U14*Move_Element 60>28 61|464b14 519l8 519t20 529s10
+60i28 Element_Index{65|19I12} 61|464b28 466r67 518r37
+61U14*Move_All_Elements 61|525b14 531l8 531t25
+63U14*Update_Rotation 63>31 61|537b14 564l8 564t23 574s10
+63i31 Element_Index{65|19I12} 61|537b31 547r76 563r37
+64U14*Update_All_Rotations 61|570b14 576l8 576t28
+66U14*Remove_Empties 61|582b14 598l8 598t22
+X 61 swarm_control.adb
+28i14 Element_Index{integer} 29r38 30r24
+39i14 Element_Index{integer} 40r38 41r24
+75r10 Random_Float{17|47R9} 78r17 90r54 91r54 92r54
+80i14 i{integer}
+88r19 New_Element{64|93R9} 106r38 110r22 110r56 110m80 110r80 115r40
+130r16 This_Element{64|93R9} 132m42 132r42 133m42 133r42 134m42 134r42 135m42
+. 135r42 136m42 136r42 137m42 137r42 138m42 138r42 139m42 139r42 140m42 140r42
+. 141m42 141r42
+153a10 Acc_Positions{113|13A12} 157m13 157r30 159r75
+156i14 Element_Index{integer} 157r85
+168a10 Acc_Velocity{113|13A12} 172m13 172r29 174r75
+171i14 Element_Index{integer} 172r83
+183f10 Acc_Velocity{56|5F12} 187m13 187r29 189r23
+186i14 Element_Index{integer} 187r94
+198a10 CoG{112|14A12} 205r58
+200f10 Radius{56|5F12} 207m16 207r36 210r17
+203i14 Element_Index{integer} 205r86
+205f16 Distance_from_CoG{56|5F12} 207r44
+219a10 CoG{112|14A12} 226r58
+221f10 Acc_Radius{56|5F12} 228m16 228r30 231r23
+224i14 Element_Index{integer} 226r86
+226f16 Distance_from_CoG{56|5F12} 228r43
+240f10 Acc_Distance{56|5F12} 253m22 253r38 258r23
+243i14 Element_Index{integer} 245r93
+245r16 This_Element{64|93R9} 246r71
+246r16 Neighbours{11|88R9[64|38]} 248r44 251r50 251r92
+250f22 Closest_Distance{56|5F12} 253r53
+269U14 Remove_Vehicle_in_Stages 269b14 269>40 295l8 295t32 302s13 591s19
+269i40 Element_Ix{65|19I12} 274r29 282r47 284r63 290r60 294r37
+271o7 Tolerated_Termination_Time{duration} 276r16 279r19
+301i14 Element_Index{integer} 302r39
+311U14 Sorted_Close_Distances 311b14 311=38 312>38 313>38 339l8 339t30 351s7
+311r38 Close_Dist{11|88R9[64|38]} 319m31 320m42 330m44 338m28
+312i38 Element_Index{65|19I12} 315r77 322r13
+313f38 Max_Distance{65|12F12} 329r36
+315r7 This_Element{64|93R9} 316r55 333r74
+316a7 This_Position{65|15A12} 326r65
+321i11 Scan_Index{integer} 322r30 324r87 330r74
+324r16 Test_Element{64|93R9} 325r65 333r107
+325a16 Test_Position{65|15A12} 326r81
+326a16 Test_Direction{112|14A12} 327r70 332r74
+327f16 Test_Distance{65|12F12} 329r19 331r74
+347r7 This_Element{64|93R9} 351r31 352r59 352r120 354r85 358r16 365r69 380r10
+. 384r71 384r113 387r71 388r96 392r16 396r21 399r26 405r7 405r65 405r105
+. 407r52
+348a7 Acceleration{65|17A12} 361m16 361r32 365m19 365r35 372m16 372r32 395m16
+. 395r32 405r44
+352i11 Distance_Index{integer} 354r114
+354r13 Distance_Entry{64|26R9} 361r73 361r106 364r19 365r101 369r19 372r70
+. 372r103
+384a13 Target_Vector{112|14A12} 385r77 386r71 388r81
+385a13 Norm_Target_Vector{112|14A12} 398r23
+386f13 Abs_Target_Vector{56|5F12} 390r16
+387f13 Abs_Velocity{56|5F12} 397r46 399r89
+388f13 Angle_Between_Target_and_Velocity{56|5F12} 397r66 399r109
+417i11 Element_Index{integer} 418r28
+428r7 This_Element{64|93R9} 432r13 433r10 434r81 434r142 436r88
+429r7 Message_To_Be_Distributed{117|13R9} 433m48 439r87
+434l10 Check_Neighbours 441r24 444l19 444e35
+434i33 Distance_Index{integer} 436r117
+436r16 Distance_Entry{64|26R9} 438r19 439r41
+455i11 Element_Index{integer} 456r28
+466r7 This_Element{64|93R9} 467r82 470r7 470r40 470r85 473r45 474r70 476r10
+. 478m10 481r21 484r77 493r61 495r24 498m22 499m22 502m19 502r68 503m19 504r19
+. 506r22 507m22 508m22 509m22 517m7 518r52
+467f7 Interval{56|5F12} 470r74 474r59 482r18
+473a10 Move_Start{65|15A12} 474r45 490r66 490r93 490r124 491r53 491r91
+474a10 Move_End{65|15A12} 476r43 490r82 490r113 491r80
+486i14 Globe_Ix{integer} 489r61 492r61 495r60 503r55
+489a16 Globe_Pos{65|15A12} 490r54 492r107
+490f16 Interratio{56|5F12} 491r66 492r153 492r180
+491a16 Intersection{65|15A12} 492r92
+492b16 Touching{boolean} 495r100
+493b16 Slot_Passed{boolean} 495r78 497r22
+528i11 Element_Index{integer} 529r24
+539V16 Vector_Yaw{56|5F12} 539>28 550s45
+539a28 In_Vector{112|14A12} 540r13 540r42 542r23 542r38
+544V16 Vector_Pitch{56|5F12} 544>30 551s45
+544a30 In_Vector{112|14A12} 545r38
+547r7 This_Element{64|93R9} 549r45 554r53 562r7 563r52
+549a7 Velocity{112|14A12} 550r59 551r59 555r65
+550f7 Element_Yaw{56|5F12} 553r89 562r84
+551f7 Element_Pitch{56|5F12} 553r74 562r68
+553r7 Rotation{57|20R12} 554r89
+554a7 Norm_Acc{112|14A12} 555r45
+555f7 Lateral_Acc{56|5F12} 559r21
+556f7 Element_Roll{56|5F12} 562r53
+573i11 Element_Index{integer} 574r27
+587i13 Element_Index{65|19I12} 589r19 590r41 591r45 593m19 593r36
+X 62 swarm_data.ads
+10K9*Swarm_Data 61|12w6 12r45 62|21e15
+17r4*Swarm_State{11|88R9[64|110]} 61|28r44 28r72 29r25 39r44 39r72 40r25
+. 48r20 51r20 54r19 57r20 60r19 63r19 66r19 79m28 79r28 79r49 115m27 115r27
+. 128r21 128r74 128r122 130r63 142m24 142r24 156r44 156r72 157r72 159r58
+. 171r44 171r72 172r70 174r58 186r44 186r72 187r81 189r52 203r44 203r72 205r73
+. 224r44 224r72 226r73 231r50 243r44 243r72 245r80 258r52 274r16 282r34 284r50
+. 290r47 300r27 301r43 301r98 315r64 320r62 321r38 321r66 324r74 347r64 407m24
+. 407r24 417r41 417r69 428r76 439r28 455r41 455r69 466r54 518m24 518r24 528r41
+. 528r69 547r63 563m24 563r24 573r41 573r69 585r18 587r65 589r48 589r78 590r28
+19a4*Globes{65|47A9} 61|486r26 489r53 492r53
+X 64 swarm_structures.ads
+19K9*Swarm_Structures 60|9w6 9r36 64|124e21
+26R9*Distance_Entries 61|354r39 436r42 64|32e17
+28i10*Index{65|19I12} 61|330m57 439r56
+29f10*Distance{65|12F12} 61|251r105 331m57 361r88 364r34 369r34 372r85 438r34
+30a10*Position_Diff{65|15A12} 61|332m57 361r121 372r118
+31a10*Velocity_Diff{65|16A12} 61|333m57 365r116
+35V14*"<"{boolean} 11|628i22
+38K12*Distance_Vectors[11|73] 61|97r43 246r44 248r19 251r24 251r62 311r61
+. 319r7 320r7 330r19 352r29 352r91 354r59 434r51 434r113 436r62
+40K12*Sort_Distances[11|637] 61|338r7
+51W19*Vehicle_Comms 61|99r43 64|61e21
+54U17 Push_Message 61|439s73
+55U17 Fetch_Message 61|433s33
+57V17 Has_Outgoing_Messages{boolean} 61|432s36
+63W19*Vehicle_Controls 61|98r43 64|71e24
+65U17 Set_Throttle 61|392s42
+66V16 Read_Steering{112|14A12} 61|384s97
+67V16 Read_Throttle{65|20F12} 61|358s42 380s36 396s47
+73A9*Globes_Touched_A(boolean)<integer>
+75a4*No_Globes_Touched{73A9} 61|96r144 498r60 509r60
+77K12*Protected_Time[33|12] 61|96r77 137r16
+79R9*Charge_Info 60|27r52 61|62r45 64|84e14
+80f7*Level{65|25F9} 61|96m40 478m30 481r41 507m42 590r63
+81p7*Charge_Time{33|28P9[77]} 61|96m62 137m62 137r62 493r81 504r39
+82i7*Charge_No{natural} 61|96m110 499m42 502m39 502r88 506r42 508m42
+83a7*Globes_Touched{73A9} 61|96m126 495r44 498m42 503m39 509m42
+86P9*Neighbours_P(11|88R9[38])
+87P9*Vehicle_Comms_P(51W19) 60|26r52 61|59r44
+88P9*Vehicle_Controls_P(63W19) 60|25r52 61|56r47
+89P9*Vehicle_Task_P(118|6T14)
+91K12*Protected_Rotation[33|12] 61|93r39 139r16
+93R9*Swarm_Element_State 61|88r33 130r31 245r44 315r32 324r42 347r32 428r44
+. 466r22 547r31 64|108e17
+95p10*Position{33|28P9[65|38]} 61|48r71 89m22 138m55 138r55 157r100 205r101
+. 226r101 316r68 325r78 384r126 473r58 476r23
+96p10*Rotation{33|28P9[91]} 61|93m22 139m55 139r55 562r20
+97p10*Velocity{33|28P9[65|39]} 61|51r71 94m22 140m55 140r55 172r98 187r109
+. 333r87 333r120 365r82 387r84 388r109 399r39 405r78 405r118 470r20 470r53
+. 474r83 549r58
+98p10*Acceleration{33|28P9[65|39]} 61|54r70 95m22 141m55 141r55 405r20 470r98
+. 484r90 554r66
+99r10*Charge{79R9} 61|63r70 96m22 137m55 137r55 478m23 481r34 493r74 495r37
+. 498m35 499m35 502m32 502r81 503m32 504r32 506r35 507m35 508m35 509m35 590r56
+100p10*Neighbours{86P9} 61|97m22 134m55 134r55 246r84 351r44 352r72 352r133
+. 354r98 434r94 434r155 436r101
+101p10*Controls{88P9} 61|57r71 98m22 136m55 136r55 358r29 380r23 384r84 392r29
+. 396r34
+102p10*Comms{87P9} 61|60r70 99m22 135m55 135r55 432r26 433r23 439r63
+103p10*Process{89P9} 61|100m22 110r34 132m55 132r55
+104p10*Process_abort{32|20P9} 61|66r55 101m22 133m55 133r55 274r41
+105p10*Process_Id{27|53P9} 61|29r53 40r53 102m22 110m92 282r59 284r75 290r72
+106i10*Vehicle_Id{positive} 61|103m22 106r50 110m68 110r68
+107o10*Last_Update{19|49O9} 61|104m22 467r95 517m20
+110K12*Swarm_Vectors[11|73] 61|21r8
+112U14*Free_Neighbours[31|20] 61|134s16
+113U14*Free_Controls[31|20] 61|136s16
+114U14*Free_Comms[31|20] 61|135s16
+115U14*Free_Process[31|20] 61|132s16
+X 65 swarm_structures_base.ads
+10K9*Swarm_Structures_Base 60|10w6 10r36 65|49e26
+12F12*Distances{56|5F12} 61|313r54 327r42
+13F12*Acc_Scalar{56|5F12}
+15A12*Positions{49|32A12}<112|10E9> 60|31r61 61|72r61 316r32 325r42 473r32
+. 474r32 489r40 491r40
+16A12*Velocities{112|14A12}<112|10E9>
+17A12*Accelerations{112|14A12}<112|10E9> 61|348r32
+19I12*Swarm_Element_Index{positive} 60|19r46 20r46 34r46 54r48 57r48 60r44
+. 63r47 61|25r31 36r46 125r46 269r53 312r54 345r48 426r48 464r44 537r47 587r29
+20F12*Throttle_T{56|5F12}
+22f4*Idle_Throttle{20F12} 61|392r56
+25F9*Vehicle_Charges<long_float> 61|478r39
+27f4*Empty_Charge{25F9} 61|479r29 590r71
+29f4*Full_Charge{25F9} 61|96r49 480r29 507r60
+38K12*Protected_Point_3D[33|12] 60|22r52 61|47r47 89r39 138r16
+39K12*Protected_Vector_3D[33|12] 60|23r52 24r52 61|50r47 53r51 94r39 95r39
+. 140r16 141r16
+42b7*Active{boolean} 61|492r71
+43p7*Position{33|28P9[38]} 61|489r71
+47A9*Energy_Globes_Protected(41R9)<integer>
+X 66 system.ads
+67M9*Address
+X 77 s-memory.ads
+53V13*Alloc{66|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{66|67M9} 105i<c,__gnat_realloc>22
+X 87 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 89 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 99 s-taskin.ads
+109P9*Task_Id(107R9)
+X 112 vectors_3d.ads
+8K9*Vectors_3D 60|11w6 11r36 112|37e15
+10n25*x{10E9} 61|90r34 540r24 542r34 555r55
+10n28*y{10E9} 61|91r34
+10n31*z{10E9} 61|92r34 540r53 542r49
+14A12*Vector_3D{115|14A9[12]}<10E9> 60|36r45 37r45 61|151r41 166r37 198r28
+. 219r25 326r42 384r58 385r58 539r40 544r42 549r32 554r32
+16a4*Zero_Vector_3D{14A12} 61|94r69 95r69 348r55
+20V13*Norm=20:71{115|14A9[12]} 61|361s100 372s97 385s71 399s20 405s59
+22V14*"*"=22:85{115|14A9[12]} 61|361s98 372s95 398s21 470s83 474s68 491s77
+23V14*"*"=23:85{115|14A9[12]} 61|399s58 399s87 399s102 405s97
+24V14*"/"=24:85{115|14A9[12]} 61|490s105
+26V14*"*"=26:79{long_float} 61|490s78
+29V13*Angle_Between=29:89{long_float} 61|388s66 545s23
+31V14*"+"=31:84{115|14A9[12]} 61|361s45 365s48 372s45 396s18 470s71 474s56
+. 491s64
+32V14*"-"=32:84{115|14A9[12]} 61|205s62 226s62 326s79 333s105 384s111 399s18
+. 405s57 490s64 490s91 490s122 491s89 492s105
+35V14*"abs"=35:67{long_float} 61|205s53 226s53 327s65 386s66 387s66 405s100
+. 484s72 490s108 492s87 555s60
+X 113 vectors_3d_lf.ads
+7K9*Vectors_3D_LF 61|14w6 14r45 113|35e18
+13A12*Vector_3D_LF{115|14A9[11]}<9E9> 61|153r26 168r25
+15a4*Zero_Vector_3D_LF{13A12} 61|153r42 168r41
+21V14*"*"=21:97{115|14A9[11]} 61|159s73 174s73
+29V14*"+"=29:90{115|14A9[11]} 61|157s44 172s42
+33V14*"abs"=33:76{long_float} 61|187s50
+X 114 vectors_conversions.ads
+8K9*Vectors_Conversions 61|13w6 13r45 114|17e24
+10V13*To_Vector_3D{112|14A12} 61|159s17 174s17
+11V13*To_Vector_3D_LF{113|13A12} 61|157s46 172s44 187s55
+X 115 vectors_xd.ads
+14A9*Vector_xD(long_float)<112|10E9>
+X 117 vehicle_message_type.ads
+9K9*Vehicle_Message_Type 61|15w6 15r45 117|22e25
+13R9*Inter_Vehicle_Messages 61|429r35 117|21e14
+X 118 vehicle_task_type.ads
+4K9*Vehicle_Task_Type 61|16w6 16r45 118|19e22
+6T14*Vehicle_Task 61|100r43 118|8e20
+7Y13 Identify 61|110s46
+

@@ -1,0 +1,322 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -fstack-check=specific
+A -gnato
+A -mtune=core2
+A -mmacosx-version-min=10.14.0
+A -fPIC
+A -feliminate-unused-debug-symbols
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U vectors_2d_p%s	vectors_2d_p.ads	6856ac7f DE EE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+Z ada.numerics.aux%s	a-numaux.adb		a-numaux.ali
+Z ada.numerics.generic_elementary_functions%s
+W ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.bounded%s	a-strbou.adb		a-strbou.ali
+Z interfaces%s		interfac.ads		interfac.ali
+Z system.assertions%s	s-assert.adb		s-assert.ali
+Z system.exn_llf%s	s-exnllf.adb		s-exnllf.ali
+Z system.fat_flt%s	s-fatflt.ads		s-fatflt.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W vectors_xd_i%s	vectors_xd_i.adb	vectors_xd_i.ali  EA
+
+D ada.ads		20190518041255 76789da1 ada%s
+D a-charac.ads		20190518041255 2d3ec45b ada.characters%s
+D a-chlat1.ads		20190518041255 66457d31 ada.characters.latin_1%s
+D a-except.ads		20190518041255 291912d5 ada.exceptions%s
+D a-numeri.ads		20190518041254 bb51c45a ada.numerics%s
+D a-numaux.ads		20190518041254 243fe0b7 ada.numerics.aux%s
+D a-ngelfu.ads		20190518041256 55716239 ada.numerics.generic_elementary_functions%s
+D a-ngelfu.adb		20190518041255 a9022048 ada.numerics.generic_elementary_functions%b
+D a-string.ads		20190518041255 90ac6797 ada.strings%s
+D a-strbou.ads		20190518041254 84c37afd ada.strings.bounded%s
+D a-strbou.adb		20190518041255 adb4aa70 ada.strings.bounded%b
+D a-strmap.ads		20190518041255 e8bb714a ada.strings.maps%s
+D a-strsup.ads		20190518041255 a27dcb33 ada.strings.superbounded%s
+D a-unccon.ads		20190518041255 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20190518041254 5ab55268 interfaces%s
+D system.ads		20190518041255 085b6ffb system%s
+D s-assert.ads		20190518041255 cd8d2c94 system.assertions%s
+D s-exctab.ads		20190518041255 54135002 system.exception_table%s
+D s-exnllf.ads		20190518041256 bc7ebbdc system.exn_llf%s
+D s-fatflt.ads		20190518041255 11beb392 system.fat_flt%s
+D s-fatgen.ads		20190518041256 49cbaf86 system.fat_gen%s
+D s-imgint.ads		20190518041254 02dbe0c2 system.img_int%s
+D s-parame.ads		20190518041256 48ec542b system.parameters%s
+D s-secsta.ads		20190518041256 20bbe636 system.secondary_stack%s
+D s-stalib.ads		20190518041256 09bd3940 system.standard_library%s
+D s-stoele.ads		20190518041256 2dc34a04 system.storage_elements%s
+D s-traent.ads		20190518041254 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041255 34867c83 system.unsigned_types%s
+D vectors_2d_p.ads	20190902013422 b529ad65 vectors_2d_p%s
+D vectors_xd_i.ads	20190902013422 dd7f011a vectors_xd_i%s
+D vectors_xd_i.adb	20190902013422 fb12cdfe vectors_xd_i%b
+G a e
+G c s s s [s vectors_2d_p 7 1 none]
+G c Z s s [Tvector_xd_iBIP vectors_2d_p__vectors_2di 14 4 12_4]
+G c Z s s [image vectors_2d_p__vectors_2di 18 13 12_4]
+G c Z s s [norm vectors_2d_p__vectors_2di 20 13 12_4]
+G c Z s s [Omultiply vectors_2d_p__vectors_2di 22 13 12_4]
+G c Z s s [Omultiply vectors_2d_p__vectors_2di 23 13 12_4]
+G c Z s s [Odivide vectors_2d_p__vectors_2di 24 13 12_4]
+G c Z s s [Omultiply vectors_2d_p__vectors_2di 26 13 12_4]
+G c Z s s [angle_between vectors_2d_p__vectors_2di 28 13 12_4]
+G c Z s s [Oadd vectors_2d_p__vectors_2di 30 13 12_4]
+G c Z s s [Osubtract vectors_2d_p__vectors_2di 31 13 12_4]
+G c Z s s [Osubtract vectors_2d_p__vectors_2di 32 13 12_4]
+G c Z s s [Oabs vectors_2d_p__vectors_2di 34 13 12_4]
+G c Z s s [sqrt vectors_2d_p__vectors_2di__real_elementary_functions 52 13 10_4_12_4]
+G c Z s s [log vectors_2d_p__vectors_2di__real_elementary_functions 75 13 10_4_12_4]
+G c Z s s [log vectors_2d_p__vectors_2di__real_elementary_functions 79 13 10_4_12_4]
+G c Z s s [exp vectors_2d_p__vectors_2di__real_elementary_functions 83 13 10_4_12_4]
+G c Z s s [Oexpon vectors_2d_p__vectors_2di__real_elementary_functions 86 13 10_4_12_4]
+G c Z s s [sin vectors_2d_p__vectors_2di__real_elementary_functions 94 13 10_4_12_4]
+G c Z s s [sin vectors_2d_p__vectors_2di__real_elementary_functions 98 13 10_4_12_4]
+G c Z s s [cos vectors_2d_p__vectors_2di__real_elementary_functions 103 13 10_4_12_4]
+G c Z s s [cos vectors_2d_p__vectors_2di__real_elementary_functions 107 13 10_4_12_4]
+G c Z s s [tan vectors_2d_p__vectors_2di__real_elementary_functions 112 13 10_4_12_4]
+G c Z s s [tan vectors_2d_p__vectors_2di__real_elementary_functions 115 13 10_4_12_4]
+G c Z s s [cot vectors_2d_p__vectors_2di__real_elementary_functions 120 13 10_4_12_4]
+G c Z s s [cot vectors_2d_p__vectors_2di__real_elementary_functions 123 13 10_4_12_4]
+G c Z s s [arcsin vectors_2d_p__vectors_2di__real_elementary_functions 129 13 10_4_12_4]
+G c Z s s [arcsin vectors_2d_p__vectors_2di__real_elementary_functions 133 13 10_4_12_4]
+G c Z s s [arccos vectors_2d_p__vectors_2di__real_elementary_functions 137 13 10_4_12_4]
+G c Z s s [arccos vectors_2d_p__vectors_2di__real_elementary_functions 141 13 10_4_12_4]
+G c Z s s [arctan vectors_2d_p__vectors_2di__real_elementary_functions 145 13 10_4_12_4]
+G c Z s s [arctan vectors_2d_p__vectors_2di__real_elementary_functions 152 13 10_4_12_4]
+G c Z s s [arccot vectors_2d_p__vectors_2di__real_elementary_functions 160 13 10_4_12_4]
+G c Z s s [arccot vectors_2d_p__vectors_2di__real_elementary_functions 167 13 10_4_12_4]
+G c Z s s [sinh vectors_2d_p__vectors_2di__real_elementary_functions 175 13 10_4_12_4]
+G c Z s s [cosh vectors_2d_p__vectors_2di__real_elementary_functions 178 13 10_4_12_4]
+G c Z s s [tanh vectors_2d_p__vectors_2di__real_elementary_functions 182 13 10_4_12_4]
+G c Z s s [coth vectors_2d_p__vectors_2di__real_elementary_functions 186 13 10_4_12_4]
+G c Z s s [arcsinh vectors_2d_p__vectors_2di__real_elementary_functions 190 13 10_4_12_4]
+G c Z s s [arccosh vectors_2d_p__vectors_2di__real_elementary_functions 193 13 10_4_12_4]
+G c Z s s [arctanh vectors_2d_p__vectors_2di__real_elementary_functions 198 13 10_4_12_4]
+G c Z s s [arccoth vectors_2d_p__vectors_2di__real_elementary_functions 202 13 10_4_12_4]
+G c Z s s [exp_strict vectors_2d_p__vectors_2di__real_elementary_functions 66 13 10_4_12_4]
+G c Z s s [local_atan vectors_2d_p__vectors_2di__real_elementary_functions 70 13 10_4_12_4]
+G c Z s s [length vectors_2d_p__vectors_2di__strings_255 65 16 14_4_12_4]
+G c Z s s [to_bounded_string vectors_2d_p__vectors_2di__strings_255 72 16 14_4_12_4]
+G c Z s s [to_string vectors_2d_p__vectors_2di__strings_255 82 16 14_4_12_4]
+G c Z s s [set_bounded_string vectors_2d_p__vectors_2di__strings_255 86 17 14_4_12_4]
+G c Z s s [append vectors_2d_p__vectors_2di__strings_255 96 16 14_4_12_4]
+G c Z s s [append vectors_2d_p__vectors_2di__strings_255 109 16 14_4_12_4]
+G c Z s s [append vectors_2d_p__vectors_2di__strings_255 122 16 14_4_12_4]
+G c Z s s [append vectors_2d_p__vectors_2di__strings_255 135 16 14_4_12_4]
+G c Z s s [append vectors_2d_p__vectors_2di__strings_255 146 16 14_4_12_4]
+G c Z s s [append vectors_2d_p__vectors_2di__strings_255 157 17 14_4_12_4]
+G c Z s s [append vectors_2d_p__vectors_2di__strings_255 170 17 14_4_12_4]
+G c Z s s [append vectors_2d_p__vectors_2di__strings_255 183 17 14_4_12_4]
+G c Z s s [Oconcat vectors_2d_p__vectors_2di__strings_255 194 16 14_4_12_4]
+G c Z s s [Oconcat vectors_2d_p__vectors_2di__strings_255 202 16 14_4_12_4]
+G c Z s s [Oconcat vectors_2d_p__vectors_2di__strings_255 210 16 14_4_12_4]
+G c Z s s [Oconcat vectors_2d_p__vectors_2di__strings_255 218 16 14_4_12_4]
+G c Z s s [Oconcat vectors_2d_p__vectors_2di__strings_255 226 16 14_4_12_4]
+G c Z s s [element vectors_2d_p__vectors_2di__strings_255 234 16 14_4_12_4]
+G c Z s s [replace_element vectors_2d_p__vectors_2di__strings_255 241 17 14_4_12_4]
+G c Z s s [slice vectors_2d_p__vectors_2di__strings_255 250 16 14_4_12_4]
+G c Z s s [bounded_slice vectors_2d_p__vectors_2di__strings_255 259 16 14_4_12_4]
+G c Z s s [bounded_slice vectors_2d_p__vectors_2di__strings_255 270 17 14_4_12_4]
+G c Z s s [Oeq vectors_2d_p__vectors_2di__strings_255 281 16 14_4_12_4]
+G c Z s s [Oeq vectors_2d_p__vectors_2di__strings_255 287 16 14_4_12_4]
+G c Z s s [Oeq vectors_2d_p__vectors_2di__strings_255 293 16 14_4_12_4]
+G c Z s s [Olt vectors_2d_p__vectors_2di__strings_255 299 16 14_4_12_4]
+G c Z s s [Olt vectors_2d_p__vectors_2di__strings_255 305 16 14_4_12_4]
+G c Z s s [Olt vectors_2d_p__vectors_2di__strings_255 311 16 14_4_12_4]
+G c Z s s [Ole vectors_2d_p__vectors_2di__strings_255 317 16 14_4_12_4]
+G c Z s s [Ole vectors_2d_p__vectors_2di__strings_255 323 16 14_4_12_4]
+G c Z s s [Ole vectors_2d_p__vectors_2di__strings_255 329 16 14_4_12_4]
+G c Z s s [Ogt vectors_2d_p__vectors_2di__strings_255 335 16 14_4_12_4]
+G c Z s s [Ogt vectors_2d_p__vectors_2di__strings_255 341 16 14_4_12_4]
+G c Z s s [Ogt vectors_2d_p__vectors_2di__strings_255 347 16 14_4_12_4]
+G c Z s s [Oge vectors_2d_p__vectors_2di__strings_255 353 16 14_4_12_4]
+G c Z s s [Oge vectors_2d_p__vectors_2di__strings_255 359 16 14_4_12_4]
+G c Z s s [Oge vectors_2d_p__vectors_2di__strings_255 365 16 14_4_12_4]
+G c Z s s [index vectors_2d_p__vectors_2di__strings_255 375 16 14_4_12_4]
+G c Z s s [index vectors_2d_p__vectors_2di__strings_255 384 16 14_4_12_4]
+G c Z s s [index vectors_2d_p__vectors_2di__strings_255 393 16 14_4_12_4]
+G c Z s s [index vectors_2d_p__vectors_2di__strings_255 401 16 14_4_12_4]
+G c Z s s [index vectors_2d_p__vectors_2di__strings_255 415 16 14_4_12_4]
+G c Z s s [index vectors_2d_p__vectors_2di__strings_255 429 16 14_4_12_4]
+G c Z s s [index_non_blank vectors_2d_p__vectors_2di__strings_255 440 16 14_4_12_4]
+G c Z s s [index_non_blank vectors_2d_p__vectors_2di__strings_255 446 16 14_4_12_4]
+G c Z s s [count vectors_2d_p__vectors_2di__strings_255 455 16 14_4_12_4]
+G c Z s s [count vectors_2d_p__vectors_2di__strings_255 463 16 14_4_12_4]
+G c Z s s [count vectors_2d_p__vectors_2di__strings_255 471 16 14_4_12_4]
+G c Z s s [find_token vectors_2d_p__vectors_2di__strings_255 477 17 14_4_12_4]
+G c Z s s [find_token vectors_2d_p__vectors_2di__strings_255 489 17 14_4_12_4]
+G c Z s s [translate vectors_2d_p__vectors_2di__strings_255 502 16 14_4_12_4]
+G c Z s s [translate vectors_2d_p__vectors_2di__strings_255 509 17 14_4_12_4]
+G c Z s s [translate vectors_2d_p__vectors_2di__strings_255 516 16 14_4_12_4]
+G c Z s s [translate vectors_2d_p__vectors_2di__strings_255 523 17 14_4_12_4]
+G c Z s s [replace_slice vectors_2d_p__vectors_2di__strings_255 534 16 14_4_12_4]
+G c Z s s [replace_slice vectors_2d_p__vectors_2di__strings_255 562 17 14_4_12_4]
+G c Z s s [insert vectors_2d_p__vectors_2di__strings_255 590 16 14_4_12_4]
+G c Z s s [insert vectors_2d_p__vectors_2di__strings_255 605 17 14_4_12_4]
+G c Z s s [overwrite vectors_2d_p__vectors_2di__strings_255 620 16 14_4_12_4]
+G c Z s s [overwrite vectors_2d_p__vectors_2di__strings_255 637 17 14_4_12_4]
+G c Z s s [delete vectors_2d_p__vectors_2di__strings_255 654 16 14_4_12_4]
+G c Z s s [delete vectors_2d_p__vectors_2di__strings_255 669 17 14_4_12_4]
+G c Z s s [trim vectors_2d_p__vectors_2di__strings_255 687 16 14_4_12_4]
+G c Z s s [trim vectors_2d_p__vectors_2di__strings_255 694 17 14_4_12_4]
+G c Z s s [trim vectors_2d_p__vectors_2di__strings_255 701 16 14_4_12_4]
+G c Z s s [trim vectors_2d_p__vectors_2di__strings_255 709 17 14_4_12_4]
+G c Z s s [head vectors_2d_p__vectors_2di__strings_255 717 16 14_4_12_4]
+G c Z s s [head vectors_2d_p__vectors_2di__strings_255 727 17 14_4_12_4]
+G c Z s s [tail vectors_2d_p__vectors_2di__strings_255 737 16 14_4_12_4]
+G c Z s s [tail vectors_2d_p__vectors_2di__strings_255 747 17 14_4_12_4]
+G c Z s s [Omultiply vectors_2d_p__vectors_2di__strings_255 761 16 14_4_12_4]
+G c Z s s [Omultiply vectors_2d_p__vectors_2di__strings_255 769 16 14_4_12_4]
+G c Z s s [Omultiply vectors_2d_p__vectors_2di__strings_255 777 16 14_4_12_4]
+G c Z s s [replicate vectors_2d_p__vectors_2di__strings_255 785 16 14_4_12_4]
+G c Z s s [replicate vectors_2d_p__vectors_2di__strings_255 796 16 14_4_12_4]
+G c Z s s [replicate vectors_2d_p__vectors_2di__strings_255 810 16 14_4_12_4]
+G c Z s s [strings_255Initial_Condition vectors_2d_p__vectors_2di__strings_255 53 6 14_4_12_4]
+G c Z s s [from_string vectors_2d_p__vectors_2di__strings_255 846 16 14_4_12_4]
+G r i none [s vectors_2d_p 7 1 none] [vectors_xd_i standard 10 9 none]
+X 29 vectors_2d_p.ads
+7K9*Vectors_2D_P 36l5 36e17
+9E9*xy_Coordinates 9e33 12r55
+9n28*x{9E9}
+9n31*y{9E9}
+12K12*Vectors_2Di[30|10] 15r27 17r47 19r59 21r63 23r78 24r78 25r78 27r70
+. 29r80 31r76 32r76 34r58
+15A12*Vector_2D_P{30|14A9[12]}<9E9> 17r32 19r24 21r23 21r43 23r38 23r58 24r22
+. 24r58 25r22 25r58 27r36 29r46 31r36 31r56 32r36 32r56 34r24
+17a4*Zero_Vector_2D_P{15A12}
+19V13*Image=19:71{string}
+19a20 V{15A12}
+21V13*Norm=21:75{30|14A9[12]}
+21a19 V{15A12}
+23V14*"*"=23:90{30|14A9[12]}
+23f18 Scalar{float}
+23a34 V{15A12}
+24V14*"*"=24:90{30|14A9[12]}
+24a18 V{15A12}
+24f35 Scalar{float}
+25V14*"/"=25:90{30|14A9[12]}
+25a18 V{15A12}
+25f35 Scalar{float}
+27V14*"*"=27:82{float}
+27a18 V_Left{15A12}
+27a26 V_Right{15A12}
+29V13*Angle_Between=29:92{float}
+29a28 V_Left{15A12}
+29a36 V_Right{15A12}
+31V14*"+"=31:88{30|14A9[12]}
+31a18 V_Left{15A12}
+31a26 V_Right{15A12}
+32V14*"-"=32:88{30|14A9[12]}
+32a18 V_Left{15A12}
+32a26 V_Right{15A12}
+34V14*"abs"=34:70{float}
+34a20 V{15A12}
+X 30 vectors_xd_i.ads
+10k9*Vectors_xD_I 29|5w6 5r42 12r31 30|36e17
+14A9*Vector_xD_I(integer)<29|9E9> 29|15r39[12]
+16a4*Zero_Vector_xD{14A9[29|12]} 29|17r59[12]
+18V13*Image{string} 29|19r71[12]
+20V13*Norm{14A9[29|12]} 29|21r75[12]
+22V14*"*"{14A9[29|12]} 29|23r91[12]
+23V14*"*"{14A9[29|12]} 29|24r91[12]
+24V14*"/"{14A9[29|12]} 29|25r91[12]
+26V14*"*"{float} 29|27r83[12]
+28V13*Angle_Between{float} 29|29r92[12]
+30V14*"+"{14A9[29|12]} 29|31r89[12]
+31V14*"-"{14A9[29|12]} 29|32r89[12]
+34V14*"abs"{float} 29|34r71[12]
+

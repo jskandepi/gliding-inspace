@@ -1,0 +1,428 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -fstack-check=specific
+A -gnato
+A -mtune=core2
+A -mmacosx-version-min=10.14.0
+A -fPIC
+A -feliminate-unused-debug-symbols
+P ZX
+
+RN
+RV NO_ENTRY_CALLS_IN_ELABORATION_CODE
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_PROTECTED_TYPES
+RV NO_REQUEUE_STATEMENTS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+RV MAX_PROTECTED_ENTRIES=1
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U vehicle_interface%b	vehicle_interface.adb	70addb84 DE NE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.task_identification%s  a-taside.adb	a-taside.ali
+Z interfaces%s		interfac.ads		interfac.ali
+W swarm_configuration%s	swarm_configuration.adb	swarm_configuration.ali
+W swarm_control%s	swarm_control.adb	swarm_control.ali
+W swarm_data%s		swarm_data.ads		swarm_data.ali
+W swarm_structures%s	swarm_structures.adb	swarm_structures.ali
+Z system%s		system.ads		system.ali
+Z system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+
+U vehicle_interface%s	vehicle_interface.ads	dc071446 DE EE OO PF PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W real_type%s		real_type.ads		real_type.ali
+W swarm_structures_base%s  swarm_structures_base.ads  swarm_structures_base.ali
+Z system%s		system.ads		system.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+W vectors_3d%s		vectors_3d.adb		vectors_3d.ali
+W vehicle_message_type%s  vehicle_message_type.ads  vehicle_message_type.ali
+
+D ada.ads		20190518041255 76789da1 ada%s
+D a-calend.ads		20190518041255 474d9720 ada.calendar%s
+D a-charac.ads		20190518041255 2d3ec45b ada.characters%s
+D a-chlat1.ads		20190518041255 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20190518041254 61e5e089 ada.containers%s
+D a-cohata.ads		20190518041256 80a8c839 ada.containers.hash_tables%s
+D a-cohama.ads		20190518041255 8205bf40 ada.containers.hashed_maps%s
+D a-cohase.ads		20190518041254 5cc78687 ada.containers.hashed_sets%s
+D a-conhel.ads		20190518041254 20298884 ada.containers.helpers%s
+D a-convec.ads		20190518041256 7e2b0fdf ada.containers.vectors%s
+D a-except.ads		20190518041255 291912d5 ada.exceptions%s
+D a-finali.ads		20190518041255 bf4f806b ada.finalization%s
+D a-ioexce.ads		20190518041254 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20190518041255 7c7305e9 ada.iterator_interfaces%s
+D a-numeri.ads		20190518041254 bb51c45a ada.numerics%s
+D a-ngelfu.ads		20190518041256 55716239 ada.numerics.generic_elementary_functions%s
+D a-reatim.ads		20190518041256 0240fc73 ada.real_time%s
+D a-stream.ads		20190518041255 119b8fb3 ada.streams%s
+D a-ststio.ads		20190518041255 a75f3183 ada.streams.stream_io%s
+D a-string.ads		20190518041255 90ac6797 ada.strings%s
+D a-strmap.ads		20190518041255 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20190518041255 1656705b ada.strings.unbounded%s
+D a-stunha.ads		20190518041255 115e053b ada.strings.unbounded.hash%s
+D a-tags.ads		20190518041256 491b781d ada.tags%s
+D a-taside.ads		20190518041257 00e3a3f6 ada.task_identification%s
+D a-textio.ads		20190518041256 aef4d56d ada.text_io%s
+D a-tiflio.ads		20190518041254 bf196650 ada.text_io.float_io%s
+D a-unccon.ads		20190518041255 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20190518041255 eff36322 ada.unchecked_deallocation%s
+D barrier_type.ads	20130924033141 7bea4b20 barrier_type%s
+D generic_protected.ads	20130915151338 3536765d generic_protected%s
+D generic_realtime_buffer.ads  20130912081846 a4c755fe generic_realtime_buffer%s
+D gl.ads		20130917070654 28e5b432 gl%s
+D gl-buffer.ads		20130915152452 d412d3a2 gl.buffer%s
+D gl-buffer-general.ads	20130915152452 8ae6eb44 gl.buffer.general%s
+D gl-buffer-texture_coords.ads  20130915033518 e6b92a39 gl.buffer.texture_coords%s
+D gl-frustums.ads	20130914030456 3d23f8e0 gl.frustums%s
+D gl-geometry.ads	20130915152632 398a5530 gl.geometry%s
+D gl-materials.ads	20130914014640 4d170091 gl.materials%s
+D gl-skinned_geometry.ads  20130914024446 0d393283 gl.skinned_geometry%s
+D gl-skins.ads		20130914143248 f0134d84 gl.skins%s
+D gl-textures.ads	20130915152416 6f569eb0 gl.textures%s
+D globe_3d.ads		20130918042558 4b81e8db globe_3d%s
+D glut_2d.ads		20130915152342 561ab8e1 glut_2d%s
+D graphics_configuration.ads  20130915031142 fc788553 graphics_configuration%s
+D graphics_framerates.ads  20130922091221 2cebd15a graphics_framerates%s
+D graphics_structures.ads  20130922091012 168856d0 graphics_structures%s
+D interfac.ads		20190518041254 5ab55268 interfaces%s
+D i-c.ads		20190518041254 5421119b interfaces.c%s
+D i-cpoint.ads		20190518041256 ee8a93ec interfaces.c.pointers%s
+D i-cstrea.ads		20190518041254 e53d8b8e interfaces.c_streams%s
+D matrices.ads		20130922091012 85f7982e matrices%s
+D quaternions.ads	20130922091011 9d9d58c2 quaternions%s
+D real_type.ads		20130922130031 cdd2e5cc real_type%s
+D rotations.ads		20130922091012 3eeded66 rotations%s
+D swarm_configuration.ads  20190902013605 a292d765 swarm_configuration%s
+D swarm_configurations.ads  20190902013422 517ea45d swarm_configurations%s
+D swarm_control.ads	20130924092732 2697fa7c swarm_control%s
+D swarm_data.ads	20190902013422 2e78ed2c swarm_data%s
+D swarm_size.ads	20190921160833 8f52c696 swarm_size%s
+D swarm_structures.ads	20130924092452 faad3089 swarm_structures%s
+D swarm_structures_base.ads  20190902013422 aac90073 swarm_structures_base%s
+D system.ads		20190518041255 085b6ffb system%s
+D s-atacco.ads		20190518041256 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20190518041256 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20190518041254 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041255 54135002 system.exception_table%s
+D s-fatflt.ads		20190518041255 11beb392 system.fat_flt%s
+D s-fatgen.ads		20190518041256 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20190518041255 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20190518041256 078245e4 system.file_control_block%s
+D s-finmas.ads		20190518041255 7811a767 system.finalization_masters%s
+D s-finroo.ads		20190518041256 4ff27390 system.finalization_root%s
+D s-memory.ads		20190518041255 597d6634 system.memory%s
+D s-multip.ads		20190518041254 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20190518124528 e40aaf2d system.os_constants%s
+D s-osinte.ads		20190518041257 01b3ad47 system.os_interface%s
+D s-parame.ads		20190518041256 48ec542b system.parameters%s
+D s-pooglo.ads		20190518041254 ede33ef8 system.pool_global%s
+D s-secsta.ads		20190518041256 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041255 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041256 a37c21ec system.stack_checking%s
+D s-stausa.ads		20190518041255 017a0a05 system.stack_usage%s
+D s-stalib.ads		20190518041256 09bd3940 system.standard_library%s
+D s-stalib.adb		20190518041254 f2fe2716 system.standard_library%b
+D s-stoele.ads		20190518041256 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20190518041255 b16154c2 system.storage_pools%s
+D s-stposu.ads		20190518041254 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20190518041254 aedef97e system.stream_attributes%s
+D s-string.ads		20190518041255 8fe54fb7 system.strings%s
+D s-ststop.ads		20190518041254 5fbf1b38 system.strings.stream_ops%s
+D s-tasinf.ads		20190518041256 801abd01 system.task_info%s
+D s-taspri.ads		20190518041256 f40ac08d system.task_primitives%s
+D s-taprop.ads		20190518041256 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20190518041257 b9d612e2 system.tasking%s
+D s-taprob.ads		20190518041256 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20190518041257 60ad3dae system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20190518041257 5f548bb3 system.tasking.protected_objects.operations%s
+D s-tassta.ads		20190518041256 cca55c94 system.tasking.stages%s
+D s-traent.ads		20190518041254 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041255 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20190518041255 1b7d22d2 system.wch_con%s
+D vectors_2d_n.ads	20190902013422 8440149b vectors_2d_n%s
+D vectors_3d.ads	20190902013422 c52a4ec0 vectors_3d%s
+D vectors_xd.ads	20190902013422 29c3a87f vectors_xd%s
+D vectors_xd_i.ads	20190902013422 dd7f011a vectors_xd_i%s
+D vehicle_interface.ads	20190919025526 a882800b vehicle_interface%s
+D vehicle_interface.adb	20190902013422 881c08c5 vehicle_interface%b
+D vehicle_message_type.ads  20190921153302 d6b43f32 vehicle_message_type%s
+D vehicle_task_type.ads	20190921074338 dfc73300 vehicle_task_type%s
+D zip.ads		20130915151338 6e4a4be8 zip%s
+D zip_streams.ads	20130915151338 088b1cbe zip_streams%s
+G a e
+G c Z s b [position vehicle_interface 16 13 none]
+G c Z s b [velocity vehicle_interface 17 13 none]
+G c Z s b [acceleration vehicle_interface 18 13 none]
+G c Z s b [set_destination vehicle_interface 24 14 none]
+G c Z s b [set_throttle vehicle_interface 30 14 none]
+G c Z s b [throttle_is_on_idle vehicle_interface 32 13 none]
+G c Z s b [send vehicle_interface 38 14 none]
+G c Z s b [receive vehicle_interface 39 14 none]
+G c Z s b [messages_waiting vehicle_interface 40 13 none]
+G c Z s b [current_charge vehicle_interface 42 13 none]
+G c Z s b [current_discharge_per_sec vehicle_interface 43 13 none]
+G c Z s b [energy_globes_around vehicle_interface 45 13 none]
+G c Z s b [wait_for_next_physics_update vehicle_interface 47 14 none]
+G c Z s b [stop vehicle_interface__flight_termination 56 13 none]
+G c Z s s [flight_terminationTVDI vehicle_interface 54 4 none]
+G c Z s s [flight_terminationTVDF vehicle_interface 54 4 none]
+G c Z s s [flight_terminationTVIP vehicle_interface 54 4 none]
+G r p none [position vehicle_interface 16 13 none] [position swarm_control__swarm_monitor 22 16 none]
+G r p none [position vehicle_interface 16 13 none] [read swarm_structures_base__protected_point_3d__monitor 16 16 38_4]
+G r p none [velocity vehicle_interface 17 13 none] [velocity swarm_control__swarm_monitor 23 16 none]
+G r p none [velocity vehicle_interface 17 13 none] [read swarm_structures_base__protected_vector_3d__monitor 16 16 39_4]
+G r p none [acceleration vehicle_interface 18 13 none] [acceleration swarm_control__swarm_monitor 24 16 none]
+G r p none [acceleration vehicle_interface 18 13 none] [read swarm_structures_base__protected_vector_3d__monitor 16 16 39_4]
+G r p none [set_destination vehicle_interface 24 14 none] [controls swarm_control__swarm_monitor 25 16 none]
+G r p none [set_destination vehicle_interface 24 14 none] [set_steering swarm_structures__vehicle_controls 64 17 none]
+G r p none [set_throttle vehicle_interface 30 14 none] [controls swarm_control__swarm_monitor 25 16 none]
+G r p none [set_throttle vehicle_interface 30 14 none] [set_throttle swarm_structures__vehicle_controls 65 17 none]
+G r p none [throttle_is_on_idle vehicle_interface 32 13 none] [controls swarm_control__swarm_monitor 25 16 none]
+G r p none [throttle_is_on_idle vehicle_interface 32 13 none] [read_throttle swarm_structures__vehicle_controls 67 16 none]
+G r p none [send vehicle_interface 38 14 none] [comms swarm_control__swarm_monitor 26 16 none]
+G r p none [send vehicle_interface 38 14 none] [send swarm_structures__vehicle_comms 52 17 none]
+G r p none [receive vehicle_interface 39 14 none] [comms swarm_control__swarm_monitor 26 16 none]
+G r o none [receive vehicle_interface 39 14 none] [receive swarm_structures__vehicle_comms 53 17 none]
+G r p none [messages_waiting vehicle_interface 40 13 none] [comms swarm_control__swarm_monitor 26 16 none]
+G r p none [messages_waiting vehicle_interface 40 13 none] [has_incoming_messages swarm_structures__vehicle_comms 56 17 none]
+G r p none [current_charge vehicle_interface 42 13 none] [charge swarm_control__swarm_monitor 27 16 none]
+G r p none [current_discharge_per_sec vehicle_interface 43 13 none] [acceleration swarm_control__swarm_monitor 24 16 none]
+G r p none [current_discharge_per_sec vehicle_interface 43 13 none] [read swarm_structures_base__protected_vector_3d__monitor 16 16 39_4]
+G r c none [current_discharge_per_sec vehicle_interface 43 13 none] [Oabs vectors_3d__vectors_3di 34 13 12_4]
+G r p none [energy_globes_around vehicle_interface 45 13 none] [position swarm_control__swarm_monitor 22 16 none]
+G r p none [energy_globes_around vehicle_interface 45 13 none] [read swarm_structures_base__protected_point_3d__monitor 16 16 38_4]
+G r c none [energy_globes_around vehicle_interface 45 13 none] [Osubtract vectors_3d__vectors_3di 31 13 12_4]
+G r c none [energy_globes_around vehicle_interface 45 13 none] [Oabs vectors_3d__vectors_3di 34 13 12_4]
+G r p none [energy_globes_around vehicle_interface 45 13 none] [read swarm_structures_base__protected_vector_3d__monitor 16 16 39_4]
+G r o none [wait_for_next_physics_update vehicle_interface 47 14 none] [wait_for_next_tick swarm_structures__simulator_tick 118 13 none]
+G r p none [stop vehicle_interface__flight_termination 56 13 none] [process_abort swarm_control__swarm_monitor 28 16 none]
+G r o none [stop vehicle_interface__flight_termination 56 13 none] [wait barrier_type__barrier 11 17 none]
+X 1 ada.ads
+16K9*Ada 20e8 108|5r6 5r38
+X 7 a-cohama.ads
+96R9*Map<12|43R9>
+X 9 a-conhel.ads
+84R12 Reference_Control_Type<12|43R9>
+X 14 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[10|111]>
+X 25 a-taside.ads
+45K13*Task_Identification 104e28 108|5w10 5r42
+53P9*Task_Id<95|109P9>
+65V13*Current_Task{53P9} 108|21s31 24s31 27s35 36s31 46s31 50s31 59s28 65s28
+. 69s28 76s29
+X 30 barrier_type.ads
+11Y17 Wait 108|127r50
+20P9*Barrier_Ptr(9W19)
+X 31 generic_protected.ads
+14W19*Monitor
+16V16 Read{105|14A9[104|12]} 108|21s49[62|38] 24s49[62|39] 27s53[62|39] 89s107[62|38]
+. 101s94[62|38] 102s94[62|39]
+28P9*Monitor_Ptr(14W19[62|39])
+X 35 gl-buffer-general.ads
+14R9 base_Object<34|20R9>
+X 47 graphics_structures.ads
+32A12*Point_3D{104|14A12}<104|10E9>
+X 54 real_type.ads
+3K9*Real_Type 10e14 107|5w6 5r33
+5F12*Real{long_float} 107|43r46 108|78r46
+X 56 swarm_configuration.ads
+16K9*Swarm_Configuration 84e24 108|7w6 7r38
+57r4*Charging_Setup{57|14R9} 108|79r7 79r56
+58f4*Energy_Globe_Detection{54|5F12} 108|89r116
+X 57 swarm_configurations.ads
+15f7*Constant_Discharge_Rate_Per_Sec{54|5F12} 108|79r22
+16f7*Propulsion_Discharge_Rate_Per_Sec{54|5F12} 108|79r71
+X 58 swarm_control.ads
+13K9*Swarm_Control 68e18 108|8w6 8r38
+17w14*Swarm_Monitor 108|21r7 24r7 27r7 36r7 46r7 50r7 59r7 65r7 69r7 76r7
+. 127r18
+22V16 Position{31|28P9[62|38]} 108|21s21
+23V16 Velocity{31|28P9[62|39]} 108|24s21
+24V16 Acceleration{31|28P9[62|39]} 108|27s21
+25V16 Controls{61|88P9} 108|36s21 46s21 50s21
+26V16 Comms{61|87P9} 108|59s21 65s21 69s21
+27V16 Charge{61|79R9} 108|76s21
+28V16 Process_abort{30|20P9} 108|127s32
+X 59 swarm_data.ads
+10K9*Swarm_Data 21e15 108|9w6 9r38
+19a4*Globes{62|47A9} 108|84r38 88r23 89r13 89r76 97r39 99r26 101r63 102r63
+X 61 swarm_structures.ads
+19K9*Swarm_Structures 124e21 108|10w6 10r38
+35V14*"<"{boolean} 10|628i22
+52U17 Send 108|59s46
+53Y17 Receive 108|65s46
+56V17 Has_Incoming_Messages{boolean} 108|69s46
+64U17 Set_Steering 108|36s49
+65U17 Set_Throttle 108|46s49
+67V16 Read_Throttle{62|20F12} 108|50s49
+80f7*Level{62|25F9} 108|76r43
+87P9*Vehicle_Comms_P(51W19)
+88P9*Vehicle_Controls_P(63W19)
+110K12*Swarm_Vectors[10|73] 108|14r8
+117w14*Simulator_Tick 108|115r7
+118Y13 Wait_For_Next_Tick 108|115s22
+X 62 swarm_structures_base.ads
+10K9*Swarm_Structures_Base 49e26 107|6w6 6r33
+15A12*Positions{47|32A12}<104|10E9> 107|16r33 108|20r29 85r40
+16A12*Velocities{104|14A12}<104|10E9> 107|17r33 108|23r29
+17A12*Accelerations{104|14A12}<104|10E9> 107|18r33 108|26r33
+20F12*Throttle_T{54|5F12} 107|30r35 108|43r32
+22f4*Idle_Throttle{20F12} 108|50r65
+25F9*Vehicle_Charges<long_float> 107|42r38 108|75r35
+32a7*Position{15A12} 108|101m51
+33a7*Velocity{16A12} 108|102m51
+36A9*Energy_Globes(31R9)<integer> 107|45r41 108|81r41 96r25
+42b7*Active{boolean} 108|89r31
+43p7*Position{31|28P9[38]} 108|89r94 101r81
+44p7*Velocity{31|28P9[39]} 108|102r81
+47A9*Energy_Globes_Protected(41R9)<integer>
+X 63 system.ads
+67M9*Address
+X 74 s-memory.ads
+53V13*Alloc{63|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{63|67M9} 105i<c,__gnat_realloc>22
+X 83 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 85 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 95 s-taskin.ads
+109P9*Task_Id(107R9)
+X 104 vectors_3d.ads
+8K9*Vectors_3D 37e15 107|7w6 7r33
+14A12*Vector_3D{105|14A9[12]}<10E9> 107|24r35 108|33r35
+32V14*"-"=32:84{105|14A9[12]} 108|89s74
+35V14*"abs"=35:67{long_float} 108|79s107 89s47
+X 105 vectors_xd.ads
+14A9*Vector_xD(long_float)<104|10E9>
+X 107 vehicle_interface.ads
+10K9*Vehicle_Interface 60l5 60e22 108|12b14 134l5 134t22
+16V13*Position{62|15A12} 108|20b13 85s66
+17V13*Velocity{62|16A12} 108|23b13
+18V13*Acceleration{62|17A12} 108|26b13 79s112
+24U14*Set_Destination 24>31 108|33b14 37l8 37t23
+24a31 V{104|14A12} 108|33b31 36r63
+30U14*Set_Throttle 30>31 108|43b14 47l8 47t20
+30f31 T{62|20F12} 108|43b28 46r63
+32V13*Throttle_Is_On_Idle{boolean} 108|49b13
+38U14*Send 38>23 108|56b14 60l8 60t12
+38r23 Message{109|13R9} 108|56b20 59r52
+39U14*Receive 39<23 108|62b14 66l8 66t15
+39r23 Message{109|13R9} 108|62b23 65m55
+40V13*Messages_Waiting{boolean} 108|68b13
+42V13*Current_Charge{62|25F9} 108|75b13
+43V13*Current_Discharge_Per_Sec{54|5F12} 108|78b13
+45V13*Energy_Globes_Around{62|36A9} 108|81b13 108l8 108t28
+47U14*Wait_For_Next_Physics_Update 108|112b14 116l8 116t36
+54w14*Flight_Termination 108|122b19 130l8 130t26
+56Y13 Stop 108|124b13 128l11 128t15
+X 108 vehicle_interface.adb
+83i7 Globes_Found{natural} 91m13 91r29 96r45
+84a7 Globes_Detected(boolean) 90m13 100r16
+85a7 This_Element_Position{62|15A12} 89r52
+88i11 Globe_Ix{integer} 89r21 89r84 90r30
+96a10 Found_Globes{62|36A9} 101m16 106r17
+97i10 Found_Globes_Ix{natural} 101r30 103m16 103r35
+99i14 Globe_Ix{integer} 100r33 101r71 102r71
+X 109 vehicle_message_type.ads
+9K9*Vehicle_Message_Type 107|8w6 8r33 109|22e25
+13R9*Inter_Vehicle_Messages 107|38r37 39r37 108|56r30 62r37 109|21e14
+

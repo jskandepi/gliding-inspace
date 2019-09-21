@@ -1,0 +1,164 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -fstack-check=specific
+A -gnato
+A -mtune=core2
+A -mmacosx-version-min=10.14.0
+A -fPIC
+A -feliminate-unused-debug-symbols
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U real_type%s		real_type.ads		98a387f5 DE NE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+Z ada.numerics.aux%s	a-numaux.adb		a-numaux.ali
+W ada.numerics.generic_elementary_functions%s
+Z system.assertions%s	s-assert.adb		s-assert.ali
+Z system.exn_llf%s	s-exnllf.adb		s-exnllf.ali
+Z system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+
+D ada.ads		20190518041255 76789da1 ada%s
+D a-except.ads		20190518041255 291912d5 ada.exceptions%s
+D a-numeri.ads		20190518041254 bb51c45a ada.numerics%s
+D a-numaux.ads		20190518041254 243fe0b7 ada.numerics.aux%s
+D a-ngelfu.ads		20190518041256 55716239 ada.numerics.generic_elementary_functions%s
+D a-ngelfu.adb		20190518041255 a9022048 ada.numerics.generic_elementary_functions%b
+D a-unccon.ads		20190518041255 0e9b276f ada.unchecked_conversion%s
+D real_type.ads		20130922130031 cdd2e5cc real_type%s
+D system.ads		20190518041255 085b6ffb system%s
+D s-assert.ads		20190518041255 cd8d2c94 system.assertions%s
+D s-exctab.ads		20190518041255 54135002 system.exception_table%s
+D s-exnllf.ads		20190518041256 bc7ebbdc system.exn_llf%s
+D s-fatgen.ads		20190518041256 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20190518041255 378cba9f system.fat_lflt%s
+D s-parame.ads		20190518041256 48ec542b system.parameters%s
+D s-stalib.ads		20190518041256 09bd3940 system.standard_library%s
+D s-traent.ads		20190518041254 005bf670 system.traceback_entries%s
+G a e
+G c Z s s [sqrt real_type__real_elementary_functions 52 13 7_4]
+G c Z s s [log real_type__real_elementary_functions 75 13 7_4]
+G c Z s s [log real_type__real_elementary_functions 79 13 7_4]
+G c Z s s [exp real_type__real_elementary_functions 83 13 7_4]
+G c Z s s [Oexpon real_type__real_elementary_functions 86 13 7_4]
+G c Z s s [sin real_type__real_elementary_functions 94 13 7_4]
+G c Z s s [sin real_type__real_elementary_functions 98 13 7_4]
+G c Z s s [cos real_type__real_elementary_functions 103 13 7_4]
+G c Z s s [cos real_type__real_elementary_functions 107 13 7_4]
+G c Z s s [tan real_type__real_elementary_functions 112 13 7_4]
+G c Z s s [tan real_type__real_elementary_functions 115 13 7_4]
+G c Z s s [cot real_type__real_elementary_functions 120 13 7_4]
+G c Z s s [cot real_type__real_elementary_functions 123 13 7_4]
+G c Z s s [arcsin real_type__real_elementary_functions 129 13 7_4]
+G c Z s s [arcsin real_type__real_elementary_functions 133 13 7_4]
+G c Z s s [arccos real_type__real_elementary_functions 137 13 7_4]
+G c Z s s [arccos real_type__real_elementary_functions 141 13 7_4]
+G c Z s s [arctan real_type__real_elementary_functions 145 13 7_4]
+G c Z s s [arctan real_type__real_elementary_functions 152 13 7_4]
+G c Z s s [arccot real_type__real_elementary_functions 160 13 7_4]
+G c Z s s [arccot real_type__real_elementary_functions 167 13 7_4]
+G c Z s s [sinh real_type__real_elementary_functions 175 13 7_4]
+G c Z s s [cosh real_type__real_elementary_functions 178 13 7_4]
+G c Z s s [tanh real_type__real_elementary_functions 182 13 7_4]
+G c Z s s [coth real_type__real_elementary_functions 186 13 7_4]
+G c Z s s [arcsinh real_type__real_elementary_functions 190 13 7_4]
+G c Z s s [arccosh real_type__real_elementary_functions 193 13 7_4]
+G c Z s s [arctanh real_type__real_elementary_functions 198 13 7_4]
+G c Z s s [arccoth real_type__real_elementary_functions 202 13 7_4]
+G c Z s s [exp_strict real_type__real_elementary_functions 66 13 7_4]
+G c Z s s [local_atan real_type__real_elementary_functions 70 13 7_4]
+X 1 ada.ads
+16K9*Ada 20e8 8|1r6 8r10
+X 3 a-numeri.ads
+16K13*Numerics 32e17 8|1r10 8r14
+X 5 a-ngelfu.ads
+39k22*Generic_Elementary_Functions 205e46 8|1w19 8r23
+X 8 real_type.ads
+3K9*Real_Type 10l5 10e14
+5F12*Real{long_float} 8r53
+7K12*Real_Elementary_Functions[5|39]
+

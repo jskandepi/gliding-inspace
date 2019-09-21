@@ -1,0 +1,984 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -fstack-check=specific
+A -gnato
+A -mtune=core2
+A -mmacosx-version-min=10.14.0
+A -fPIC
+A -feliminate-unused-debug-symbols
+P ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_ACCESS
+RV NO_UNCHECKED_CONVERSION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U glut.windows%b	glut-windows.adb	aaf8084f DE OO PK IU
+W actors%s		actors.adb		actors.ali
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_conversion%s
+W gl%s			gl.adb			gl.ali
+W gl.frustums%s		gl-frustums.adb		gl-frustums.ali
+W gl.io%s		gl-io.adb		gl-io.ali
+W globe_3d%s		globe_3d.adb		globe_3d.ali
+W globe_3d.math%s	globe_3d-math.adb	globe_3d-math.ali
+W globe_3d.software_anti_aliasing%s  globe_3d-software_anti_aliasing.adb  globe_3d-software_anti_aliasing.ali
+W glu%s			glu.adb			glu.ali
+W glut%s		glut.adb		glut.ali
+W glut_2d%s		glut_2d.adb		glut_2d.ali
+Z interfaces%s		interfac.ads		interfac.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.concat_4%s	s-conca4.adb		s-conca4.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.fat_flt%s	s-fatflt.ads		s-fatflt.ali
+Z system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.img_lli%s	s-imglli.adb		s-imglli.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+U glut.windows%s	glut-windows.ads	e32c770d DE EE OO PF PK IU
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W game_control%s	game_control.adb	game_control.ali
+W globe_3d%s		globe_3d.adb		globe_3d.ali
+W glut%s		glut.adb		glut.ali
+W glut.devices%s	glut-devices.adb	glut-devices.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+Z system.strings.stream_ops%s  s-ststop.adb	s-ststop.ali
+
+D actors.ads		20130914081220 49785326 actors%s
+D ada.ads		20190518041255 76789da1 ada%s
+D a-calend.ads		20190518041255 474d9720 ada.calendar%s
+D a-charac.ads		20190518041255 2d3ec45b ada.characters%s
+D a-chlat1.ads		20190518041255 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20190518041254 61e5e089 ada.containers%s
+D a-cohata.ads		20190518041256 80a8c839 ada.containers.hash_tables%s
+D a-cohama.ads		20190518041255 8205bf40 ada.containers.hashed_maps%s
+D a-conhel.ads		20190518041254 20298884 ada.containers.helpers%s
+D a-except.ads		20190518041255 291912d5 ada.exceptions%s
+D a-finali.ads		20190518041255 bf4f806b ada.finalization%s
+D a-ioexce.ads		20190518041254 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20190518041255 7c7305e9 ada.iterator_interfaces%s
+D a-numeri.ads		20190518041254 bb51c45a ada.numerics%s
+D a-ngelfu.ads		20190518041256 55716239 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20190518041255 119b8fb3 ada.streams%s
+D a-ststio.ads		20190518041255 a75f3183 ada.streams.stream_io%s
+D a-string.ads		20190518041255 90ac6797 ada.strings%s
+D a-strmap.ads		20190518041255 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20190518041255 1656705b ada.strings.unbounded%s
+D a-stunha.ads		20190518041255 115e053b ada.strings.unbounded.hash%s
+D a-tags.ads		20190518041256 491b781d ada.tags%s
+D a-textio.ads		20190518041256 aef4d56d ada.text_io%s
+D a-tiflio.ads		20190518041254 bf196650 ada.text_io.float_io%s
+D a-unccon.ads		20190518041255 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20190518041255 eff36322 ada.unchecked_deallocation%s
+D game_control.ads	20130915152006 9ee05dde game_control%s
+D gl.ads		20130917070654 28e5b432 gl%s
+D gl-buffer.ads		20130915152452 d412d3a2 gl.buffer%s
+D gl-buffer-general.ads	20130915152452 8ae6eb44 gl.buffer.general%s
+D gl-buffer-texture_coords.ads  20130915033518 e6b92a39 gl.buffer.texture_coords%s
+D gl-frustums.ads	20130914030456 3d23f8e0 gl.frustums%s
+D gl-geometry.ads	20130915152632 398a5530 gl.geometry%s
+D gl-io.ads		20130915151342 baba5f4e gl.io%s
+D gl-materials.ads	20130914014640 4d170091 gl.materials%s
+D gl-skinned_geometry.ads  20130914024446 0d393283 gl.skinned_geometry%s
+D gl-skins.ads		20130914143248 f0134d84 gl.skins%s
+D gl-textures.ads	20130915152416 6f569eb0 gl.textures%s
+D globe_3d.ads		20130918042558 4b81e8db globe_3d%s
+D globe_3d-math.ads	20130913114952 a86860bb globe_3d.math%s
+D globe_3d-software_anti_aliasing.ads  20130913115928 0a21aab2 globe_3d.software_anti_aliasing%s
+D globe_3d-software_anti_aliasing.adb  20130915152004 1e50631b globe_3d.software_anti_aliasing%b
+D glu.ads		20130915152632 d0f1aa67 glu%s
+D glut.ads		20130919035244 2e6186fc glut%s
+D glut-devices.ads	20130917070814 e69207c9 glut.devices%s
+D glut-windows.ads	20130915152342 e8e83366 glut.windows%s
+D glut-windows.adb	20150820005008 5c5051f5 glut.windows%b
+D glut_2d.ads		20130915152342 561ab8e1 glut_2d%s
+D interfac.ads		20190518041254 5ab55268 interfaces%s
+D i-c.ads		20190518041254 5421119b interfaces.c%s
+D i-cpoint.ads		20190518041256 ee8a93ec interfaces.c.pointers%s
+D i-cstrin.ads		20190518041255 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20190518041254 e53d8b8e interfaces.c_streams%s
+D system.ads		20190518041255 085b6ffb system%s
+D s-atacco.ads		20190518041256 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20190518041256 b45c2d8d system.atomic_counters%s
+D s-conca2.ads		20190518041255 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20190518041256 0b705ca5 system.concat_3%s
+D s-conca4.ads		20190518041256 7e642b20 system.concat_4%s
+D s-crtl.ads		20190518041254 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041255 54135002 system.exception_table%s
+D s-fatflt.ads		20190518041255 11beb392 system.fat_flt%s
+D s-fatgen.ads		20190518041256 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20190518041255 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20190518041256 078245e4 system.file_control_block%s
+D s-finmas.ads		20190518041255 7811a767 system.finalization_masters%s
+D s-finroo.ads		20190518041256 4ff27390 system.finalization_root%s
+D s-imgint.ads		20190518041254 02dbe0c2 system.img_int%s
+D s-imglli.ads		20190518041256 114f55d1 system.img_lli%s
+D s-memory.ads		20190518041255 597d6634 system.memory%s
+D s-parame.ads		20190518041256 48ec542b system.parameters%s
+D s-pooglo.ads		20190518041254 ede33ef8 system.pool_global%s
+D s-secsta.ads		20190518041256 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041255 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041256 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190518041256 09bd3940 system.standard_library%s
+D s-stalib.adb		20190518041254 f2fe2716 system.standard_library%b
+D s-stoele.ads		20190518041256 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20190518041255 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20190518041255 b16154c2 system.storage_pools%s
+D s-stposu.ads		20190518041254 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20190518041254 aedef97e system.stream_attributes%s
+D s-string.ads		20190518041255 8fe54fb7 system.strings%s
+D s-ststop.ads		20190518041254 5fbf1b38 system.strings.stream_ops%s
+D s-traent.ads		20190518041254 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041255 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20190518041255 1b7d22d2 system.wch_con%s
+D zip.ads		20130915151338 6e4a4be8 zip%s
+D zip_streams.ads	20130915151338 088b1cbe zip_streams%s
+G a e
+G c Z s b [initialize glut__windows 23 14 none]
+G c Z s b [define glut__windows 28 14 none]
+G c Z s b [destroy glut__windows 29 14 none]
+G c Z s b [name_is glut__windows 31 14 none]
+G c Z s b [name glut__windows 32 14 none]
+G c Z s b [enable glut__windows 34 25 none]
+G c Z s b [freshen glut__windows 36 25 none]
+G c Z s b [is_closed glut__windows 40 13 none]
+G c Z s b [add glut__windows 45 14 none]
+G c Z s b [rid glut__windows 46 14 none]
+G c Z s b [object_count glut__windows 48 14 none]
+G c Z s b [smoothing glut__windows 57 14 none]
+G c Z s b [smoothing_is glut__windows 58 14 none]
+G c Z s b [show_status glut__windows 63 14 none]
+G c Z s b [show_status glut__windows 64 14 none]
+G c Z s b [display_status glut__windows 67 14 none]
+G c Z s b [frames_per_second glut__windows 70 13 none]
+G c Z s b [keyboard glut__windows 75 13 none]
+G c Z s b [mouse glut__windows 76 13 none]
+G c Z s s [Tnatural_arrayBIP glut__windows 80 4 none]
+G c Z s s [windowDA glut__windows 82 9 none]
+G c Z s s [windowDF glut__windows 82 9 none]
+G c Z s s [windowDI glut__windows 82 9 none]
+G c Z s s [windowIP glut__windows 82 9 none]
+G c Z b b [current_window glut__windows 42 13 none]
+G c Z b b [prepare_default_lighting glut__windows 60 14 none]
+G c Z b b [clear_modes glut__windows 108 14 none]
+G c Z b b [reset_for_3d glut__windows 118 14 none]
+G c Z b b [enable_viewport_and_perspective glut__windows 130 14 none]
+G c Z b b [set_size glut__windows 150 14 none]
+G c Z b b [window_resize glut__windows 189 14 none]
+G c Z b b [menu glut__windows 199 14 none]
+G c Z b b [graphic_display glut__windows 269 14 none]
+G c Z b b [fill_screen glut__windows 282 14 none]
+G c Z b b [reset_eye glut__windows 321 14 none]
+G c Z b b [image glut__windows 328 13 none]
+G c Z b b [main_operations glut__windows 331 14 none]
+G c Z b b [close_window glut__windows 503 14 none]
+G c Z b b [update_visibility glut__windows 509 14 none]
+G c Z b b [start_gluts glut__windows 519 14 none]
+G c Z b b [start_gls glut__windows 563 14 none]
+G r c none [initialize glut__windows 23 14 none] [init glut 296 14 none]
+G r c none [initialize glut__windows 23 14 none] [setoption glut 314 14 none]
+G r c none [define glut__windows 28 14 none] [initdisplaymode glut 317 14 none]
+G r c none [define glut__windows 28 14 none] [initwindowsize glut 328 14 none]
+G r c none [define glut__windows 28 14 none] [initwindowposition glut 325 14 none]
+G r c none [define glut__windows 28 14 none] [createwindow glut 349 13 none]
+G r c none [define glut__windows 28 14 none] [closefunc glut 539 14 none]
+G r c none [define glut__windows 28 14 none] [reshapefunc glut 548 14 none]
+G r c none [define glut__windows 28 14 none] [windowstatusfunc glut 676 14 none]
+G r c none [define glut__windows 28 14 none] [setwindowdata glut 385 14 none]
+G r c none [define glut__windows 28 14 none] [initialize glut__devices 13 14 none]
+G r c none [define glut__windows 28 14 none] [disable gl 706 14 none]
+G r c none [define glut__windows 28 14 none] [enable gl 704 14 none]
+G r c none [define glut__windows 28 14 none] [define globe_3d 492 14 none]
+G r c none [define glut__windows 28 14 none] [switch_lights globe_3d 494 14 none]
+G r c none [define glut__windows 28 14 none] [switch_light globe_3d 495 14 none]
+G r c none [define glut__windows 28 14 none] [fogfv gl 3017 14 none]
+G r c none [define glut__windows 28 14 none] [fogf gl 3011 14 none]
+G r c none [define glut__windows 28 14 none] [matrixmode gl 1338 14 none]
+G r c none [define glut__windows 28 14 none] [shademodel gl 1633 14 none]
+G r c none [define glut__windows 28 14 none] [clearcolor gl 3192 14 none]
+G r c none [define glut__windows 28 14 none] [clearaccum gl 3201 14 none]
+G r c none [define glut__windows 28 14 none] [setwindow glut 380 14 none]
+G r c none [define glut__windows 28 14 none] [viewport gl 3272 14 none]
+G r c none [define glut__windows 28 14 none] [loadidentity gl 3282 14 none]
+G r c none [define glut__windows 28 14 none] [perspective glu 600 14 none]
+G r c none [define glut__windows 28 14 none] [get gl 1192 14 none]
+G r c none [define glut__windows 28 14 none] [transpose globe_3d__math 57 12 none]
+G r c none [define glut__windows 28 14 none] [reverse_light_switch globe_3d 497 14 none]
+G r i none [define glut__windows 28 14 none] [software_anti_aliasing globe_3d 9 18 none]
+G r c none [define glut__windows 28 14 none] [accum gl 1320 14 none]
+G r c none [define glut__windows 28 14 none] [flush gl 3250 14 none]
+G r c none [define glut__windows 28 14 none] [clear gl 3197 14 none]
+G r c none [define glut__windows 28 14 none] [get glu 658 14 none]
+G r c none [define glut__windows 28 14 none] [pushmatrix gl 3278 14 none]
+G r c none [define glut__windows 28 14 none] [translate gl 3306 14 none]
+G r s visual_array [define glut__windows 28 14 none] [visual_arrayIP globe_3d 210 9 none]
+G r c none [define glut__windows 28 14 none] [render globe_3d 243 14 none]
+G r c none [define glut__windows 28 14 none] [color gl 3404 14 none]
+G r c none [define glut__windows 28 14 none] [text_output glut_2d 36 13 none]
+G r c none [define glut__windows 28 14 none] [coords globe_3d 507 13 none]
+G r c none [define glut__windows 28 14 none] [text_output glut_2d 27 13 none]
+G r c none [define glut__windows 28 14 none] [is_light_switched globe_3d 499 13 none]
+G r c none [define glut__windows 28 14 none] [popmatrix gl 3280 14 none]
+G r c none [define glut__windows 28 14 none] [swapbuffers glut 369 14 none]
+G r c none [define glut__windows 28 14 none] [get glut 699 13 none]
+G r c none [define glut__windows 28 14 none] [append_commands game_control 61 13 none]
+G r c none [define glut__windows 28 14 none] [rotation actors 38 14 none]
+G r c none [define glut__windows 28 14 none] [translation actors 17 14 none]
+G r c none [define glut__windows 28 14 none] [transpose globe_3d__math 56 12 none]
+G r c none [define glut__windows 28 14 none] [Omultiply globe_3d__math 52 12 none]
+G r c none [define glut__windows 28 14 none] [set_gl_matrix globe_3d__math 80 13 none]
+G r c none [define glut__windows 28 14 none] [current_planes gl__frustums 27 13 none]
+G r c none [define glut__windows 28 14 none] [start_capture gl__io 133 13 none]
+G r c none [define glut__windows 28 14 none] [stop_capture gl__io 137 13 none]
+G r c none [define glut__windows 28 14 none] [capture_frame gl__io 135 13 none]
+G r c none [define glut__windows 28 14 none] [screenshot gl__io 127 13 none]
+G r c none [destroy glut__windows 29 14 none] [destroywindow glut 360 14 none]
+G r c none [enable glut__windows 34 25 none] [setwindow glut 380 14 none]
+G r c none [freshen glut__windows 36 25 none] [setwindow glut 380 14 none]
+G r c none [freshen glut__windows 36 25 none] [viewport gl 3272 14 none]
+G r c none [freshen glut__windows 36 25 none] [matrixmode gl 1338 14 none]
+G r c none [freshen glut__windows 36 25 none] [loadidentity gl 3282 14 none]
+G r c none [freshen glut__windows 36 25 none] [perspective glu 600 14 none]
+G r c none [freshen glut__windows 36 25 none] [get gl 1192 14 none]
+G r c none [freshen glut__windows 36 25 none] [transpose globe_3d__math 57 12 none]
+G r c none [freshen glut__windows 36 25 none] [reverse_light_switch globe_3d 497 14 none]
+G r i none [freshen glut__windows 36 25 none] [software_anti_aliasing globe_3d 9 18 none]
+G r c none [freshen glut__windows 36 25 none] [accum gl 1320 14 none]
+G r c none [freshen glut__windows 36 25 none] [flush gl 3250 14 none]
+G r c none [freshen glut__windows 36 25 none] [clear gl 3197 14 none]
+G r c none [freshen glut__windows 36 25 none] [get glu 658 14 none]
+G r c none [freshen glut__windows 36 25 none] [pushmatrix gl 3278 14 none]
+G r c none [freshen glut__windows 36 25 none] [translate gl 3306 14 none]
+G r s visual_array [freshen glut__windows 36 25 none] [visual_arrayIP globe_3d 210 9 none]
+G r c none [freshen glut__windows 36 25 none] [render globe_3d 243 14 none]
+G r c none [freshen glut__windows 36 25 none] [disable gl 706 14 none]
+G r c none [freshen glut__windows 36 25 none] [color gl 3404 14 none]
+G r c none [freshen glut__windows 36 25 none] [text_output glut_2d 36 13 none]
+G r c none [freshen glut__windows 36 25 none] [coords globe_3d 507 13 none]
+G r c none [freshen glut__windows 36 25 none] [text_output glut_2d 27 13 none]
+G r c none [freshen glut__windows 36 25 none] [is_light_switched globe_3d 499 13 none]
+G r c none [freshen glut__windows 36 25 none] [popmatrix gl 3280 14 none]
+G r c none [freshen glut__windows 36 25 none] [enable gl 704 14 none]
+G r c none [freshen glut__windows 36 25 none] [clearcolor gl 3192 14 none]
+G r c none [freshen glut__windows 36 25 none] [clearaccum gl 3201 14 none]
+G r c none [freshen glut__windows 36 25 none] [swapbuffers glut 369 14 none]
+G r c none [freshen glut__windows 36 25 none] [get glut 699 13 none]
+G r c none [freshen glut__windows 36 25 none] [append_commands game_control 61 13 none]
+G r c none [freshen glut__windows 36 25 none] [rotation actors 38 14 none]
+G r c none [freshen glut__windows 36 25 none] [translation actors 17 14 none]
+G r c none [freshen glut__windows 36 25 none] [transpose globe_3d__math 56 12 none]
+G r c none [freshen glut__windows 36 25 none] [Omultiply globe_3d__math 52 12 none]
+G r c none [freshen glut__windows 36 25 none] [set_gl_matrix globe_3d__math 80 13 none]
+G r c none [freshen glut__windows 36 25 none] [current_planes gl__frustums 27 13 none]
+G r c none [freshen glut__windows 36 25 none] [start_capture gl__io 133 13 none]
+G r c none [freshen glut__windows 36 25 none] [stop_capture gl__io 137 13 none]
+G r c none [freshen glut__windows 36 25 none] [capture_frame gl__io 135 13 none]
+G r c none [freshen glut__windows 36 25 none] [screenshot gl__io 127 13 none]
+G r c none [display_status glut__windows 67 14 none] [pushmatrix gl 3278 14 none]
+G r c none [display_status glut__windows 67 14 none] [disable gl 706 14 none]
+G r c none [display_status glut__windows 67 14 none] [color gl 3404 14 none]
+G r c none [display_status glut__windows 67 14 none] [text_output glut_2d 36 13 none]
+G r c none [display_status glut__windows 67 14 none] [coords globe_3d 507 13 none]
+G r c none [display_status glut__windows 67 14 none] [text_output glut_2d 27 13 none]
+G r c none [display_status glut__windows 67 14 none] [is_light_switched globe_3d 499 13 none]
+G r c none [display_status glut__windows 67 14 none] [popmatrix gl 3280 14 none]
+G r s window [windowIP glut__windows 82 9 none] [windowIP globe_3d 455 9 none]
+G r s visual_array [windowIP glut__windows 82 9 none] [visual_arrayIP globe_3d 210 9 none]
+G r s keyboard [windowIP glut__windows 82 9 none] [keyboardIP glut__devices 25 9 none]
+G r s mouse [windowIP glut__windows 82 9 none] [mouseIP glut__devices 50 9 none]
+G r c none [current_window glut__windows 42 13 none] [getwindowdata glut 377 13 none]
+G r c none [prepare_default_lighting glut__windows 60 14 none] [enable gl 704 14 none]
+G r c none [prepare_default_lighting glut__windows 60 14 none] [define globe_3d 492 14 none]
+G r c none [prepare_default_lighting glut__windows 60 14 none] [switch_lights globe_3d 494 14 none]
+G r c none [prepare_default_lighting glut__windows 60 14 none] [switch_light globe_3d 495 14 none]
+G r c none [clear_modes glut__windows 108 14 none] [disable gl 706 14 none]
+G r c none [reset_for_3d glut__windows 118 14 none] [matrixmode gl 1338 14 none]
+G r c none [reset_for_3d glut__windows 118 14 none] [shademodel gl 1633 14 none]
+G r c none [reset_for_3d glut__windows 118 14 none] [clearcolor gl 3192 14 none]
+G r c none [reset_for_3d glut__windows 118 14 none] [clearaccum gl 3201 14 none]
+G r c none [enable_viewport_and_perspective glut__windows 130 14 none] [viewport gl 3272 14 none]
+G r c none [enable_viewport_and_perspective glut__windows 130 14 none] [matrixmode gl 1338 14 none]
+G r c none [enable_viewport_and_perspective glut__windows 130 14 none] [loadidentity gl 3282 14 none]
+G r c none [enable_viewport_and_perspective glut__windows 130 14 none] [perspective glu 600 14 none]
+G r c none [enable_viewport_and_perspective glut__windows 130 14 none] [get gl 1192 14 none]
+G r c none [enable_viewport_and_perspective glut__windows 130 14 none] [transpose globe_3d__math 57 12 none]
+G r c none [window_resize glut__windows 189 14 none] [getwindowdata glut 377 13 none]
+G r c none [window_resize glut__windows 189 14 none] [matrixmode gl 1338 14 none]
+G r c none [window_resize glut__windows 189 14 none] [shademodel gl 1633 14 none]
+G r c none [window_resize glut__windows 189 14 none] [clearcolor gl 3192 14 none]
+G r c none [window_resize glut__windows 189 14 none] [clearaccum gl 3201 14 none]
+G r c none [menu glut__windows 199 14 none] [fullscreen glut 419 14 none]
+G r c none [menu glut__windows 199 14 none] [setcursor glut 422 14 none]
+G r c none [menu glut__windows 199 14 none] [getwindowdata glut 377 13 none]
+G r s visual_array [graphic_display glut__windows 269 14 none] [visual_arrayIP globe_3d 210 9 none]
+G r c none [graphic_display glut__windows 269 14 none] [render globe_3d 243 14 none]
+G r c none [graphic_display glut__windows 269 14 none] [pushmatrix gl 3278 14 none]
+G r c none [graphic_display glut__windows 269 14 none] [disable gl 706 14 none]
+G r c none [graphic_display glut__windows 269 14 none] [color gl 3404 14 none]
+G r c none [graphic_display glut__windows 269 14 none] [text_output glut_2d 36 13 none]
+G r c none [graphic_display glut__windows 269 14 none] [coords globe_3d 507 13 none]
+G r c none [graphic_display glut__windows 269 14 none] [text_output glut_2d 27 13 none]
+G r c none [graphic_display glut__windows 269 14 none] [is_light_switched globe_3d 499 13 none]
+G r c none [graphic_display glut__windows 269 14 none] [popmatrix gl 3280 14 none]
+G r i none [fill_screen glut__windows 282 14 none] [software_anti_aliasing globe_3d 9 18 none]
+G r c none [fill_screen glut__windows 282 14 none] [accum gl 1320 14 none]
+G r c none [fill_screen glut__windows 282 14 none] [flush gl 3250 14 none]
+G r c none [fill_screen glut__windows 282 14 none] [clear gl 3197 14 none]
+G r c none [fill_screen glut__windows 282 14 none] [get glu 658 14 none]
+G r c none [fill_screen glut__windows 282 14 none] [matrixmode gl 1338 14 none]
+G r c none [fill_screen glut__windows 282 14 none] [pushmatrix gl 3278 14 none]
+G r c none [fill_screen glut__windows 282 14 none] [translate gl 3306 14 none]
+G r s visual_array [fill_screen glut__windows 282 14 none] [visual_arrayIP globe_3d 210 9 none]
+G r c none [fill_screen glut__windows 282 14 none] [render globe_3d 243 14 none]
+G r c none [fill_screen glut__windows 282 14 none] [disable gl 706 14 none]
+G r c none [fill_screen glut__windows 282 14 none] [color gl 3404 14 none]
+G r c none [fill_screen glut__windows 282 14 none] [text_output glut_2d 36 13 none]
+G r c none [fill_screen glut__windows 282 14 none] [coords globe_3d 507 13 none]
+G r c none [fill_screen glut__windows 282 14 none] [text_output glut_2d 27 13 none]
+G r c none [fill_screen glut__windows 282 14 none] [is_light_switched globe_3d 499 13 none]
+G r c none [fill_screen glut__windows 282 14 none] [popmatrix gl 3280 14 none]
+G r c none [fill_screen glut__windows 282 14 none] [enable gl 704 14 none]
+G r c none [fill_screen glut__windows 282 14 none] [clearcolor gl 3192 14 none]
+G r c none [fill_screen glut__windows 282 14 none] [clearaccum gl 3201 14 none]
+G r c none [fill_screen glut__windows 282 14 none] [swapbuffers glut 369 14 none]
+G r c none [main_operations glut__windows 331 14 none] [viewport gl 3272 14 none]
+G r c none [main_operations glut__windows 331 14 none] [matrixmode gl 1338 14 none]
+G r c none [main_operations glut__windows 331 14 none] [loadidentity gl 3282 14 none]
+G r c none [main_operations glut__windows 331 14 none] [perspective glu 600 14 none]
+G r c none [main_operations glut__windows 331 14 none] [get gl 1192 14 none]
+G r c none [main_operations glut__windows 331 14 none] [transpose globe_3d__math 57 12 none]
+G r c none [main_operations glut__windows 331 14 none] [reverse_light_switch globe_3d 497 14 none]
+G r i none [main_operations glut__windows 331 14 none] [software_anti_aliasing globe_3d 9 18 none]
+G r c none [main_operations glut__windows 331 14 none] [accum gl 1320 14 none]
+G r c none [main_operations glut__windows 331 14 none] [flush gl 3250 14 none]
+G r c none [main_operations glut__windows 331 14 none] [clear gl 3197 14 none]
+G r c none [main_operations glut__windows 331 14 none] [get glu 658 14 none]
+G r c none [main_operations glut__windows 331 14 none] [pushmatrix gl 3278 14 none]
+G r c none [main_operations glut__windows 331 14 none] [translate gl 3306 14 none]
+G r s visual_array [main_operations glut__windows 331 14 none] [visual_arrayIP globe_3d 210 9 none]
+G r c none [main_operations glut__windows 331 14 none] [render globe_3d 243 14 none]
+G r c none [main_operations glut__windows 331 14 none] [disable gl 706 14 none]
+G r c none [main_operations glut__windows 331 14 none] [color gl 3404 14 none]
+G r c none [main_operations glut__windows 331 14 none] [text_output glut_2d 36 13 none]
+G r c none [main_operations glut__windows 331 14 none] [coords globe_3d 507 13 none]
+G r c none [main_operations glut__windows 331 14 none] [text_output glut_2d 27 13 none]
+G r c none [main_operations glut__windows 331 14 none] [is_light_switched globe_3d 499 13 none]
+G r c none [main_operations glut__windows 331 14 none] [popmatrix gl 3280 14 none]
+G r c none [main_operations glut__windows 331 14 none] [enable gl 704 14 none]
+G r c none [main_operations glut__windows 331 14 none] [clearcolor gl 3192 14 none]
+G r c none [main_operations glut__windows 331 14 none] [clearaccum gl 3201 14 none]
+G r c none [main_operations glut__windows 331 14 none] [swapbuffers glut 369 14 none]
+G r c none [main_operations glut__windows 331 14 none] [get glut 699 13 none]
+G r c none [main_operations glut__windows 331 14 none] [append_commands game_control 61 13 none]
+G r c none [main_operations glut__windows 331 14 none] [rotation actors 38 14 none]
+G r c none [main_operations glut__windows 331 14 none] [translation actors 17 14 none]
+G r c none [main_operations glut__windows 331 14 none] [transpose globe_3d__math 56 12 none]
+G r c none [main_operations glut__windows 331 14 none] [Omultiply globe_3d__math 52 12 none]
+G r c none [main_operations glut__windows 331 14 none] [set_gl_matrix globe_3d__math 80 13 none]
+G r c none [main_operations glut__windows 331 14 none] [current_planes gl__frustums 27 13 none]
+G r c none [main_operations glut__windows 331 14 none] [start_capture gl__io 133 13 none]
+G r c none [main_operations glut__windows 331 14 none] [stop_capture gl__io 137 13 none]
+G r c none [main_operations glut__windows 331 14 none] [capture_frame gl__io 135 13 none]
+G r c none [main_operations glut__windows 331 14 none] [screenshot gl__io 127 13 none]
+G r c none [close_window glut__windows 503 14 none] [getwindowdata glut 377 13 none]
+G r c none [update_visibility glut__windows 509 14 none] [getwindowdata glut 377 13 none]
+G r c none [start_gluts glut__windows 519 14 none] [initdisplaymode glut 317 14 none]
+G r c none [start_gluts glut__windows 519 14 none] [initwindowsize glut 328 14 none]
+G r c none [start_gluts glut__windows 519 14 none] [initwindowposition glut 325 14 none]
+G r c none [start_gluts glut__windows 519 14 none] [createwindow glut 349 13 none]
+G r c none [start_gluts glut__windows 519 14 none] [closefunc glut 539 14 none]
+G r c none [start_gluts glut__windows 519 14 none] [reshapefunc glut 548 14 none]
+G r c none [start_gluts glut__windows 519 14 none] [windowstatusfunc glut 676 14 none]
+G r c none [start_gluts glut__windows 519 14 none] [setwindowdata glut 385 14 none]
+G r c none [start_gluts glut__windows 519 14 none] [initialize glut__devices 13 14 none]
+G r c none [start_gls glut__windows 563 14 none] [disable gl 706 14 none]
+G r c none [start_gls glut__windows 563 14 none] [enable gl 704 14 none]
+G r c none [start_gls glut__windows 563 14 none] [define globe_3d 492 14 none]
+G r c none [start_gls glut__windows 563 14 none] [switch_lights globe_3d 494 14 none]
+G r c none [start_gls glut__windows 563 14 none] [switch_light globe_3d 495 14 none]
+G r c none [start_gls glut__windows 563 14 none] [fogfv gl 3017 14 none]
+G r c none [start_gls glut__windows 563 14 none] [fogf gl 3011 14 none]
+G r c none [start_gls glut__windows 563 14 none] [matrixmode gl 1338 14 none]
+G r c none [start_gls glut__windows 563 14 none] [shademodel gl 1633 14 none]
+G r c none [start_gls glut__windows 563 14 none] [clearcolor gl 3192 14 none]
+G r c none [start_gls glut__windows 563 14 none] [clearaccum gl 3201 14 none]
+X 1 actors.ads
+11K9*Actors 63e11 47|16w6 445r7 455r7
+17U14*Translation 47|455s14
+18a27 gc{27|46A8} 47|456r27
+19f27 gx{39|102F12} 47|457r27
+19f31 gy{39|102F12} 47|458r27
+20f27 unitary_change{39|102F12} 47|459r27
+21f27 deceleration{39|102F12} 47|460r27
+22f27 time_step{39|102F12} 47|461r27
+38U14*Rotation 47|445s14
+39a24 gc{27|46A8} 47|446r24
+40f24 gx{39|102F12} 47|447r24
+40f28 gy{39|102F12} 47|448r24
+41f24 unitary_change{39|102F12} 47|449r24
+42f24 deceleration{39|102F12} 47|450r24
+43f24 time_step{39|102F12} 47|451r24
+X 2 ada.ads
+16K9*Ada 20e8 46|17r6 84r26 84r68 47|21r6 21r45 22r6 26r6 34r8 44r33 328r27
+. 485r89 498r77 523r34 690r27 692r11
+X 3 a-calend.ads
+36K13*Calendar 409e17 47|26w10 328r31 485r93 498r81 690r31 692r15
+42I9*Time<222I9> 47|328r40 690r40
+48I12*Year_Number{integer}
+49I12*Month_Number{integer}
+50I12*Day_Number{integer}
+54O12*Day_Duration{duration}
+56V13*Clock{42I9} 47|485s102 498s90
+64V13*Year{48I12} 47|704s50
+65V13*Month{49I12} 47|705s50
+66V13*Day{50I12} 47|706s50
+67V13*Seconds{54O12} 47|699s21
+222I9 Time_Rep<long_long_integer>
+X 8 a-cohama.ads
+96R9*Map<11|43R9>
+X 13 a-iteint.ads
+24h9 Forward_Iterator
+X 14 a-numeri.ads
+16K13*Numerics 32e17 47|21w10 21r49
+21N4*Pi 47|36r32
+X 15 a-ngelfu.ads
+86V14*"**"<50|65F9> 47|394s28[39|103]
+94V13*Sin<50|65F9> 47|182s46[39|103]
+112V13*Tan<50|65F9> 47|170s35[39|103]
+145V13*Arctan<50|65F9> 47|179s31[39|103]
+X 18 a-string.ads
+16K13*Strings 35e16 46|17r10 84r30 84r72 47|34r12
+X 20 a-strunb.ads
+82K21*Unbounded 756e26 46|17w18 84r38 84r80 47|34r20
+87R9*Unbounded_String<11|43R9> 739e14 46|84r48
+103V13*To_Unbounded_String{87R9} 46|84s90 47|53s20
+116V13*To_String{string} 47|56s52 485s48 498s36
+X 25 a-unccon.ads
+20v14*Unchecked_Conversion 47|22w10 44r37 523r38
+X 27 game_control.ads
+12K9*Game_Control 69e17 46|14w6 111r26 111r54 47|335r25 400r7
+14E9*Command 43e21 47|360r39 360r57
+36n21*special_plus{14E9} 47|421r33
+37n21*special_minus{14E9} 47|424r33
+38n21*photo{14E9} 47|497r33
+38n28*video{14E9} 47|480r33
+40n21*interrupt_game{14E9} 47|415r33
+41n21*n0{14E9} 47|463r33
+41n25*n1{14E9} 47|358r16 360r70
+41n53*n8{14E9} 47|358r22
+46A8*Command_set(boolean)<14E9> 46|111r39
+49a3*no_command{46A8} 46|111r67 47|398r32
+61U13*Append_Commands 47|400s20
+61i30 size_x{integer} 47|400r37
+62i30 size_y{integer} 47|401r37
+63b30 warp_mouse{boolean} 47|402r37
+64a30 c{46A8} 47|403r37
+65f30 gx{28|128F9} 47|404r37
+65f34 gy{28|128F9} 47|405r37
+66p30 Keyboard(45|25R9) 47|406r37
+67p30 Mouse(45|50R9) 47|407r37
+X 28 gl.ads
+66K9*GL 4501e7 46|96r26 102r29 47|9w6 9r10 9r17 9r47 9r51 9r58 61r55 68r7
+. 68r18 143r12 159r28 160r28 167r29 167r60 338r29 339r29 475r41 482r13 485r13
+. 492r10 498r10 565r21
+125I9*Sizei<50|35I9> 46|96r29 47|159r31 160r31
+126F9*C_Float<50|64F9> 47|61r58
+128F9*Double<50|65F9> 46|102r32 47|167r32 167r63 338r32 339r32
+153A9*Light_Float_vector(126F9)<integer> 47|565r24
+155A9*Double_Vector_3D(128F9)<integer>
+562n7*LIGHTING{554E9} 47|68r21 112r16 225r16
+564n7*FOG{554E9} 47|573r18
+565n7*DEPTH_TEST{554E9} 47|115r16
+567n7*NORMALIZE{554E9} 47|114r16
+570n7*BLEND{554E9} 47|111r16
+578n7*AUTO_NORMAL{554E9} 47|113r16
+598n7*TEXTURE_2D{554E9} 47|226r16
+618n7*MULTISAMPLE_ARB{554E9} 47|303r21 581r18
+621n7*SAMPLE_COVERAGE_ARB{554E9} 47|582r18
+704U14*Enable 47|68s10 303s13 573s10 581s10 582s10
+706U14*Disable 47|111s7 112s7 113s7 114s7 115s7 225s7 226s7
+808n7*PROJECTION_MATRIX{737E9} 47|143r15
+1192U14*Get 47|143s7
+1326n7*MODELVIEW{1324E9} 47|122r19 147r19 471r22
+1327n7*PROJECTION{1324E9} 47|135r19
+1338U14*MatrixMode 47|122s7 135s7 147s7 471s7
+1624n7*SMOOTH{1621E9} 47|123r19
+1633U14*ShadeModel 47|123s7
+2970n7*FOG_DENSITY{2967E9} 47|575r18
+2992n7*FOG_COLOR{2985E9} 47|574r18
+3011U14*Fogf 47|575s10
+3017U14*Fogfv 47|574s10
+3192U14*ClearColor 47|126s7 307s13
+3201U14*ClearAccum 47|127s7 308s13
+3250U14*Flush 47|311s13 315s13
+3272U14*Viewport 47|133s7
+3278U14*PushMatrix 47|223s7
+3280U14*PopMatrix 47|263s7
+3282U14*LoadIdentity 47|136s7
+3306U14*Translate 47|473s7
+3404U14*Color 47|228s7
+3404f21 red{128F9} 47|228r14
+3404f26 green{128F9} 47|229r14
+3404f33 blue{128F9} 47|230r14
+X 30 gl-buffer-general.ads
+14R9 base_Object<29|20R9>
+X 32 gl-frustums.ads
+19K12*Frustums 31e16 47|9w20 9r61 475r44
+23A9*plane_Array(33|20A9)<21E9>
+27V13*Current_Planes{23A9} 47|475s53
+X 33 gl-geometry.ads
+20A9*Plane(28|128F9)<integer>
+X 34 gl-io.ads
+45K12*IO 163e10 47|9w13 9r54 482r16 485r16 492r13 498r13
+127U13*Screenshot 47|498s16
+127a25 Name{string} 47|498r28
+133U13*Start_Capture 47|485s19
+133a28 AVI_Name{string} 47|485r34
+133i47 frame_rate{positive} 47|486r34
+135U13*Capture_Frame 47|492s16
+137U13*Stop_Capture 47|482s19
+X 39 globe_3d.ads
+77K9*GLOBE_3D 606e13 46|19w6 25r23 37r42 38r42 38r67 45r54 46r54 68r44 82r23
+. 87r26 99r29 108r23 47|13r6 13r47 14r6 32r25 44r75 216r38 270r48 270r73
+. 283r44 283r69 291r26 325r43 333r51 333r76 523r60 548r42 620r53 620r78 639r54
+. 646r54
+102F12*Real{28|128F9} 46|37r51 68r53 108r32 47|155r35 156r35 216r47 332r55
+. 341r29 384r52 389r46 390r46 392r19 393r19 393r35 619r57
+103K12*REF[15|39] 47|153r11 218r20 335r20
+106A12*Vector_3D{28|155A9}<integer>
+111A12*Point_3D{106A12}<integer>
+113A9*Matrix(102F12)<integer><integer>
+114A9*Matrix_33<113A9>(102F12)<integer><integer>
+115A9*Matrix_44<113A9>(102F12)<integer><integer>
+117a4*Id_33{114A9} 47|325r52
+132i7*X1{integer} 47|162m41
+132i11*Y1{integer} 47|163m41
+132i15*X2{integer} 47|164m41
+132i19*Y2{integer} 47|165m41
+144a7*Eye_Position{111A12} 47|237r67 324m27 473r47 473r90 473r133
+145a7*view_direction{106A12} 47|241r78 467m31
+146f7*max_dot_product{102F12} 47|182m27
+147r7*main_clipping{135R12} 47|162m27 163m27 164m27 165m27
+158r10*Clipper{143R9} 47|162m19 163m19 164m19 165m19 182m19 237r59 241r70
+. 324m19 467m23 473r39 473r82 473r125
+162a10*World_Rotation{114A9} 47|325m19 467r76 472r38
+176f10*FOVy{102F12} 47|138r46 168r53
+177f10*Aspect{102F12} 47|139r46 167m19 173r86 176r85 178r22 179r51
+179f10*near_plane_Distance{102F12} 47|140r46 172r52
+180f10*near_plane_Width{102F12} 47|173m19
+181f10*near_plane_Height{102F12} 47|172m19 173r52
+183f10*far_plane_Distance{102F12} 47|141r46 175r52
+184f10*far_plane_Width{102F12} 47|176m19
+185f10*far_plane_Height{102F12} 47|175m19 176r52
+187a10*Projection_Matrix{115A9} 47|143m47 145m19 145r63
+189a10*frustum_Planes{32|23A9} 47|475m23
+209P9*p_Visual(197R9) 46|45r63 46r63 47|639r63 646r63
+210A9*Visual_array(209P9)<integer> 46|38r51 87r35 47|270r57 283r53 333r60
+. 620r62
+217x14*set_Alpha 47|436R13
+241a4*null_Visuals{210A9} 46|38r76 47|270r82 283r78 333r85 620r87
+243U14*render 47|275s11
+455H9*Window 458e17 46|25r32 82r32 47|548r51
+457r10*Camera{156R9} 47|138r39 139r39 140r39 141r39 143m40 145m12 145r56
+. 162m12 163m12 164m12 165m12 167m12 168r46 172m12 172r45 173m12 173r45 173r79
+. 175m12 175r45 176m12 176r45 176r78 178r15 179r44 182m12 237r52 241r63 275r72
+. 324m12 325m12 445m33 455m36 467m16 467r69 472r31 473r32 473r75 473r118
+. 475m16
+460P9*p_Window(455R9) 47|44r84 523r69
+488R9*Light_definition 490e14 46|99r38 47|63r26
+489a7*position{28|153A9} 47|63m47 80m19 83m19
+489a17*ambient{28|153A9} 47|64m47 84m19 87m19 90m19 93m19
+489a26*diffuse{28|153A9} 47|65m47 73m19 76m19
+489a35*specular{28|153A9} 47|66m47 77m19
+492U14*Define 47|70s11 74s11 78s11 81s11 85s11 88s11 91s11 94s11
+494U14*Switch_lights 47|96s11
+495U14*Switch_light 47|98s11 99s11 100s11 101s11 102s11 103s11 104s11
+497U14*Reverse_light_switch 47|360s13
+499V13*Is_light_switched{boolean} 47|246s13
+507V13*Coords{string} 47|237s39 241s50
+X 40 globe_3d-math.ads
+1K18*Math 92e18 47|13w15 13r56
+52V13*"*"{39|106A12} 47|467s92
+56V12*Transpose{39|114A9} 47|467s49
+57V12*Transpose{39|115A9} 47|145s40
+80U13*Set_GL_Matrix 47|472s7
+X 41 globe_3d-software_anti_aliasing.ads
+9k18*Software_Anti_Aliasing 24e36 47|14w15 291r35
+13V12 Anti_Alias_phases{positive} 47|298s39[291]
+17U13 Display_with_Anti_Aliasing 47|299s20[291]
+19E8 Quality
+19n24 Q3{19E8[47|291]} 47|297r34[291]
+22U13 Set_Quality 47|297s17[291]
+X 43 glu.ads
+48K9*GLU 738e8 47|9w30 9r71 138r7
+600U14*Perspective 47|138s11
+600f27 fovy{28|128F9} 47|138r24
+601f27 aspect{28|128F9} 47|139r24
+602f27 zNear{28|128F9} 47|140r24
+603f27 zFar{28|128F9} 47|141r24
+X 44 glut.ads
+22K9*GLUT 887e9 46|15r6 21r9 125r5 47|9w36 9r77 30r14 47r14 191r30 204r13
+. 206r13 206r29 318r7 370r19 370r29 516r53 516r81 521r11 525r22 525r39 525r54
+. 525r67 525r81 529r42 545r7 546r7 547r7 548r7 550r7 590r7 591r7 591r23 591r52
+. 592r7 592r23 614r7 723r5
+24M12*Unsigned{50|43M9} 47|525r27
+26V14*"or"=26:74{50|43M9} 47|525r51 525r64 525r78 529r39
+31N4*RGBA 47|525r59
+34N4*DOUBLE 47|525r44
+36N4*ALPHA 47|525r72
+37N4*DEPTH 47|525r86
+39N4*MULTISAMPLE 47|529r47
+98N4*HIDDEN 47|516r58
+101N4*FULLY_COVERED 47|516r86
+201N4*ELAPSED_TIME 47|370r34
+288N4*CURSOR_NONE 47|206r34
+296U14*Init 47|590s12
+303N4*ACTION_CONTINUE_EXECUTION 47|592r52
+305N4*ACTION_ON_WINDOW_CLOSE 47|592r28
+307N4*GLUT_RENDERING_CONTEXT 47|591r28
+310N4*GLUT_USE_CURRENT_CONTEXT 47|591r57
+314U14*SetOption 47|591s12 592s12
+317U14*InitDisplayMode 47|532s7
+325U14*InitWindowPosition 47|537s7
+328U14*InitWindowSize 47|536s7
+349V13*CreateWindow{integer} 47|539s27
+360U14*DestroyWindow 47|608s7
+369U14*SwapBuffers 47|318s12
+377V13*GetWindowData{54|67M9} 47|47s51
+380U14*SetWindow 47|614s12
+385U14*SetWindowData 47|548s12
+419U14*FullScreen 47|204s18
+422U14*SetCursor 47|206s18
+539U14*CloseFunc 47|545s12
+548U14*ReshapeFunc 47|546s12
+676U14*WindowStatusFunc 47|547s12
+699V13*Get{integer} 47|370s24
+X 45 glut-devices.ads
+11K14*Devices 60e17 46|15w11 75r59 76r59 115r30 116r30 47|550r12 685r58 687r55
+13U14*Initialize 47|550s20
+25R9*Keyboard 33e17 46|115r38
+35P9*p_Keyboard(25R9) 46|75r67 47|685r66
+50R9*Mouse 54e17 46|116r38
+56P9*p_Mouse(50R9) 46|76r67 47|687r63
+X 46 glut-windows.ads
+21K14*Windows 44|22k9 46|80E9 125l10 125e17 47|30b19 47r19 191r35 723l10
+. 723t17
+23U14*Initialize 47|587b14 593l8 593t18
+25R9*Window<39|455R9> 26r35 28p14 28r37 29p14 29r37 31p14 31r37 32p14 32r37
+. 34P25 34r47 36P25 36r53 40p13 40r31 45p14 45r33 46p14 46r33 48p14 48r35
+. 57p14 57r42 58p14 58r42 63p14 63r41 64p14 64r41 67p14 67r44 70p13 70r39
+. 75r38 76r38 82c9 122e17 47|50r37 56r26 58r31 60r55 118r42 130r61 150r38
+. 215r45 267r39 269r48 282r44 321r41 331r51 519r42 563r40 595r37 605r38 611r48
+. 618r53 630r31 632r42 639r33 646r33 668r34 673r34 675r42 685r37 687r34
+26P9*Window_view(25R9) 26r76 47|42r35 47r27 191r43
+28U14*Define 28=23 47|595b14 603l8 603t14
+28r23 Self{25R9} 47|595b22 598m20 599m20 600m20 602m20
+29U14*Destroy 29=23 47|605b14 609l8 609t15
+29r23 Self{25R9} 47|605b23 608r22
+31U14*Name_is 31=23 31>45 47|50b14 54l8 54t15
+31r23 Self{25R9} 47|50b23 53m7
+31a45 Now{string} 47|50b45 53r41
+32V14*Name{string} 32>23 47|56b13
+32r23 Self{25R9} 47|56r63
+34U25*Enable<39|462p14> 34=33 47|611b25 616l8 616t14 623s7
+34r33 Self{25R9} 47|611b33 614r23
+36U25*Freshen<39|463p14> 36=34 37>23 38>23 47|602s7 618b25 625l8 625t15
+36r34 Self{25R9} 47|618b34 623m15 624m24 624r24
+37f23 time_Step{39|102F12} 47|619b34 624r37
+38a23 Extras{39|210A9} 47|620b34 624r48
+40V13*is_Closed{boolean} 40>24 47|58b13
+40r24 Self{25R9} 47|58r58
+45U14*Add 45=19 45>41 47|639b14 644l8 644t11
+45r19 Self{25R9} 47|639b19 642m7 642r43 643m7 643r21
+45p41 the_Object{39|209P9} 47|639b41 643r43
+46U14*Rid 46=19 46>41 47|646b14 666l8 666t11
+46r19 Self{25R9} 47|646b19 651r24 653r13 655r24 656m16 656r38 656r64 656r90
+. 659m13 659r34
+46p41 the_Object{39|209P9} 47|646b41 653r35
+48V14*object_Count{natural} 48>28 47|668b13
+48r28 Self{25R9} 47|668r61
+50X4*no_such_Object 47|665r13
+55E9*Smoothing_method 55e55 57r85 58r56 90r26 47|630r46 633r42
+55n30*None{55E9} 47|313r15
+55n36*Software{55E9} 47|296r15
+55n46*Hardware{55E9} 90r46 47|302r15 528r27 580r27
+57V14*Smoothing{55E9} 57>28 47|630b13
+57r28 Self{25R9} 47|630r67
+58U14*Smoothing_is 58=28 58>50 47|632b14 637l8 637t20
+58r28 Self{25R9} 47|632b28 636m7
+58e50 Now{55E9} 47|633b28 636r25
+63V14*Show_Status{boolean} 63>27 47|673b14
+63r27 Self{25R9} 47|673r61
+64U14*Show_Status 64=27 65>27 47|675b14 680l8 680t19
+64r27 Self{25R9} 47|675b27 679m7
+65b27 Show{boolean} 47|676b27 679r27
+67U14*Display_status 67=30 68>30 47|215b14 265l8 265t22 278R10
+67r30 Self{25R9} 47|215b30 236r37 236r56 237r47 240r37 240r56 241r58 253r35
+. 253r53 256r39 256r57 259r10 260r39 260r57
+68f30 sec{39|102F12} 47|216b30 255r10 256r116
+70V13*Frames_per_second{float} 70>32 47|267b13
+70r32 Self{25R9} 47|267r78
+75V13*Keyboard{45|35P9} 75^23 47|685b13
+75p23 Self(25R9) 47|685r81
+76V13*Mouse{45|56P9} 76^23 47|687b13
+76p23 Self(25R9) 47|687r75
+80A9 natural_Array(natural)<integer> 107r23
+84r10 Name{20|87R9} 47|53m12 56r68 485r68 498r56
+85i10 glut_Window{integer} 47|539m12 541r15 608r27 614r28
+87a10 Objects{39|210A9} 47|275r24 436r33 643m12 653r18 656m21 656r69
+88i10 object_Count{natural} 47|275r43 435r36 642m12 642r48 643r26 651r29
+. 655r29 656r43 656r95 659m18 659r39 668r66
+90e10 Smoothing{55E9} 47|294r17 528r15 580r15 630r72 636m12
+91b10 is_Visible{boolean} 47|344r23 516m26
+92b10 is_Closed{boolean} 47|58r63 344r51 506m26
+93b10 Show_Status{boolean} 47|277r15 673r66 679m12
+95i10 main_size_x{28|125I9} 47|133r29 159m12 167r45 236r42 240r42 253r40
+. 256r44 260r44 400r69 536r41
+96i10 main_size_y{28|125I9} 47|133r47 160m12 167r76 236r61 240r61 253r58
+. 256r62 260r62 401r69 536r70
+98b10 foggy{boolean} 47|572r15
+99r10 frontal_light{39|488R9} 47|71m12
+100i10 forget_mouse{natural} 47|194m22 207m32 409r19 412m19 412r44
+101b10 full_screen{boolean} 47|208m32 402r60
+102f10 Alpha{28|128F9} 47|422m19 422r37 425m19 425r37 429r25 430m22 431r25
+. 432m22 436r63
+106i10 last_time{integer} 47|376r48 379m16
+107a10 sample{80A9} 47|382r33 382r62 383m19 383r42 384r67 387m16 387r33 390r61
+108f10 Average{39|102F12} 47|267r83 278r38 380m16 384m19 384r42 389m16 389r36
+. 390m16 390r36
+109b10 new_scene{boolean} 47|372r19 373m19
+111a10 game_command{27|46A8} 47|359r22 398m16 403m60 415r19 421r19 424r19
+. 446r39 456r42 463r19 480r19 497r19
+115r10 Keyboard{45|25R9} 47|406m60 685m90
+116r10 Mouse{45|50R9} 47|407m60 687m84
+120b10 is_capturing_Video{boolean} 47|259r15 481r22 483m22 487m22 491r19
+X 47 glut-windows.adb
+32K12 G3D=32:25 63r22 70r7 74r7 78r7 81r7 85r7 88r7 91r7 94r7 96r7 98r7 99r7
+. 100r7 101r7 102r7 103r7 104r7 152r11 218r11 218r16 272r11 275r7 332r51
+. 335r11 335r16 619r53 648r11
+36N4 deg2rad 168r60
+37X4 GLUT_Problem 542r16
+42V13 current_Window{46|26P9} 42b13 48l8 48t22 191s58 207s13 208s13 506s7
+. 516s7
+44V16 to_Window[25|20]{39|460P9} 47s40
+60U14 Prepare_default_lighting 60b14 60=40 61>40 106l8 106t32 570s7
+60r40 Self{46|25R9} 71m7
+61f40 fact{28|126F9} 64r79 65r79 66r79 73r47 76r47 77r47
+63r7 proto_light{39|488R9} 70r22 71r31 73m7 74r22 76m7 77m7 78r22 80m7 81r22
+. 83m7 84m7 85r22 87m7 88r22 90m7 91r22 93m7 94r22
+108U14 Clear_modes 108b14 116l8 116t19 569s7
+118U14 Reset_for_3D 118b14 118=28 128l8 128t20 196s7 578s7
+118c28 Self<46|25R9> 121r28
+130U14 enable_Viewport_and_Perspective 130b14 130=47 148l8 148t39 348s7
+130c47 Self<46|25R9> 133r24 133r42 138r34 139r34 140r34 141r34 143m35 143r35
+. 145m7 145r51
+150U14 set_Size 150b14 150=24 150>53 150>60 184l8 184t16 195s7 534s7
+150c24 Self<46|25R9> 159m7 160m7 162m7 163m7 164m7 165m7 167m7 167r40 167r71
+. 168r41 172m7 172r40 173m7 173r40 173r74 175m7 175r40 176m7 176r40 176r73
+. 178r10 179r39 182m7
+150i53 width{integer} 159r38 164r47
+150i60 height{integer} 160r38 165r47
+155f7 half_fov_max_rads{39|102F12} 168m7 170r40 179m10 182r51
+156f7 Tan_of_half_fov_max_rads{39|102F12} 170m7 172r74 175r73 179r60
+189U14 Window_Resize 189b14 189>29 189>36 197l8 197t21 546r30
+189i29 width{integer} 195r38
+189i36 height{integer} 195r45
+191p7 the_Window{46|26P9} 194r7 195r21 196r21
+199U14 Menu 199b14 199>20 212l8 212t12 213r25
+199i20 value{integer} 202r12
+220a7 light_info{string} 244r16 247m13 249m13 253r86
+244i11 i{integer} 246r32 247r25 247r68 249r25
+269U14 Graphic_display 269b14 269=31 270>31 280l8 280t23 288s10 310s13 314s13
+269c31 Self<46|25R9> 275r19 275r38 275r67 277r10 278m26 278r33
+270a31 Extras{39|210A9} 275r59
+282U14 Fill_screen 282b14 282=27 283>27 319l8 319t19 366s7
+282c27 Self<46|25R9> 288m27 294r12 310m30 314m30
+283a27 Extras{39|210A9} 288r33 310r36 314r36
+285U17 Display 285b17 289l11 289t18 291r59
+291K15 SAA[41|9] 297r13 297r30 298r35 299r16
+298i17 SAA_Phase{integer} 299r48
+321U14 Reset_eye 321b14 321=26 326l8 326t17 464s10 600s7
+321c26 Self<46|25R9> 324m7 325m7
+328V13 Image{string} 328>20 485s82 498s70 690b13 721l8 721t13
+328i20 Date{3|42I9} 690b20 699r30 704r56 705r57 706r55
+331U14 Main_Operations 331b14 331^31 332>31 333>31 501l8 501t23 624s7
+331p31 Self(46|25R9) 344r14 344r42 348r40 359r13 366r20 372r10 373r10 376r39
+. 379r7 380r7 382r24 382r53 383r10 383r33 384r10 384r33 384r58 387r7 387r24
+. 389r7 389r27 390r7 390r27 390r52 398r7 400r60 401r60 402r51 403r51 406r51
+. 407r51 409r10 412r10 412r35 415r10 421r10 422r10 422r28 424r10 425r10 425r28
+. 429r16 430r13 431r16 432r13 435r27 436r24 436r54 445r24 446r30 455r27 456r33
+. 463r10 464r21 467r7 467r60 472r22 473r23 473r66 473r109 475r7 480r10 481r13
+. 483r13 485r59 487r13 491r10 497r10 498r47
+332f31 time_Step{39|102F12} 451r42 461r49
+333a31 Extras{39|210A9} 366r30
+337i7 elaps{integer} 374m10 376m10 387r50 389r52 392r25
+337i14 time_now{integer} 370m7 376r28 379r29
+338f7 gx{28|128F9} 404m51 410m10 447r30 457r33
+338f14 gy{28|128F9} 405m51 411m10 448r30 458r33
+339f7 seconds{28|128F9} 392m7 393r58 422r45 425r45 449r42 459r49
+340b7 alpha_correct{boolean} 419m7 422m54 425m54 428r10
+341f7 attenu_t{39|102F12} 393m7 394r19 460r49
+341f17 attenu_r{39|102F12} 394m7 450r42
+358e11 c{27|14E9} 359r36 360r52
+382i11 i{integer} 383r27 383r50 384r75
+435i14 Each{integer} 436r42
+503U14 Close_Window 503b14 507l8 507t20 545r30
+509U14 Update_Visibility 509b14 509>33 517l8 517t25 547r30
+509i33 State{integer} 516r45 516r73
+519U14 Start_GLUTs 519b14 519=27 561l8 561t19 598s7
+519r27 Self{46|25R9} 528r10 534m17 536r36 536r65 539m7 541r10 548m65 548r65
+523V16 to_Address[25|20]{54|67M9} 548s30
+525m7 GLUT_options{44|24M12} 529m10 529r26 532r24
+563U14 Start_GLs 563b14 563=25 585l8 585t17 599s7
+563r25 Self{46|25R9} 570m33 572r10 578m21 580r10
+565a7 fog_colour{28|153A9} 574m31 574r31
+651i11 Each{integer} 653r27 655r16 656r30 656r78
+694I15 Sec_int{long_integer} 696r15 699r12 707r35 708r35 709r35
+696i7 m{694I15} 700m7 707r50 708r50
+696i10 s{694I15} 699m7 700r12 709r50
+704a10 sY{string} 713r12 713r16 713r31
+705a10 sM{string} 714r12 714r16 714r31
+706a10 sD{string} 715r12 715r16 715r31
+707a10 shr{string} 717r12 717r17 717r33
+708a10 smn{string} 718r12 718r17 718r33
+709a10 ssc{string} 719r12 719r17 719r33
+X 48 glut_2d.ads
+5K9*GLUT_2D 47|17w6 232r7 232r55 233r7 233r55 234r7 234r55 236r7 238r28 240r7
+. 242r28 253r7 253r104 256r10 256r123 260r10 260r90 48|55e12
+15n5*Times_Roman_24{11E8} 47|232r63 233r63 234r63
+16n5*Helvetica_10{11E8} 47|238r36 242r36 253r112 256r131 260r98
+27U13*Text_output 47|236s15 240s15 253s15 256s18 260s18
+36U13*Text_output 47|232s15 233s15 234s15
+X 50 i-c.ads
+35I9*int<integer>
+43M9*unsigned
+64F9*C_float<float>
+65F9*double<long_float>
+X 54 system.ads
+37K9*System 47|44r59 523r79 54|174e11
+67M9*Address 47|44r66 523r86
+X 70 s-memory.ads
+53V13*Alloc{54|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{54|67M9} 105i<c,__gnat_realloc>22
+X 77 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+

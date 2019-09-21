@@ -1,0 +1,331 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -fstack-check=specific
+A -gnato
+A -mtune=core2
+A -mmacosx-version-min=10.14.0
+A -fPIC
+A -feliminate-unused-debug-symbols
+P SS ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U vectors_3d%b		vectors_3d.adb		e4287d38 DE NE OO PK
+
+U vectors_3d%s		vectors_3d.ads		213b0373 DE EE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+Z ada.numerics.aux%s	a-numaux.adb		a-numaux.ali
+Z ada.numerics.generic_elementary_functions%s
+W ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.bounded%s	a-strbou.adb		a-strbou.ali
+Z interfaces%s		interfac.ads		interfac.ali
+W real_type%s		real_type.ads		real_type.ali
+Z system.assertions%s	s-assert.adb		s-assert.ali
+Z system.exn_llf%s	s-exnllf.adb		s-exnllf.ali
+Z system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+Z system.img_real%s	s-imgrea.adb		s-imgrea.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W vectors_xd%s		vectors_xd.adb		vectors_xd.ali  EA
+
+D ada.ads		20190518041255 76789da1 ada%s
+D a-charac.ads		20190518041255 2d3ec45b ada.characters%s
+D a-chlat1.ads		20190518041255 66457d31 ada.characters.latin_1%s
+D a-except.ads		20190518041255 291912d5 ada.exceptions%s
+D a-numeri.ads		20190518041254 bb51c45a ada.numerics%s
+D a-numaux.ads		20190518041254 243fe0b7 ada.numerics.aux%s
+D a-ngelfu.ads		20190518041256 55716239 ada.numerics.generic_elementary_functions%s
+D a-ngelfu.adb		20190518041255 a9022048 ada.numerics.generic_elementary_functions%b
+D a-string.ads		20190518041255 90ac6797 ada.strings%s
+D a-strbou.ads		20190518041254 84c37afd ada.strings.bounded%s
+D a-strbou.adb		20190518041255 adb4aa70 ada.strings.bounded%b
+D a-strmap.ads		20190518041255 e8bb714a ada.strings.maps%s
+D a-strsup.ads		20190518041255 a27dcb33 ada.strings.superbounded%s
+D a-unccon.ads		20190518041255 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20190518041254 5ab55268 interfaces%s
+D real_type.ads		20130922130031 cdd2e5cc real_type%s
+D system.ads		20190518041255 085b6ffb system%s
+D s-assert.ads		20190518041255 cd8d2c94 system.assertions%s
+D s-exctab.ads		20190518041255 54135002 system.exception_table%s
+D s-exnllf.ads		20190518041256 bc7ebbdc system.exn_llf%s
+D s-fatgen.ads		20190518041256 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20190518041255 378cba9f system.fat_lflt%s
+D s-imgrea.ads		20190518041254 c7a851e2 system.img_real%s
+D s-parame.ads		20190518041256 48ec542b system.parameters%s
+D s-secsta.ads		20190518041256 20bbe636 system.secondary_stack%s
+D s-stalib.ads		20190518041256 09bd3940 system.standard_library%s
+D s-stoele.ads		20190518041256 2dc34a04 system.storage_elements%s
+D s-traent.ads		20190518041254 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041255 34867c83 system.unsigned_types%s
+D vectors_3d.ads	20190902013422 c52a4ec0 vectors_3d%s
+D vectors_3d.adb	20190902013422 210233f8 vectors_3d%b
+D vectors_xd.ads	20190902013422 29c3a87f vectors_xd%s
+D vectors_xd.adb	20190902013422 d38e4f6d vectors_xd%b
+G a e
+G c s s s [s vectors_3d 8 1 none]
+G c Z s s [Tvector_xdBIP vectors_3d__vectors_3di 14 4 12_4]
+G c Z s s [image vectors_3d__vectors_3di 18 13 12_4]
+G c Z s s [norm vectors_3d__vectors_3di 20 13 12_4]
+G c Z s s [Omultiply vectors_3d__vectors_3di 22 13 12_4]
+G c Z s s [Omultiply vectors_3d__vectors_3di 23 13 12_4]
+G c Z s s [Odivide vectors_3d__vectors_3di 24 13 12_4]
+G c Z s s [Omultiply vectors_3d__vectors_3di 26 13 12_4]
+G c Z s s [angle_between vectors_3d__vectors_3di 28 13 12_4]
+G c Z s s [Oadd vectors_3d__vectors_3di 30 13 12_4]
+G c Z s s [Osubtract vectors_3d__vectors_3di 31 13 12_4]
+G c Z s s [Osubtract vectors_3d__vectors_3di 32 13 12_4]
+G c Z s s [Oabs vectors_3d__vectors_3di 34 13 12_4]
+G c Z s s [sqrt vectors_3d__vectors_3di__real_elementary_functions 52 13 11_4_12_4]
+G c Z s s [log vectors_3d__vectors_3di__real_elementary_functions 75 13 11_4_12_4]
+G c Z s s [log vectors_3d__vectors_3di__real_elementary_functions 79 13 11_4_12_4]
+G c Z s s [exp vectors_3d__vectors_3di__real_elementary_functions 83 13 11_4_12_4]
+G c Z s s [Oexpon vectors_3d__vectors_3di__real_elementary_functions 86 13 11_4_12_4]
+G c Z s s [sin vectors_3d__vectors_3di__real_elementary_functions 94 13 11_4_12_4]
+G c Z s s [sin vectors_3d__vectors_3di__real_elementary_functions 98 13 11_4_12_4]
+G c Z s s [cos vectors_3d__vectors_3di__real_elementary_functions 103 13 11_4_12_4]
+G c Z s s [cos vectors_3d__vectors_3di__real_elementary_functions 107 13 11_4_12_4]
+G c Z s s [tan vectors_3d__vectors_3di__real_elementary_functions 112 13 11_4_12_4]
+G c Z s s [tan vectors_3d__vectors_3di__real_elementary_functions 115 13 11_4_12_4]
+G c Z s s [cot vectors_3d__vectors_3di__real_elementary_functions 120 13 11_4_12_4]
+G c Z s s [cot vectors_3d__vectors_3di__real_elementary_functions 123 13 11_4_12_4]
+G c Z s s [arcsin vectors_3d__vectors_3di__real_elementary_functions 129 13 11_4_12_4]
+G c Z s s [arcsin vectors_3d__vectors_3di__real_elementary_functions 133 13 11_4_12_4]
+G c Z s s [arccos vectors_3d__vectors_3di__real_elementary_functions 137 13 11_4_12_4]
+G c Z s s [arccos vectors_3d__vectors_3di__real_elementary_functions 141 13 11_4_12_4]
+G c Z s s [arctan vectors_3d__vectors_3di__real_elementary_functions 145 13 11_4_12_4]
+G c Z s s [arctan vectors_3d__vectors_3di__real_elementary_functions 152 13 11_4_12_4]
+G c Z s s [arccot vectors_3d__vectors_3di__real_elementary_functions 160 13 11_4_12_4]
+G c Z s s [arccot vectors_3d__vectors_3di__real_elementary_functions 167 13 11_4_12_4]
+G c Z s s [sinh vectors_3d__vectors_3di__real_elementary_functions 175 13 11_4_12_4]
+G c Z s s [cosh vectors_3d__vectors_3di__real_elementary_functions 178 13 11_4_12_4]
+G c Z s s [tanh vectors_3d__vectors_3di__real_elementary_functions 182 13 11_4_12_4]
+G c Z s s [coth vectors_3d__vectors_3di__real_elementary_functions 186 13 11_4_12_4]
+G c Z s s [arcsinh vectors_3d__vectors_3di__real_elementary_functions 190 13 11_4_12_4]
+G c Z s s [arccosh vectors_3d__vectors_3di__real_elementary_functions 193 13 11_4_12_4]
+G c Z s s [arctanh vectors_3d__vectors_3di__real_elementary_functions 198 13 11_4_12_4]
+G c Z s s [arccoth vectors_3d__vectors_3di__real_elementary_functions 202 13 11_4_12_4]
+G c Z s s [exp_strict vectors_3d__vectors_3di__real_elementary_functions 66 13 11_4_12_4]
+G c Z s s [local_atan vectors_3d__vectors_3di__real_elementary_functions 70 13 11_4_12_4]
+G c Z s s [length vectors_3d__vectors_3di__strings_255 65 16 15_4_12_4]
+G c Z s s [to_bounded_string vectors_3d__vectors_3di__strings_255 72 16 15_4_12_4]
+G c Z s s [to_string vectors_3d__vectors_3di__strings_255 82 16 15_4_12_4]
+G c Z s s [set_bounded_string vectors_3d__vectors_3di__strings_255 86 17 15_4_12_4]
+G c Z s s [append vectors_3d__vectors_3di__strings_255 96 16 15_4_12_4]
+G c Z s s [append vectors_3d__vectors_3di__strings_255 109 16 15_4_12_4]
+G c Z s s [append vectors_3d__vectors_3di__strings_255 122 16 15_4_12_4]
+G c Z s s [append vectors_3d__vectors_3di__strings_255 135 16 15_4_12_4]
+G c Z s s [append vectors_3d__vectors_3di__strings_255 146 16 15_4_12_4]
+G c Z s s [append vectors_3d__vectors_3di__strings_255 157 17 15_4_12_4]
+G c Z s s [append vectors_3d__vectors_3di__strings_255 170 17 15_4_12_4]
+G c Z s s [append vectors_3d__vectors_3di__strings_255 183 17 15_4_12_4]
+G c Z s s [Oconcat vectors_3d__vectors_3di__strings_255 194 16 15_4_12_4]
+G c Z s s [Oconcat vectors_3d__vectors_3di__strings_255 202 16 15_4_12_4]
+G c Z s s [Oconcat vectors_3d__vectors_3di__strings_255 210 16 15_4_12_4]
+G c Z s s [Oconcat vectors_3d__vectors_3di__strings_255 218 16 15_4_12_4]
+G c Z s s [Oconcat vectors_3d__vectors_3di__strings_255 226 16 15_4_12_4]
+G c Z s s [element vectors_3d__vectors_3di__strings_255 234 16 15_4_12_4]
+G c Z s s [replace_element vectors_3d__vectors_3di__strings_255 241 17 15_4_12_4]
+G c Z s s [slice vectors_3d__vectors_3di__strings_255 250 16 15_4_12_4]
+G c Z s s [bounded_slice vectors_3d__vectors_3di__strings_255 259 16 15_4_12_4]
+G c Z s s [bounded_slice vectors_3d__vectors_3di__strings_255 270 17 15_4_12_4]
+G c Z s s [Oeq vectors_3d__vectors_3di__strings_255 281 16 15_4_12_4]
+G c Z s s [Oeq vectors_3d__vectors_3di__strings_255 287 16 15_4_12_4]
+G c Z s s [Oeq vectors_3d__vectors_3di__strings_255 293 16 15_4_12_4]
+G c Z s s [Olt vectors_3d__vectors_3di__strings_255 299 16 15_4_12_4]
+G c Z s s [Olt vectors_3d__vectors_3di__strings_255 305 16 15_4_12_4]
+G c Z s s [Olt vectors_3d__vectors_3di__strings_255 311 16 15_4_12_4]
+G c Z s s [Ole vectors_3d__vectors_3di__strings_255 317 16 15_4_12_4]
+G c Z s s [Ole vectors_3d__vectors_3di__strings_255 323 16 15_4_12_4]
+G c Z s s [Ole vectors_3d__vectors_3di__strings_255 329 16 15_4_12_4]
+G c Z s s [Ogt vectors_3d__vectors_3di__strings_255 335 16 15_4_12_4]
+G c Z s s [Ogt vectors_3d__vectors_3di__strings_255 341 16 15_4_12_4]
+G c Z s s [Ogt vectors_3d__vectors_3di__strings_255 347 16 15_4_12_4]
+G c Z s s [Oge vectors_3d__vectors_3di__strings_255 353 16 15_4_12_4]
+G c Z s s [Oge vectors_3d__vectors_3di__strings_255 359 16 15_4_12_4]
+G c Z s s [Oge vectors_3d__vectors_3di__strings_255 365 16 15_4_12_4]
+G c Z s s [index vectors_3d__vectors_3di__strings_255 375 16 15_4_12_4]
+G c Z s s [index vectors_3d__vectors_3di__strings_255 384 16 15_4_12_4]
+G c Z s s [index vectors_3d__vectors_3di__strings_255 393 16 15_4_12_4]
+G c Z s s [index vectors_3d__vectors_3di__strings_255 401 16 15_4_12_4]
+G c Z s s [index vectors_3d__vectors_3di__strings_255 415 16 15_4_12_4]
+G c Z s s [index vectors_3d__vectors_3di__strings_255 429 16 15_4_12_4]
+G c Z s s [index_non_blank vectors_3d__vectors_3di__strings_255 440 16 15_4_12_4]
+G c Z s s [index_non_blank vectors_3d__vectors_3di__strings_255 446 16 15_4_12_4]
+G c Z s s [count vectors_3d__vectors_3di__strings_255 455 16 15_4_12_4]
+G c Z s s [count vectors_3d__vectors_3di__strings_255 463 16 15_4_12_4]
+G c Z s s [count vectors_3d__vectors_3di__strings_255 471 16 15_4_12_4]
+G c Z s s [find_token vectors_3d__vectors_3di__strings_255 477 17 15_4_12_4]
+G c Z s s [find_token vectors_3d__vectors_3di__strings_255 489 17 15_4_12_4]
+G c Z s s [translate vectors_3d__vectors_3di__strings_255 502 16 15_4_12_4]
+G c Z s s [translate vectors_3d__vectors_3di__strings_255 509 17 15_4_12_4]
+G c Z s s [translate vectors_3d__vectors_3di__strings_255 516 16 15_4_12_4]
+G c Z s s [translate vectors_3d__vectors_3di__strings_255 523 17 15_4_12_4]
+G c Z s s [replace_slice vectors_3d__vectors_3di__strings_255 534 16 15_4_12_4]
+G c Z s s [replace_slice vectors_3d__vectors_3di__strings_255 562 17 15_4_12_4]
+G c Z s s [insert vectors_3d__vectors_3di__strings_255 590 16 15_4_12_4]
+G c Z s s [insert vectors_3d__vectors_3di__strings_255 605 17 15_4_12_4]
+G c Z s s [overwrite vectors_3d__vectors_3di__strings_255 620 16 15_4_12_4]
+G c Z s s [overwrite vectors_3d__vectors_3di__strings_255 637 17 15_4_12_4]
+G c Z s s [delete vectors_3d__vectors_3di__strings_255 654 16 15_4_12_4]
+G c Z s s [delete vectors_3d__vectors_3di__strings_255 669 17 15_4_12_4]
+G c Z s s [trim vectors_3d__vectors_3di__strings_255 687 16 15_4_12_4]
+G c Z s s [trim vectors_3d__vectors_3di__strings_255 694 17 15_4_12_4]
+G c Z s s [trim vectors_3d__vectors_3di__strings_255 701 16 15_4_12_4]
+G c Z s s [trim vectors_3d__vectors_3di__strings_255 709 17 15_4_12_4]
+G c Z s s [head vectors_3d__vectors_3di__strings_255 717 16 15_4_12_4]
+G c Z s s [head vectors_3d__vectors_3di__strings_255 727 17 15_4_12_4]
+G c Z s s [tail vectors_3d__vectors_3di__strings_255 737 16 15_4_12_4]
+G c Z s s [tail vectors_3d__vectors_3di__strings_255 747 17 15_4_12_4]
+G c Z s s [Omultiply vectors_3d__vectors_3di__strings_255 761 16 15_4_12_4]
+G c Z s s [Omultiply vectors_3d__vectors_3di__strings_255 769 16 15_4_12_4]
+G c Z s s [Omultiply vectors_3d__vectors_3di__strings_255 777 16 15_4_12_4]
+G c Z s s [replicate vectors_3d__vectors_3di__strings_255 785 16 15_4_12_4]
+G c Z s s [replicate vectors_3d__vectors_3di__strings_255 796 16 15_4_12_4]
+G c Z s s [replicate vectors_3d__vectors_3di__strings_255 810 16 15_4_12_4]
+G c Z s s [strings_255Initial_Condition vectors_3d__vectors_3di__strings_255 53 6 15_4_12_4]
+G c Z s s [from_string vectors_3d__vectors_3di__strings_255 846 16 15_4_12_4]
+G c Z s b [Omultiply vectors_3d 27 13 none]
+G r i none [s vectors_3d 8 1 none] [vectors_xd standard 10 9 none]
+X 16 real_type.ads
+3K9*Real_Type 10e14 30|5w6 5r21
+5F12*Real{long_float} 30|12r43 22r27 23r42 24r42 26r54 29r64 35r42
+X 30 vectors_3d.ads
+8K9*Vectors_3D 37l5 37e15 31|5b14 12l5 12t15
+10E9*Coordinates 10e33 12r49
+10n25*x{10E9} 31|8r7 9r35 9r48 10r21 10r62
+10n28*y{10E9} 31|8r21 8r62 9r7 10r35 10r48
+10n31*z{10E9} 31|8r35 8r48 9r21 9r62 10r7
+12K12*Vectors_3Di[32|10] 14r25 16r43 18r57 20r59 22r73 23r73 24r73 26r67
+. 29r77 31r72 32r72 33r72 35r55
+14A12*Vector_3D{32|14A9[12]}<10E9> 16r30 18r24 20r23 20r41 22r37 22r55 23r22
+. 23r55 24r22 24r55 26r36 27r36 27r54 29r46 31r36 31r54 32r36 32r54 33r22
+. 33r54 35r24 31|7r36 7r54
+16a4*Zero_Vector_3D{14A12}
+18V13*Image=18:69{string}
+18a20 V{14A12}
+20V13*Norm=20:71{32|14A9[12]}
+20a19 V{14A12}
+22V14*"*"=22:85{32|14A9[12]}
+22f18 Scalar{long_float}
+22a33 V{14A12}
+23V14*"*"=23:85{32|14A9[12]}
+23a18 V{14A12}
+23f33 Scalar{long_float}
+24V14*"/"=24:85{32|14A9[12]}
+24a18 V{14A12}
+24f33 Scalar{long_float}
+26V14*"*"=26:79{long_float}
+26a18 V_Left{14A12}
+26a26 V_Right{14A12}
+27V14*"*"{14A12} 27>18 27>26 31|7b14
+27a18 V_Left{14A12} 31|8r13 8r40 9r13 9r40 10r13 10r40
+27a26 V_Right{14A12} 31|8r26 8r53 9r26 9r53 10r26 10r53
+29V13*Angle_Between=29:89{long_float}
+29a28 V_Left{14A12}
+29a36 V_Right{14A12}
+31V14*"+"=31:84{32|14A9[12]}
+31a18 V_Left{14A12}
+31a26 V_Right{14A12}
+32V14*"-"=32:84{32|14A9[12]}
+32a18 V_Left{14A12}
+32a26 V_Right{14A12}
+33V14*"-"=33:84{32|14A9[12]}
+33a18 V{14A12}
+35V14*"abs"=35:67{long_float}
+35a20 V{14A12}
+X 32 vectors_xd.ads
+10k9*Vectors_xD 30|6w6 6r56 12r31 32|36e15
+14A9*Vector_xD(long_float)<30|10E9> 30|14r37[12]
+16a4*Zero_Vector_xD{14A9[30|12]} 30|16r55[12]
+18V13*Image{string} 30|18r69[12]
+20V13*Norm{14A9[30|12]} 30|20r71[12]
+22V14*"*"{14A9[30|12]} 30|22r86[12]
+23V14*"*"{14A9[30|12]} 30|23r86[12]
+24V14*"/"{14A9[30|12]} 30|24r86[12]
+26V14*"*"{long_float} 30|26r80[12]
+28V13*Angle_Between{long_float} 30|29r89[12]
+30V14*"+"{14A9[30|12]} 30|31r85[12]
+31V14*"-"{14A9[30|12]} 30|32r85[12]
+32V14*"-"{14A9[30|12]} 30|33r85[12]
+34V14*"abs"{long_float} 30|35r68[12]
+

@@ -5,7 +5,7 @@
 with Exceptions;            use Exceptions;
 with Swarm_Control;         use Swarm_Control;
 with Swarm_Data;            use Swarm_Data;
-with Swarm_Structures;      use Swarm_Structures;
+-- with Swarm_Structures;      use Swarm_Structures;
 with Swarm_Structures_Base; use Swarm_Structures_Base;
 
 package body Swarm_Control_Concurrent_Generic is
