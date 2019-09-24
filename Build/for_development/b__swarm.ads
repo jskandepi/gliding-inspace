@@ -783,7 +783,7 @@ package ada_main is
    pragma Export (C, u00372, "system__tasking__rendezvousB");
    u00373 : constant Version_32 := 16#5618a4d0#;
    pragma Export (C, u00373, "system__tasking__rendezvousS");
-   u00374 : constant Version_32 := 16#9f28e989#;
+   u00374 : constant Version_32 := 16#06abf0ef#;
    pragma Export (C, u00374, "swarm_controlB");
    u00375 : constant Version_32 := 16#a7905e39#;
    pragma Export (C, u00375, "swarm_controlS");
@@ -791,7 +791,7 @@ package ada_main is
    pragma Export (C, u00376, "swarm_dataS");
    u00377 : constant Version_32 := 16#a3e1fbc0#;
    pragma Export (C, u00377, "swarm_structuresB");
-   u00378 : constant Version_32 := 16#792213f0#;
+   u00378 : constant Version_32 := 16#e0a10a96#;
    pragma Export (C, u00378, "swarm_structuresS");
    u00379 : constant Version_32 := 16#5aabc651#;
    pragma Export (C, u00379, "barrier_typeB");
@@ -801,13 +801,13 @@ package ada_main is
    pragma Export (C, u00381, "generic_realtime_bufferB");
    u00382 : constant Version_32 := 16#a4c755fe#;
    pragma Export (C, u00382, "generic_realtime_bufferS");
-   u00383 : constant Version_32 := 16#eb827864#;
+   u00383 : constant Version_32 := 16#a8956d76#;
    pragma Export (C, u00383, "vehicle_message_typeS");
-   u00384 : constant Version_32 := 16#8f52c696#;
+   u00384 : constant Version_32 := 16#55c6cae2#;
    pragma Export (C, u00384, "swarm_sizeS");
-   u00385 : constant Version_32 := 16#2f2f3951#;
+   u00385 : constant Version_32 := 16#63a8ceb0#;
    pragma Export (C, u00385, "vehicle_task_typeB");
-   u00386 : constant Version_32 := 16#83e31671#;
+   u00386 : constant Version_32 := 16#1a600f17#;
    pragma Export (C, u00386, "vehicle_task_typeS");
    u00387 : constant Version_32 := 16#69297ce2#;
    pragma Export (C, u00387, "system__tasking__stagesB");

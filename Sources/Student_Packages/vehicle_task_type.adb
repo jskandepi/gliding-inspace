@@ -8,20 +8,18 @@ with Exceptions;                 use Exceptions;
 --  with Rotations;                  use Rotations;
 with Vectors_3D;                 use Vectors_3D;
 with Vehicle_Interface;          use Vehicle_Interface;
-with Vehicle_Message_Type;       use Vehicle_Message_Type;
--- with Swarm_Structures;           use Swarm_Structures;
-with Ada.Containers.Hashed_Maps; -- sets
-with Swarm_Structures_Base;      use Swarm_Structures_Base;
+with Vehicle_Message_Type; use Vehicle_Message_Type;
+with Ada.Containers.Hashed_Maps;
 with Swarm_Size; use Swarm_Size;
+with Swarm_Structures_Base; use Swarm_Structures_Base;
 --  with Ada.Text_IO; use Ada.Text_IO;
 
 package body Vehicle_Task_Type is
 
    task body Vehicle_Task is
 
-      Vehicle_No : Positive; -- pragma Unreferenced (Vehicle_No);
-      -- You will want to take the pragma out, once you use the "Vehicle_No"
-
+      -- Vehicle_No of corresponding drone
+      Vehicle_No : Positive;
       -- Decide whether the drone receives message before, true if the drone hasn't received any messages.
       Empty_Message_Box : Boolean := True;
       -- The message that will be sent by the drone
@@ -44,7 +42,7 @@ package body Vehicle_Task_Type is
       -- Record the vehicle_No and current energy level of other drones.
       package My_Hash is new Ada.Containers.Hashed_Maps (Key_Type => Positive,
                                                          Element_Type => Vehicle_Charges,
-                                                         Hash => ID_Hash,
+                                                         Hash => ID_Hashed,
                                                          Equivalent_Keys => "=");
       use My_Hash;
 
@@ -52,7 +50,7 @@ package body Vehicle_Task_Type is
 
       -- Record the vehicle_No of live and dead vehicles.
       Vehicle_No_Set,
-      Delete_No_Set : No_set; -- xxyyzz
+      Delete_No_Set : No_set;
 
       -- Return the minimum energy level of all the drones
       function Minimum_Energy_Around return Vehicle_Charges is
@@ -86,8 +84,8 @@ package body Vehicle_Task_Type is
       -- in communications with other vehicles.
 
       accept Identify (Set_Vehicle_No : Positive; Local_Task_Id : out Task_Id) do
-         Vehicle_No     := Set_Vehicle_No;
-         Local_Task_Id  := Current_Task;
+         Vehicle_No      := Set_Vehicle_No;
+         Local_Task_Id   := Current_Task;
       end Identify;
 
       -- Replace the rest of this task with your own code.
@@ -104,11 +102,6 @@ package body Vehicle_Task_Type is
 
          Outer_task_loop : loop
 
-            -- Wait_For_Next_Physics_Update;
-
-            -- Your vehicle should respond to the world here: sense, listen, talk, act?
-
-            -- -----------------
             declare
                Globes : constant Energy_Globes := Energy_Globes_Around;
 
@@ -172,14 +165,6 @@ package body Vehicle_Task_Type is
                -- Update the live drones set by deleting the dead drones' number.
                Vehicle_No_Set.Difference (Delete_No_Set);
 
-               -- Find energy
-               -- Delete the position of globe if the info is received 3 seconds ago,
-               -- the action will guarantee that the drone will always try to find a
-               -- globe rather than depend on other drones.
-               if Find_Energy and then (Clock - Find_Energy_Time) >= Seconds (3) then
-                  Find_Energy := False;
-               end if;
-
                -- Detect globes
                if Globes'Length > 0 then
                   if Globes'Length = 1 then
@@ -199,6 +184,14 @@ package body Vehicle_Task_Type is
 
                   Find_Energy := True;
 
+               end if;
+
+               -- Find energy
+               -- Delete the position of globe if the info is received 3 seconds ago,
+               -- the action will guarantee that the drone will always try to find a
+               -- globe rather than depend on other drones.
+               if Find_Energy and then (Clock - Find_Energy_Time) >= Seconds (3) then
+                  Find_Energy := False;
                end if;
 
                -- Message sent
@@ -264,7 +257,6 @@ package body Vehicle_Task_Type is
                Charge_Map.Clear;
 
             end;
-            -- -----------------
 
          end loop Outer_task_loop;
 

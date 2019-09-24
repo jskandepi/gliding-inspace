@@ -1,4 +1,3 @@
-vehicle_task_type.adb:179:49: warning: "Find_Energy_Time" may be referenced before it has a value
 vehicle_task_type.ads:10:04: (style) reserved words must be all lower case
-vehicle_task_type.ads:10:24: (style) space required
-vehicle_task_type.ads:10:67: (style) space required
+vehicle_task_type.ads:10:26: (style) space required
+vehicle_task_type.ads:10:69: (style) space required

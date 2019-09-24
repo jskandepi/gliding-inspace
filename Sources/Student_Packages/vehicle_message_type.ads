@@ -11,8 +11,8 @@ package Vehicle_Message_Type is
    -- Replace this record definition by what your vehicles need to communicate.
 
    type Inter_Vehicle_Messages is record
-      ID : Positive ;
-      Message_Send_Time :Time;
+      ID : Positive;
+      Message_Send_Time : Time;
       Energy_Globe_Find : Boolean;
       Energy_Globe_Pos : Vector_3D; -- change pos to position ( weird error )
       My_Energy : Vehicle_Charges;  --  My_Energy
@@ -20,3 +20,4 @@ package Vehicle_Message_Type is
       Delete_Neighbours_No : No_Set;
    end record;
 end Vehicle_Message_Type;
+
