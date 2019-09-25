@@ -94,6 +94,7 @@ RV NO_EXCEPTION_HANDLERS
 RV NO_EXCEPTION_PROPAGATION
 RV NO_EXCEPTIONS
 RV NO_FLOATING_POINT
+RV NO_IO
 RV NO_IMPLICIT_CONDITIONALS
 RV NO_LOCAL_ALLOCATORS
 RV NO_NESTED_FINALIZATION
@@ -116,7 +117,7 @@ RV MAX_TASK_ENTRIES=1
 RV MAX_ASYNCHRONOUS_SELECT_NESTING=1+
 RV MAX_ENTRY_QUEUE_LENGTH=1+
 
-U vehicle_task_type%b	vehicle_task_type.adb	63a8ceb0 DE OO PK
+U vehicle_task_type%b	vehicle_task_type.adb	4bafc223 DE OO PK
 W ada%s			ada.ads			ada.ali
 W ada.containers%s	a-contai.ads		a-contai.ali
 Z ada.containers.hash_tables%s  a-cohata.ads	a-cohata.ali
@@ -131,6 +132,7 @@ Z ada.iterator_interfaces%s
 W ada.real_time%s	a-reatim.adb		a-reatim.ali
 Z ada.streams%s		a-stream.adb		a-stream.ali
 Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
 Z ada.unchecked_deallocation%s
 W exceptions%s		exceptions.adb		exceptions.ali
 Z interfaces%s		interfac.ads		interfac.ali
@@ -142,6 +144,7 @@ Z system.assertions%s	s-assert.adb		s-assert.ali
 Z system.concat_2%s	s-conca2.adb		s-conca2.ali
 Z system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
 Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
 Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
 Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 Z system.soft_links%s	s-soflin.adb		s-soflin.ali
@@ -250,7 +253,7 @@ D matrices.ads		20130922091012 85f7982e matrices%s
 D quaternions.ads	20130922091011 9d9d58c2 quaternions%s
 D real_type.ads		20130922130031 cdd2e5cc real_type%s
 D rotations.ads		20130922091012 3eeded66 rotations%s
-D swarm_size.ads	20190924055731 55c6cae2 swarm_size%s
+D swarm_size.ads	20190925063524 a4d81689 swarm_size%s
 D swarm_structures_base.ads  20190902013422 aac90073 swarm_structures_base%s
 D system.ads		20190518041255 085b6ffb system%s
 D s-addima.ads		20190518041255 a1ec9d3a system.address_image%s
@@ -266,6 +269,7 @@ D s-fatlfl.ads		20190518041255 378cba9f system.fat_lflt%s
 D s-ficobl.ads		20190518041256 078245e4 system.file_control_block%s
 D s-finmas.ads		20190518041255 7811a767 system.finalization_masters%s
 D s-finroo.ads		20190518041256 4ff27390 system.finalization_root%s
+D s-imgint.ads		20190518041254 02dbe0c2 system.img_int%s
 D s-memory.ads		20190518041255 597d6634 system.memory%s
 D s-multip.ads		20190518041254 38ac9f73 system.multiprocessors%s
 D s-oscons.ads		20190518124528 e40aaf2d system.os_constants%s
@@ -302,9 +306,9 @@ D vectors_3d.ads	20190902013422 c52a4ec0 vectors_3d%s
 D vectors_xd.ads	20190902013422 29c3a87f vectors_xd%s
 D vectors_xd_i.ads	20190902013422 dd7f011a vectors_xd_i%s
 D vehicle_interface.ads	20190919025526 a882800b vehicle_interface%s
-D vehicle_message_type.ads  20190922095048 d6b43f32 vehicle_message_type%s
+D vehicle_message_type.ads  20190924151105 d6b43f32 vehicle_message_type%s
 D vehicle_task_type.ads	20190922155149 46442a66 vehicle_task_type%s
-D vehicle_task_type.adb	20190923153438 7242348a vehicle_task_type%b
+D vehicle_task_type.adb	20190925064058 05af311f vehicle_task_type%b
 D zip.ads		20130915151338 6e4a4be8 zip%s
 D zip_streams.ads	20130915151338 088b1cbe zip_streams%s
 G a e
@@ -487,160 +491,165 @@ G r c none [vehicle_task vehicle_task_type 6 14 none] [set_destination vehicle_i
 G r c none [vehicle_task vehicle_task_type 6 14 none] [set_throttle vehicle_interface 30 14 none]
 G r c none [vehicle_task vehicle_task_type 6 14 none] [show_exception exceptions 19 14 none]
 X 1 ada.ads
-16K9*Ada 20e8 112|1r6 1r35 2r6 2r38 12r26 113|3r6 3r38 12r6 43r30
+16K9*Ada 20e8 113|1r6 1r35 2r6 2r38 12r26 114|3r6 3r38 4r6 4r38 12r6 38r32
 X 5 a-contai.ads
-16K13*Containers 24e19 112|2r10 2r42 12r30 113|12r10 43r34
-19M9*Hash_Type 112|10r46 10r60
+16K13*Containers 24e19 113|2r10 2r42 12r30 114|12r10 38r36
+19M9*Hash_Type 113|10r46 10r60
 X 11 a-cohama.ads
-61+9 Key_Type 113|43r58
-62+9 Element_Type 113|44r58
-64V18 Hash{5|19M9} 113|45r58
-73V18 Equivalent_Keys{boolean} 113|46r58
-91k24*Hashed_Maps 559e31 113|12w21 43r45
-96R9*Map<19|43R9> 113|49r28[43]
+61+9 Key_Type 114|38r60
+62+9 Element_Type 114|39r58
+64V18 Hash{5|19M9} 114|40r58
+73V18 Equivalent_Keys{boolean} 114|41r58
+91k24*Hashed_Maps 559e31 114|12w21 38r47
+96R9*Map<19|43R9> 114|43r30[38]
 105R9 Cursor
-159U14 Clear 113|257s27[43]
-167V13 Element{60|25F9} 113|60s16[43] 61s24[43]
-304U14 Insert 113|124s30[43] 140s33[43]
-322U14 Replace 113|122s30[43] 138s33[43]
-365V13 Contains{boolean} 113|121s30[43] 137s33[43]
-392V13 Iterate{21|24C9[120[113|43]]} 113|59s33[43]
+159U14 Clear 114|240s27[38]
+167V13 Element{60|25F9} 114|67s16[38] 68s24[38]
+304U14 Insert 114|113s32[38] 122s35[38]
+322U14 Replace 114|112s68[38] 121s33[38]
+365V13 Contains{boolean} 114|112s30[38] 120s33[38]
+392V13 Iterate{21|24C9[120[114|38]]} 114|66s33[38]
 X 13 a-cohase.ads
-42+9 Element_Type 112|12r54
-44V18 Hash{5|19M9} 112|13r54
-46V18 Equivalent_Elements{boolean} 112|14r54
-51k24*Hashed_Sets 609e31 112|2w21 12r41
-56R9*Set<19|43R9> 112|17r29[12]
+42+9 Element_Type 113|12r54
+44V18 Hash{5|19M9} 113|13r54
+46V18 Equivalent_Elements{boolean} 113|14r54
+51k24*Hashed_Sets 609e31 113|2w21 12r41
+56R9*Set<19|43R9> 113|17r29[12]
 64R9*Cursor
-127V13*Element{integer} 113|72s16[112|12]
-186U14*Insert 113|129s34[112|12] 212s33[112|12]
-235U14*Union 113|145s34[112|12] 146s33[112|12]
-258U14*Difference 113|166s31[112|12]
-327V13*Contains{boolean} 113|128s38[112|12]
-351V13*Iterate{21|24C9[78[112|12]]} 113|71s38[112|12]
+127V13*Element{integer} 114|54s16[113|12]
+186U14*Insert 114|108s80[113|12]
+235U14*Union 114|127s34[113|12] 128s33[113|12]
+258U14*Difference 114|147s31[113|12]
+327V13*Contains{boolean} 114|108s38[113|12]
+351V13*Iterate{21|24C9[78[113|12]]} 114|53s38[113|12]
 X 15 a-conhel.ads
 84R12 Reference_Control_Type<19|43R9>
 X 21 a-iteint.ads
-24C9 Forward_Iterator<24R9[11|120[113|43]]>
+24C9 Forward_Iterator<24R9[11|120[114|38]]>
 24h9 Forward_Iterator
-24C9*Forward_Iterator<24R9[13|78[112|12]]>
+24C9*Forward_Iterator<24R9[13|78[113|12]]>
 24h9 Forward_Iterator
 X 24 a-reatim.ads
-39K13*Real_Time 185e18 113|3w10 3r42
-49O9*Time<duration> 113|38r26
+39K13*Real_Time 185e18 114|3w10 3r42
+49O9*Time<duration> 114|28r26
 54O9*Time_Span<duration>
-61V13*Clock{49O9} 113|173s42 182s42 193s41 201s57 247s60
-71V14*"-"{54O9} 113|193s47
-76V14*"<="{boolean} 113|158r60
-107V14*">="{boolean} 113|193r67
-122V13*Seconds{54O9} 113|193s70
+61V13*Clock{49O9} 114|154s42 163s42 169s41 177s57 192s60 229s60
+71V14*"-"{54O9} 114|169s47
+76V14*"<="{boolean} 114|139r60
+107V14*">="{boolean} 114|169r67
+122V13*Seconds{54O9} 114|169s70
 X 32 a-taside.ads
-45K13*Task_Identification 104e28 112|1w10 1r39
-53P9*Task_Id<97|109P9> 112|7r70 113|86r71
-65V13*Current_Task{53P9} 113|88s29
+45K13*Task_Identification 104e28 113|1w10 1r39
+53P9*Task_Id<98|109P9> 113|7r70 114|79r71
+65V13*Current_Task{53P9} 114|81s29
+X 33 a-textio.ads
+57K13*Text_IO 727e16 114|4w10 4r42
+465U14*Put 114|198s19
 X 37 exceptions.ads
-17K10*Exceptions 22e15 113|5w6 5r38
-19U14*Show_Exception 113|266s26
+17K10*Exceptions 22e15 114|5w6 5r38
+19U14*Show_Exception 114|249s26
 X 41 gl-buffer-general.ads
 14R9 base_Object<40|20R9>
 X 50 graphics_structures.ads
-32A12*Point_3D{107|14A12}<107|10E9>
+32A12*Point_3D{108|14A12}<108|10E9>
 X 59 swarm_size.ads
-1K9*Swarm_Size 9e15 113|13w6 13r22
-7i4*Target_No_of_Elements{positive} 113|211r50
+1K9*Swarm_Size 9e15 114|13w6 13r22
+7i4*Target_No_of_Elements{positive} 114|187r32
 X 60 swarm_structures_base.ads
-10K9*Swarm_Structures_Base 49e26 113|14w6 14r33
-15A12*Positions{50|32A12}<107|10E9>
-25F9*Vehicle_Charges<long_float> 113|44r74 56r45 57r16
-29f4*Full_Charge{25F9} 113|57r35
-32a7*Position{15A12} 113|172r47 176r47 178r39 179r48
-36A9*Energy_Globes(31R9)<integer> 113|106r34
+10K9*Swarm_Structures_Base 49e26 114|14w6 14r33
+15A12*Positions{50|32A12}<108|10E9>
+25F9*Vehicle_Charges<long_float> 114|39r74 63r45 64r16
+29f4*Full_Charge{25F9} 114|64r35
+32a7*Position{15A12} 114|153r52 157r52 159r39 160r53
+36A9*Energy_Globes(31R9)<integer> 114|95r34
 X 61 system.ads
 67M9*Address
-X 75 s-memory.ads
+X 76 s-memory.ads
 53V13*Alloc{61|67M9} 103i<c,__gnat_malloc>22
 68U14*Free 104i<c,__gnat_free>22
 76V13*Realloc{61|67M9} 105i<c,__gnat_realloc>22
-X 84 s-stausa.ads
+X 85 s-stausa.ads
 203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
 268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
-X 86 s-stalib.adb
+X 87 s-stalib.adb
 93U14 Break_Start 94i<c,__gnat_break_start>22
-X 97 s-taskin.ads
+X 98 s-taskin.ads
 109P9*Task_Id(107R9)
-X 107 vectors_3d.ads
-8K9*Vectors_3D 37e15 113|9w6 9r38
-14A12*Vector_3D{108|14A9[12]}<10E9> 113|40r20
-32V14*"-"=32:84{108|14A9[12]} 113|178s48 178s78
-35V14*"abs"=35:67{long_float} 113|178s28 178s62
-X 108 vectors_xd.ads
-14A9*Vector_xD(long_float)<107|10E9>
-X 110 vehicle_interface.ads
-10K9*Vehicle_Interface 60e22 113|10w6 10r38
-16V13*Position{60|15A12} 113|178s50 178s80
-24U14*Set_Destination 113|220s19 230s22 234s22
-30U14*Set_Throttle 113|222s19 231s22 235s22 243s19
-38U14*Send 113|207s16 253s19
-39U14*Receive 113|135s19
-40V13*Messages_Waiting{boolean} 113|133s22
-42V13*Current_Charge{60|25F9} 113|114s19 116s22 122s51 124s50 203s57 229s22
-. 240s19 249s60
-45V13*Energy_Globes_Around{60|36A9} 113|106s51
-47U14*Wait_For_Next_Physics_Update 113|110s16
-54w14*Flight_Termination 113|99r10
-56Y13 Stop 113|99s29
-X 111 vehicle_message_type.ads
-9K9*Vehicle_Message_Type 22e25 113|11w6 11r32
-13R9*Inter_Vehicle_Messages 21e14 113|26r22 28r26 30r26
-14i7*ID{positive} 113|137r60 138r59 140r58 199m33 245m36
-15o7*Message_Send_Time{24|49O9} 113|158r42 158r80 201m33 247m36
-16b7*Energy_Globe_Find{boolean} 113|202m33 224r116 248m36
-17a7*Energy_Globe_Pos{107|14A12} 113|154r53 160r56 200m33 246m36
-18f7*My_Energy{60|25F9} 113|138r80 140r79 203m33 249m36
-19r7*Exist_Neighbours_No{112|17R12} 113|145r58 204m33 250m36
-20r7*Delete_Neighbours_No{112|17R12} 113|146r57 205m33 251m36
-X 112 vehicle_task_type.ads
-4K9*Vehicle_Task_Type 19l5 19e22 113|17b14 270l5 270t22
-6T14*Vehicle_Task 8l8 8e20 113|19b14 268l8 268t20
-7Y13 Identify 7>23 7<50 113|86b14 89l11 89t19
-7i23 Set_Vehicle_No{positive} 113|87r29
-7p50 Local_Task_Id{32|53P9} 113|88m10 88r10
-10V13*ID_Hashed{5|19M9} 10>24 13r62 113|45r66
+X 108 vectors_3d.ads
+8K9*Vectors_3D 37e15 114|9w6 9r38
+14A12*Vector_3D{109|14A9[12]}<10E9> 114|29r25
+32V14*"-"=32:84{109|14A9[12]} 114|159s48 159s83
+35V14*"abs"=35:67{long_float} 114|159s28 159s62
+X 109 vectors_xd.ads
+14A9*Vector_xD(long_float)<108|10E9>
+X 111 vehicle_interface.ads
+10K9*Vehicle_Interface 60e22 114|10w6 10r38
+16V13*Position{60|15A12} 114|159s50 159s85
+24U14*Set_Destination 114|203s19 212s22 216s22
+30U14*Set_Throttle 114|204s19 213s22 217s22 225s19
+38U14*Send 114|183s16 235s19
+39U14*Receive 114|118s19
+40V13*Messages_Waiting{boolean} 114|117s22
+42V13*Current_Charge{60|25F9} 114|101s19 102s22 112s89 113s52 179s57 194s60
+. 211s22 222s19 231s60
+45V13*Energy_Globes_Around{60|36A9} 114|95s51
+47U14*Wait_For_Next_Physics_Update 114|97s16
+54w14*Flight_Termination 114|90r10
+56Y13 Stop 114|90s29
+X 112 vehicle_message_type.ads
+9K9*Vehicle_Message_Type 22e25 114|11w6 11r32
+13R9*Inter_Vehicle_Messages 21e14 114|33r22 34r26 35r26
+14i7*ID{positive} 114|120r60 121r59 122r60 175m33 190m36 198r36 227m36
+15o7*Message_Send_Time{24|49O9} 114|139r42 139r80 177m33 192m36 229m36
+16b7*Energy_Globe_Find{boolean} 114|178m33 193m36 206r121 230m36
+17a7*Energy_Globe_Pos{108|14A12} 114|135r58 141r61 176m33 191m36 228m36
+18f7*My_Energy{60|25F9} 114|121r80 122r81 179m33 194m36 231m36
+19r7*Exist_Neighbours_No{113|17R12} 114|127r58 180m33 195m36 232m36
+20r7*Delete_Neighbours_No{113|17R12} 114|128r57 181m33 196m36 233m36
+X 113 vehicle_task_type.ads
+4K9*Vehicle_Task_Type 19l5 19e22 114|17b14 253l5 253t22
+6T14*Vehicle_Task 8l8 8e20 114|19b14 251l8 251t20
+7Y13 Identify 7>23 7<50 114|79b14 82l11 82t19
+7i23 Set_Vehicle_No{positive} 114|80r29
+7p50 Local_Task_Id{32|53P9} 114|81m10 81r10
+10V13*ID_Hashed{5|19M9} 10>24 13r62 114|40r66
 10i24 id{positive} 10r70
 12K12*My_Set[13|51] 15r8 17r22
-17R12*No_set{13|56R9[12]} 113|53r23
-X 113 vehicle_task_type.adb
-22i7 Vehicle_No{positive} 87m10 121r40 122r39 124r38 128r48 129r42 199r57
-. 211r36 212r41 245r60
-24b7 Empty_Message_Box{boolean} 149r22 151m22 155r29
-26r7 Message_Sent{111|13R9} 199m16 199r16 207r22 245m19 245r19 253r25
-28r7 Message_Received{111|13R9} 135m28 137r43 138r42 138r63 140r41 140r62
-. 145r41 146r40 152r42 158r63 159r45
-30r7 Message_Accepted{111|13R9} 152m22 152r22 154r36 158r25 159m25 159r25
-. 160r39 224r99
-32b7 First_Line{boolean} 117m19 223r48 224r52 241m19
-34b7 Second_Line{boolean} 115m19 218r19 223r27 224r31 242m19
-36b7 Find_Energy{boolean} 185m19 193r19 194m19 202r57 223r68 224r77 248r60
-38o7 Find_Energy_Time{24|49O9} 173m22 182m22 193r49
-40a7 Global_Pos{107|14A12} 154m22 160m25 172m22 176m22 178r67 179m28 200r57
-. 220r36 230r39 234r39 246r60
-43K15 My_Hash[11|91] 47r11 49r20
-49r7 Charge_Map{11|96R9[43]} 59r22 121r19 122m19 122r19 124m19 124r19 137r22
-. 138m22 138r22 140m22 140r22 257m16 257r16
-52r7 Vehicle_No_Set{112|17R12} 71r23 128r23 129m19 129r19 145m19 145r19 166m16
-. 166r16 204r57 250r60
-53r7 Delete_No_Set{112|17R12} 146m19 146r19 166r43 205r57 212m19 212r19 251r60
-56V16 Minimum_Energy_Around{60|25F9} 56b16 65l11 65t32 229s40
-57f10 min{60|25F9} 60r34 61m16 64r17
-59i14 pair{any type} 60r25 61r33
-68V16 Position_In_Set{integer} 68b16 68>33 78l11 78t26 211s19
-68i33 No{positive} 72r34
-69i10 Counter{integer} 73m16 73r27 76m10 76r21 77r17
-71i14 value{any type} 72r25
-86i24 Set_Vehicle_No{positive}
-86p51 Local_Task_Id{32|53P9}
-103l10 Outer_task_loop 214r24 261l19 261e34
-106a16 Globes{60|36A9} 169r19 170r22 172r36 176r36 177r35
-177r26 Globe=177:35{60|31R9} 178r33 179r42
-266r12 E{18|63R9} 266r42
+17R12*No_set{13|56R9[12]} 114|47r23
+X 114 vehicle_task_type.adb
+22i7 Vehicle_No{positive} 80m10 108r48 108r88 112r40 112r77 113r40 175r57
+. 187r19 190r60 227r60
+24b7 Charge_Case_1{boolean} 103m25 205r50 206r54 223m19
+25b7 Charge_Case_2{boolean} 102m49 202r19 205r27 206r31 224m19
+27b7 Find_Energy{boolean} 165m19 169r19 170m19 178r57 193r60 205r73 206r82
+. 230r60
+28o7 Find_Energy_Time{24|49O9} 154m22 163m22 169r49
+29a7 Global_Position{108|14A12} 135m22 141m25 153m22 157m22 159r67 160m28
+. 176r57 191r60 203r36 212r39 216r39 228r60
+31b7 Empty_Message_Flag{boolean} 131r22 132m22 136r29
+33r7 Message_Sent{112|13R9} 175m16 175r16 183r22 190m19 190r19 198r23 227m19
+. 227r19 235r25
+34r7 Message_Received{112|13R9} 118m28 120r43 121r42 121r63 122r43 122r64
+. 127r41 128r40 133r42 139r63 140r45
+35r7 Message_Accepted{112|13R9} 133m22 133r22 135r41 139r25 140m25 140r25
+. 141r44 206r104
+38K15 Hashtable[11|91] 42r11 43r20
+43r7 Charge_Map{11|96R9[38]} 66r22 112r19 112m57 112r57 113m21 113r21 120r22
+. 121m22 121r22 122m24 122r24 240m16 240r16
+46r7 Vehicle_No_Set{113|17R12} 53r23 108r23 108m65 108r65 127m19 127r19 147m16
+. 147r16 180r57 195r60 232r60
+47r7 Delete_No_Set{113|17R12} 128m19 128r19 147r43 181r57 196r60 233r60
+50V16 Pos_in_Set{integer} 50b16 50>28 60l11 60t21
+50i28 No{positive} 54r34
+51i10 Num{integer} 55m16 55r23 58m10 58r17 59r17
+53i14 value{any type} 54r25
+63V16 Minimum_Energy_Around{60|25F9} 63b16 72l11 72t32 211s40
+64f10 min{60|25F9} 67r34 68m16 71r17
+66i14 pair{any type} 67r25 68r33
+79i24 Set_Vehicle_No{positive}
+79p51 Local_Task_Id{32|53P9}
+93l10 Outer_task_loop 189r24 244l19 244e34
+95a16 Globes{60|36A9} 150r19 151r22 153r41 157r41 158r35
+158r26 Globe=158:35{60|31R9} 159r33 160r47
+249r12 E{18|63R9} 249r42
 

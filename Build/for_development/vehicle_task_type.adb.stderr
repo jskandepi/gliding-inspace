@@ -1,3 +1,14 @@
+vehicle_task_type.adb:50:16: warning: function "Pos_in_Set" is not referenced
+vehicle_task_type.adb:102:49: (style) no statements may follow "then" on same line
+vehicle_task_type.adb:103:25: (style) no statements may follow "else" on same line
+vehicle_task_type.adb:108:65: (style) no statements may follow "then" on same line
+vehicle_task_type.adb:112:57: (style) no statements may follow "then" on same line
+vehicle_task_type.adb:113:21: (style) no statements may follow "else" on same line
+vehicle_task_type.adb:122:24: (style) no statements may follow "else" on same line
+vehicle_task_type.adb:132:53: (style) space required
+vehicle_task_type.adb:190:32: warning: unreachable code
+vehicle_task_type.adb:198:22: (style) space required
+vehicle_task_type.adb:236:21: (style) space required
 vehicle_task_type.ads:10:04: (style) reserved words must be all lower case
 vehicle_task_type.ads:10:26: (style) space required
 vehicle_task_type.ads:10:69: (style) space required

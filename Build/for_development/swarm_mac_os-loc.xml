@@ -1,69 +1,38 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project >
+  <Project>
+    <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_file>
     <file_marker column=" 26" line=" 22" >
       <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
       <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 20" >
+    <file_marker column=" 18" line=" 17" >
       <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
       <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 49" line=" 27" >
+    <file_marker column=" 1" line=" 114" >
       <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
       <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 41" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 45" line=" 106" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 36" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Swarm/swarm_structures_base.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Swarm/swarm_configuration.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 41" line=" 29" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Swarm/swarm_configuration.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Swarm/swarm_configuration.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 37" line=" 19" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Swarm/swarm_configuration.ads</vfs_file>
     </file_marker>
     <file_marker column=" 50" line=" 7" >
       <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
       <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Vehicle_Interface/swarm_size.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 37" line=" 19" >
+    <file_marker column=" 60" line=" 19" >
       <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
       <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Swarm/swarm_configuration.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 66" line=" 25" >
+    <file_marker column=" 18" line=" 27" >
       <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Swarm/swarm_configuration.ads</vfs_file>
+      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Vehicle_Interface/vehicle_interface.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 37" line=" 19" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Swarm/swarm_configuration.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 18" line=" 52" >
+    <file_marker column=" 1" line=" 114" >
       <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
       <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 12" line=" 17" >
+    <file_marker column=" 4" line=" 14" >
       <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.ads</vfs_file>
+      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Swarm/vehicle_interface.adb</vfs_file>
     </file_marker>
     <file_marker column=" 51" line=" 24" >
       <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
@@ -73,137 +42,13 @@
       <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
       <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Swarm/swarm_control_concurrent_generic.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 50" line=" 7" >
+    <file_marker column=" 76" line=" 189" >
       <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Vehicle_Interface/swarm_size.ads</vfs_file>
+      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 29" line=" 8" >
+    <file_marker current="true" column=" 16" line=" 50" >
       <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Swarm/swarm_control_concurrent_generic.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 26" line=" 22" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Globe_3d/models/box.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Globe_3d/models/vehic001.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 61" line=" 97" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Globe_3d/models/vehic001.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Globe_3d/models/vehic001.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 26" line=" 22" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Globe_3d/models/terrain-vbo.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 26" line=" 22" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Globe_3d/models/planet.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Globe_3d/models/planet.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 26" line=" 22" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Globe_3d/culler/globe_3d-culler.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Globe_3d/culler/globe_3d-culler.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Globe_3d/globe_3d-options.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Globe_3d/globe_3d-options.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 26" line=" 22" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Globe_3d/globe_3d-textures.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Globe_3d/globe_3d.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 40" line=" 222" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Globe_3d/globe_3d.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 40" line=" 290" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Globe_3d/globe_3d.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 24" line=" 338" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Globe_3d/globe_3d.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 30" line=" 474" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Globe_3d/globe_3d.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 485" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Globe_3d/globe_3d.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Globe_3d/models/vehic002.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Globe_3d/models/vehic002.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Globe_3d/models/vehic002.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Globe_3d/models/dreadnought.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 26" line=" 22" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Globe_3d/models/vehic001.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 72" line=" 245" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Globe_3d/models/vehic001.adb</vfs_file>
-    </file_marker>
-    <file_marker current="true" column=" 29" line=" 8" >
-      <vfs_project>/Users/saipraneethjasti/Downloads/Assignment_1_template/swarm_mac_os.gpr</vfs_project>
-      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Swarm/swarm_control_concurrent_generic.adb</vfs_file>
+      <vfs_file>/Users/saipraneethjasti/Downloads/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>
