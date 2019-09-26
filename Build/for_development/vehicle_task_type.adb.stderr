@@ -1,7 +1,8 @@
-vehicle_task_type.adb:85:25: (style) no statements may follow "else" on same line
-vehicle_task_type.adb:97:21: (style) no statements may follow "else" on same line
-vehicle_task_type.adb:106:24: (style) no statements may follow "else" on same line
-vehicle_task_type.adb:117:75: (style) space required
-vehicle_task_type.adb:171:22: (style) space required
+vehicle_task_type.adb:2:09: warning: no entities of "Ada.Text_IO" are referenced
+vehicle_task_type.adb:2:34: warning: use clause for package "Text_IO" has no effect
+vehicle_task_type.adb:81:28: (style) no statements may follow "else" on same line
+vehicle_task_type.adb:94:21: (style) no statements may follow "else" on same line
+vehicle_task_type.adb:103:24: (style) no statements may follow "else" on same line
+vehicle_task_type.adb:155:29: (style) space not allowed
 vehicle_task_type.ads:10:04: (style) reserved words must be all lower case
 vehicle_task_type.ads:10:26: (style) space required

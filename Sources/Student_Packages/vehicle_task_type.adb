@@ -1,5 +1,5 @@
 with Ada.Real_Time;              use Ada.Real_Time;
-with Ada.Text_IO;                use Ada.Text_IO;
+--with Ada.Text_IO;                use Ada.Text_IO;
 with Exceptions;                 use Exceptions;
 --  with Real_Type;                  use Real_Type;
 --  with Generic_Sliding_Statistics;
@@ -19,15 +19,14 @@ package body Vehicle_Task_Type is
    task body Vehicle_Task is
 
       Vehicle_No : Positive; -- Vehicle_No of corresponding drone -- pragma Unreferenced (Vehicle_No);
-      Charge_Case_1 : Boolean := False; -- Decide whether the drone needs charge. if so, then the drone goes to comparison.
-      Charge_Case_2 : Boolean := False; -- emergency mode. If True, the drone head to globe directly.
+      Charge_low, Charge_Lower : Boolean := False; -- low =then drone goes to comparison; Lower =emergency mode drone goes to globe directly.
       Find_Energy : Boolean := False; -- If the drone finds the globe, the parameter is set to true.
       Find_Energy_Time : Time; -- Record time when drone finds globe.
       Global_Position : Vector_3D; -- Record the position of energy globe
       Empty_Message_Flag : Boolean := True; --  if the drone hasn't received any messages then True.
-      Message_Sent : Inter_Vehicle_Messages; -- The message that will be sent by the drone
-      Message_Received : Inter_Vehicle_Messages; -- The message received by the drone (not useful if old)
-      Message_Accepted : Inter_Vehicle_Messages; -- message accepted by drone , lastest message - contains more accurate position of globe.
+      Msg_data, Msg_receive, Latest_Msg : Inter_Vehicle_Messages;
+      -- Msg_data - message sent by the drones ; Msg_receive - message received by drones
+      -- Latest_Msg - received, contains more accurate position of globe.
 
       -- Record the vehicle_No and current energy level of other drones.
       package Hashtable is new Ada.Containers.Hashed_Maps (Key_Type => Positive,
@@ -48,11 +47,8 @@ package body Vehicle_Task_Type is
          for i in Charge_Map.Iterate loop
             if Element (i) <= min then
                min :=  Element (i);
-               -- Put (min'Image);
-               -- Put_Line ("flag 1");
             end if;
          end loop;
-         -- Put_Line ("flag 2");
          return min;
       end Least_Charge;
 
@@ -65,7 +61,6 @@ package body Vehicle_Task_Type is
          Local_Task_Id   := Current_Task;
       end Identify;
       -- Without control this vehicle will go for its natural swarming instinct.
-
       select
 
          Flight_Termination.Stop;
@@ -79,10 +74,12 @@ package body Vehicle_Task_Type is
 
                -- Define at what level of current charge, the drone is in emergency mode
                -- and normal mode (charge required but not an emergency mode) .
-               if Current_Charge < 0.85 then
-                  if Current_Charge <= 0.5 then
-                     Charge_Case_2 := True;
-                  else  Charge_Case_1 := True;
+               if Vehicle_No <= Target_No_of_Elements then
+                  if Current_Charge < 0.8 then
+                     if Current_Charge <= 0.5 then
+                        Charge_Lower := True;
+                     else  Charge_low := True;
+                     end if;
                   end if;
                end if;
 
@@ -99,28 +96,28 @@ package body Vehicle_Task_Type is
 
                -- Message received part
                while Messages_Waiting loop
-                  Receive (Message_Received); -- Receive the message
+                  Receive (Msg_receive); -- Receive the message
                   -- Record the id and current energy level of other drones
-                  if Charge_Map.Contains (Message_Received.ID) then
-                     Charge_Map.Replace (Message_Received.ID, Message_Received.My_Energy);
-                  else Charge_Map.Insert (Message_Received.ID, Message_Received.My_Energy);
+                  if Charge_Map.Contains (Msg_receive.ID) then
+                     Charge_Map.Replace (Msg_receive.ID, Msg_receive.My_Energy);
+                  else Charge_Map.Insert (Msg_receive.ID, Msg_receive.My_Energy);
                   end if;
 
                   -- Update No_Set.
-                  Vehicle_No_Set.Union (Message_Received.Exist_Neighbours_No);
-                  Delete_No_Set.Union (Message_Received.Delete_Neighbours_No);
+                  Vehicle_No_Set.Union (Msg_receive.Exist_Neighbours_No);
+                  Delete_No_Set.Union (Msg_receive.Delete_Neighbours_No);
 
                   -- if the drone has not received any messgae, receive any message even if the message is outdated.
                   if Empty_Message_Flag then
                      Empty_Message_Flag := False; -- received message , then message flag not empty.
-                     Message_Accepted := Message_Received;
-                     Global_Position := Message_Accepted.Energy_Globe_Pos;-- Obtain the position of globe
+                     Latest_Msg := Msg_receive;
+                     Global_Position := Latest_Msg.Energy_Globe_Pos; -- Obtain the position of globe
                   elsif not Empty_Message_Flag then
                      -- if the drone has received a message, compare the time of new message received message,
                      -- accept the new message if it is the latest one.
-                     if Message_Accepted.Message_Send_Time <= Message_Received.Message_Send_Time then
-                        Message_Accepted := Message_Received;
-                        Global_Position := Message_Accepted.Energy_Globe_Pos;
+                     if Latest_Msg.Message_Send_Time <= Msg_receive.Message_Send_Time then
+                        Latest_Msg := Msg_receive;
+                        Global_Position := Latest_Msg.Energy_Globe_Pos;
                      end if;
                   end if;
                end loop;
@@ -155,29 +152,29 @@ package body Vehicle_Task_Type is
                end if;
 
                -- Message sent
-               Message_Sent := (ID                   => Vehicle_No,
+               Msg_data := (ID                   => Vehicle_No,
                                 Energy_Globe_Pos     => Global_Position,
                                 Message_Send_Time    => Clock,
                                 Energy_Globe_Find    => Find_Energy,
                                 My_Energy            => Current_Charge,
                                 Exist_Neighbours_No  => Vehicle_No_Set,
                                 Delete_Neighbours_No => Delete_No_Set);
-               Send (Message_Sent);
+               Send (Msg_data);
 
                -- Part D , delete the vehicle_No of extra drones if the current vehicle
                -- number is greater than Target_No_of_Elements
                if Vehicle_No > Target_No_of_Elements then
                   Delete_No_Set.Insert (Vehicle_No);
-                  Put(Vehicle_No'Image);
+                  -- Put(Msg_data.ID'Image); -- to see the dead drones number
                   exit Outer_task_loop; -- die / kill
                end if;
 
                -- if the drone is in emergency mode, it heads to the globe immediately.
-               if Charge_Case_2 then
+               if Charge_Lower then
                   Set_Destination (Global_Position);
                   Set_Throttle (1.0);
-               elsif (not Charge_Case_2 and then Charge_Case_1 and then Find_Energy)
-                 or else (not Charge_Case_2 and then Charge_Case_1 and then (not Find_Energy) and then Message_Accepted.Energy_Globe_Find)
+               elsif (not Charge_Lower and then Charge_low and then Find_Energy)
+                 or else (not Charge_Lower and then Charge_low and then (not Find_Energy) and then Latest_Msg.Energy_Globe_Find)
                    -- if the drone needs charge but not in emergency and it finds the position of globe OR
                    -- receive position from other drones -> comparison.
                then
@@ -194,11 +191,11 @@ package body Vehicle_Task_Type is
 
                -- Update the information after the drone gets charged
                if Current_Charge = 1.0 then
-                  Charge_Case_1  := False;
-                  Charge_Case_2  := False;
+                  Charge_low := False;
+                  Charge_Lower := False;
                   Set_Throttle (0.2);
-                  Send (Message_Sent);
-                  -- Put(Message_Sent.ID'Image);
+                  -- Set_Destination (Global_Position + (0.3,0.0,0.0)); -- so they don't cluster
+                  Send (Msg_data);
                end if;
                -- Clear the drone's charge list to get everything updated.
                Charge_Map.Clear;

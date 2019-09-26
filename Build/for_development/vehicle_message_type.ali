@@ -92,7 +92,7 @@ RV NO_STANDARD_STORAGE_POOLS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U vehicle_message_type%s  vehicle_message_type.ads  091fe3e1 DE NE OO PK
+U vehicle_message_type%s  vehicle_message_type.ads  a8956d76 DE NE OO PK
 W ada%s			ada.ads			ada.ali
 Z ada.exceptions%s	a-except.adb		a-except.ali
 W ada.real_time%s	a-reatim.adb		a-reatim.ali
@@ -152,7 +152,7 @@ D matrices.ads		20130922091012 85f7982e matrices%s
 D quaternions.ads	20130922091011 9d9d58c2 quaternions%s
 D real_type.ads		20130922130031 cdd2e5cc real_type%s
 D rotations.ads		20130922091012 3eeded66 rotations%s
-D swarm_size.ads	20190925180715 f44c4475 swarm_size%s
+D swarm_size.ads	20190926101002 55c6cae2 swarm_size%s
 D swarm_structures_base.ads  20190902013422 aac90073 swarm_structures_base%s
 D system.ads		20190518041255 085b6ffb system%s
 D s-atacco.ads		20190518041256 4c36d12f system.address_to_access_conversions%s

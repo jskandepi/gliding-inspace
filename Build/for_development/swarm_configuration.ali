@@ -94,10 +94,10 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U swarm_configuration%b	swarm_configuration.adb	503b3ca5 DE NE OO PK
+U swarm_configuration%b	swarm_configuration.adb	66cd1438 DE NE OO PK
 Z system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
 
-U swarm_configuration%s	swarm_configuration.ads	1aeed2d3 DE EE OO PK
+U swarm_configuration%s	swarm_configuration.ads	2c18fa4e DE EE OO PK
 W ada%s			ada.ads			ada.ali
 W ada.numerics%s	a-numeri.ads		a-numeri.ali
 W ada.real_time%s	a-reatim.adb		a-reatim.ali
@@ -163,7 +163,7 @@ D matrices.ads		20130922091012 85f7982e matrices%s
 D quaternions.ads	20130922091011 9d9d58c2 quaternions%s
 D real_type.ads		20130922130031 cdd2e5cc real_type%s
 D rotations.ads		20130922091012 3eeded66 rotations%s
-D swarm_configuration.ads  20190925180715 9464fff8 swarm_configuration%s
+D swarm_configuration.ads  20190926105425 a292d765 swarm_configuration%s
 D swarm_configuration.adb  20190902013422 c45fc35d swarm_configuration%b
 D swarm_configurations.ads  20190902013422 517ea45d swarm_configurations%s
 D swarm_structures_base.ads  20190902013422 aac90073 swarm_structures_base%s
