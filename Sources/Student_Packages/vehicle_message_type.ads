@@ -16,8 +16,8 @@ package Vehicle_Message_Type is
       Energy_Globe_Find : Boolean;
       Energy_Globe_Pos : Vector_3D; -- pos to position ( weird error )
       My_Energy : Vehicle_Charges;  --  My_Energy
-      Exist_Neighbours_No : No_Set; -- No_add -> check
-      Delete_Neighbours_No : No_Set;
+      Exist_Neighbours_No : No_set; -- No_add -> check
+      Delete_Neighbours_No : No_set;
    end record;
 end Vehicle_Message_Type;
 

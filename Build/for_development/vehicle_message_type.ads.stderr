@@ -1,5 +1,3 @@
 vehicle_message_type.ads:4:06: warning: no entities of "Swarm_Size" are referenced
 vehicle_message_type.ads:4:29: warning: use clause for package "Swarm_Size" has no effect
-vehicle_message_type.ads:19:32: (style) bad casing of "No_set" declared at vehicle_task_type.ads:17
-vehicle_message_type.ads:20:33: (style) bad casing of "No_set" declared at vehicle_task_type.ads:17
 vehicle_message_type.ads:23:01: (style) blank line not allowed at end of file

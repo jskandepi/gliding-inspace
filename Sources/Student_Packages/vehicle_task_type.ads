@@ -7,7 +7,7 @@ package Vehicle_Task_Type is
       entry Identify (Set_Vehicle_No : Positive; Local_Task_Id : out Task_Id);
    end Vehicle_Task;
 
-   Function ID_Hashed (id: Positive)  return Hash_Type is (Hash_Type(id));
+   Function ID_Hashed (id: Positive)  return Hash_Type is (Hash_Type (id));
 
    package My_Set is new Ada.Containers.Hashed_Sets (Element_type => Positive,
                                                      Hash => ID_Hashed,
